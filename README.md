@@ -1,5 +1,5 @@
 # Korgus Sequencer – stiahnutie
 
-Najnovší inštalátor pre Windows nájdeš v časti **Releases** → `KorgusSequencer-Setup-….exe`.
+[Stiahnuť inštalátor pre Windows](https://github.com/Korgus7/Korgus-Download/raw/main/KorgusSequencer-Setup.exe)
 
 Program si nové verzie kontroluje sám pri spustení.

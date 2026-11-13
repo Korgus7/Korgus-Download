@@ -172,7 +172,7 @@ footer .wrap{display:flex;gap:16px;align-items:center}
   if(/[?&]lang=(sk|en)/.test(location.search)) l=RegExp.$1;
   set(l);
   document.querySelectorAll('.lang button').forEach(function(b){ b.onclick=function(){ set(b.dataset.l); }; });
-  fetch('latest.json',{cache:'no-store'}).then(function(r){ return r.json(); }).then(function(j){ if(!j||!j.version) return;
+  fetch('https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/latest.json',{cache:'no-store'}).then(function(r){ return r.json(); }).then(function(j){ if(!j||!j.version) return;
     document.querySelector('.ver').textContent=' · v'+j.version; document.querySelector('.ver2').textContent='v'+j.version; }).catch(function(){});
 })();
 </script>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sk" data-lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korgus Sequencer – hudobné štúdio pre Windows</title>
+<meta name="description" content="Korgus Sequencer – jednoduché hudobné štúdio pre Windows. Nahrávanie, akordy, text piesne, mix a export na TikTok. / A simple music studio for Windows.">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#141b25;--bg2:#1b2431;--panel:#222d3c;--line:#2f3c4f;--steel:#2d4362;--steel2:#3c5677;--txt:#e4e9ef;--sub:#a3afbf;--dim:#7d8a9b;--gold:#c9a35a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 "Segoe UI",Tahoma,Arial,sans-serif}
+html[data-lang="sk"] [lang="en"],html[data-lang="en"] [lang="sk"]{display:none!important}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:10;background:rgba(20,27,37,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:18px;height:62px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;text-decoration:none}
+.logo img{width:30px;height:30px;border-radius:3px}
+nav{display:flex;gap:20px;margin-left:24px;font-size:14px;color:var(--sub)}
+nav a{text-decoration:none}nav a:hover{color:var(--txt)}
+.sp{flex:1}
+.lang{display:flex;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.lang button{background:transparent;color:var(--sub);border:0;padding:5px 10px;font:600 12px Tahoma,Arial,sans-serif;cursor:pointer}
+.lang button.on{background:var(--steel);color:#fff}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--steel);color:#fff;border:1px solid var(--steel2);border-radius:3px;padding:12px 22px;font-weight:600;text-decoration:none;transition:background .15s}
+.btn:hover{background:var(--steel2)}
+.btn.sm{padding:7px 14px;font-size:14px}
+.btn svg{width:18px;height:18px}
+.hero{padding:72px 0 40px;background:radial-gradient(1200px 500px at 70% -10%,#25344a 0,transparent 60%)}
+.hero h1{font-size:46px;line-height:1.15;margin:0 0 18px;max-width:780px}
+.hero p.lead{font-size:19px;color:var(--sub);max-width:680px;margin:0 0 30px}
+.meta{font-size:13px;color:var(--dim);margin-top:12px}
+.shot{margin-top:46px;border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.shot img{display:block;width:100%;height:auto}
+section{padding:70px 0;border-top:1px solid var(--line)}
+section h2{font-size:32px;margin:0 0 10px}
+section .intro{color:var(--sub);max-width:720px;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:20px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--sub);font-size:14.5px}
+.card .ic{width:34px;height:34px;border-radius:3px;background:var(--steel);display:flex;align-items:center;justify-content:center;margin-bottom:12px;color:#fff}
+.card .ic svg{width:18px;height:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.two .shot{margin:0}
+ul.check{list-style:none;padding:0;margin:18px 0 0}
+ul.check li{padding:6px 0 6px 28px;position:relative;color:var(--sub)}
+ul.check li::before{content:'';position:absolute;left:4px;top:13px;width:12px;height:7px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+ul.check b{color:var(--txt);font-weight:600}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:s}
+.steps .card{counter-increment:s}
+.steps .card::before{content:counter(s);display:block;font-size:28px;font-weight:700;color:var(--gold);margin-bottom:4px}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:14px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{color:var(--sub);margin:10px 0 0}
+.cta{text-align:center;background:linear-gradient(180deg,var(--bg2),var(--bg))}
+.cta p{color:var(--sub)}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--dim);font-size:13px}
+footer .wrap{display:flex;gap:16px;align-items:center}
+@media(max-width:900px){.grid,.steps{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}nav{display:none}.hero h1{font-size:34px}}
+@media(max-width:600px){.grid,.steps{grid-template-columns:1fr}.hero{padding-top:44px}.logo .lt{display:none}header .wrap{gap:10px}.lang{flex:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top"><img src="img/icon.png" alt=""><span class="lt">KORGUS SEQUENCER</span></a>
+  <nav>
+    <a href="#funkcie"><span lang="sk">Funkcie</span><span lang="en">Features</span></a>
+    <a href="#tvorba"><span lang="sk">Tvorba piesne</span><span lang="en">Songwriting</span></a>
+    <a href="#zaciatok"><span lang="sk">Ako začať</span><span lang="en">Get started</span></a>
+    <a href="#otazky"><span lang="sk">Otázky</span><span lang="en">FAQ</span></a>
+  </nav>
+  <span class="sp"></span>
+  <div class="lang"><button data-l="sk">SK</button><button data-l="en">EN</button></div>
+  <a class="btn sm dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/KorgusSequencer-Setup.exe"><span lang="sk">Stiahnuť</span><span lang="en">Download</span></a>
+</div></header>
+
+<div class="hero" id="top"><div class="wrap">
+  <h1><span lang="sk">Hudobné štúdio, v ktorom sa nestratíš.</span><span lang="en">A music studio you won't get lost in.</span></h1>
+  <p class="lead"><span lang="sk">Korgus Sequencer je jednoduchý program na tvorbu piesní pre Windows. Nahraj spev, nechaj si navrhnúť akordy, vlož text a hotovú pieseň ulož ako MP3 alebo video na TikTok – bez zložitého učenia.</span><span lang="en">Korgus Sequencer is a simple songwriting program for Windows. Record vocals, get chord suggestions, add your lyrics and save the finished song as an MP3 or a TikTok video – no steep learning curve.</span></p>
+  <a class="btn dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/KorgusSequencer-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg><span lang="sk">Stiahnuť pre Windows</span><span lang="en">Download for Windows</span></a>
+  <div class="meta"><span lang="sk">Windows 10 / 11, 64-bit · inštalácia bez administrátora · automatické aktualizácie</span><span lang="en">Windows 10 / 11, 64-bit · no admin rights needed · automatic updates</span><span class="ver"></span></div>
+  <div class="shot"><img lang="sk" src="img/shot_arr_sk.jpg" alt="Korgus Sequencer – aranžmán s textom piesne"><img lang="en" src="img/shot_arr_en.jpg" alt="Korgus Sequencer – arrangement with lyrics"></div>
+</div></div>
+
+<section id="funkcie"><div class="wrap">
+  <h2><span lang="sk">Všetko, čo pieseň potrebuje</span><span lang="en">Everything a song needs</span></h2>
+  <p class="intro"><span lang="sk">Od prvého nápadu po hotovú nahrávku na jednom mieste. Ovládanie inšpirované klasickým Cubase, len oveľa jednoduchšie.</span><span lang="en">From the first idea to a finished recording in one place. Controls inspired by classic Cubase, only much simpler.</span></p>
+  <div class="grid">
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><h3><span lang="sk">Nahrávanie</span><span lang="en">Recording</span></h3><p><span lang="sk">Spev a nástroje cez mikrofón alebo zvukovú kartu (aj ASIO). Viac nahrávok tej istej pasáže, punch in/out medzi lokátormi.</span><span lang="en">Vocals and instruments via microphone or audio interface (ASIO too). Multiple takes, punch in/out between locators.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div><h3><span lang="sk">Akordy a melódia</span><span lang="en">Chords and melody</span></h3><p><span lang="sk">Vyber náladu a tóninu – program navrhne akordy, melódiu a basu. Akordy jedným prstom na klávesoch.</span><span lang="en">Pick a mood and key – the program suggests chords, melody and bass. One-finger chords on your keyboard.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div><h3><span lang="sk">Text piesne</span><span lang="en">Lyrics</span></h3><p><span lang="sk">Text sa počas nahrávania posúva ako na teleprompteri. Časy riadkov nastavíš ťukaním a uložíš ako .lrc.</span><span lang="en">Lyrics scroll like a teleprompter while you record. Set line timing by tapping and save it as .lrc.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg></div><h3><span lang="sk">Mix a mastering</span><span lang="en">Mix and mastering</span></h3><p><span lang="sk">Mixpult s efektmi, automatický mix stôp a mastering asistent, ktorý dorovná hlasitosť pre Spotify či TikTok.</span><span lang="en">Mixer with effects, automatic track mix and a mastering assistant that matches loudness for Spotify or TikTok.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 6.9H22l-6 4.4 2.3 7L12 16l-6.3 4.3 2.3-7-6-4.4h7.6z"/></svg></div><h3><span lang="sk">Spev jedným klikom</span><span lang="en">One-click vocals</span></h3><p><span lang="sk">Odšumenie, jemné doladenie a efekty na hlas naraz. Ladička a doladenie spevu (autotune) sú v programe.</span><span lang="en">Denoise, gentle tuning and vocal effects at once. Built-in tuner and vocal pitch correction.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div><h3><span lang="sk">Video na TikTok</span><span lang="en">TikTok video</span></h3><p><span lang="sk">Export MP4 9:16 s vizualizáciou a karaoke titulkami a k tomu MP3 – jedným klikom.</span><span lang="en">Export a 9:16 MP4 with visualisation and karaoke subtitles plus an MP3 – in one click.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div><h3><span lang="sk">AI pomocníci</span><span lang="en">AI helpers</span></h3><p><span lang="sk">Oddelenie spevu od hudby, rozloženie na 4 stopy, rozpoznanie akordov, tempa a tóniny z nahrávky.</span><span lang="en">Separate vocals from music, split into 4 stems, detect chords, tempo and key from a recording.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><h3><span lang="sk">Bicie a slučky</span><span lang="en">Drums and loops</span></h3><p><span lang="sk">Krokový sekvencer bicích, knižnica rytmov a basových liniek, slučky zo Splice prispôsobené tempu piesne.</span><span lang="en">Drum step sequencer, rhythm and bass line library, Splice loops matched to the song tempo.</span></p></div>
+    <div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div><h3><span lang="sk">Spevník do PDF</span><span lang="en">Songbook to PDF</span></h3><p><span lang="sk">Text piesne s akordmi nad riadkami na vytlačenie alebo poslanie muzikantom.</span><span lang="en">Lyrics with chords above the lines, ready to print or send to your band.</span></p></div>
+  </div>
+</div></section>
+
+<section id="tvorba"><div class="wrap">
+  <div class="two">
+    <div>
+      <h2><span lang="sk">Od nápadu k piesni</span><span lang="en">From idea to song</span></h2>
+      <p class="intro" style="margin-bottom:0"><span lang="sk">Nemusíš byť hudobník. Program ťa vedie a robí za teba to, čo by inak trvalo hodiny.</span><span lang="en">You don't have to be a musician. The program guides you and does what would otherwise take hours.</span></p>
+      <ul class="check">
+        <li><span lang="sk"><b>Generátor akordov</b> navrhne postup podľa nálady</span><span lang="en"><b>Chord generator</b> suggests a progression by mood</span></li>
+        <li><span lang="sk"><b>Korgus Inspire</b> – vstavaný syntezátor s tlačidlom „Prekvap ma“</span><span lang="en"><b>Korgus Inspire</b> – built-in synth with a “Surprise me” button</span></li>
+        <li><span lang="sk"><b>Suno pesničky</b> rozloží na stopy a pomôže z nich spraviť vlastný remix</span><span lang="en"><b>Suno songs</b> split into stems to make your own remix</span></li>
+        <li><span lang="sk"><b>Sekcie piesne</b> (Sloha, Refrén) presunieš alebo skopíruješ naraz</span><span lang="en"><b>Song sections</b> (verse, chorus) move or copy in one go</span></li>
+      </ul>
+    </div>
+    <div class="shot"><img lang="sk" src="img/shot_gen_sk.jpg" alt="Generátor akordov a melódie"><img lang="en" src="img/shot_gen_en.jpg" alt="Chord and melody generator"></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="two">
+    <div class="shot"><img lang="sk" src="img/shot_mix_sk.jpg" alt="Mixpult"><img lang="en" src="img/shot_mix_en.jpg" alt="Mixer"></div>
+    <div>
+      <h2><span lang="sk">Znie ako zo štúdia</span><span lang="en">Sounds like a studio</span></h2>
+      <p class="intro" style="margin-bottom:0"><span lang="sk">Vstavané efekty, podpora VST3 pluginov a nástroje, ktoré poznáš z veľkých programov.</span><span lang="en">Built-in effects, VST3 plugin support and tools you know from the big programs.</span></p>
+      <ul class="check">
+        <li><span lang="sk"><b>EQ, kompresor, dozvuk, ozvena</b>, de-esser, limiter a ďalšie</span><span lang="en"><b>EQ, compressor, reverb, delay</b>, de-esser, limiter and more</span></li>
+        <li><span lang="sk"><b>Automatizácia</b> hlasitosti, panorámy a parametrov pluginov</span><span lang="en"><b>Automation</b> of volume, pan and plugin parameters</span></li>
+        <li><span lang="sk"><b>Referenčná pesnička A/B</b> – porovnaj svoj mix so vzorom</span><span lang="en"><b>A/B reference track</b> – compare your mix with a model song</span></li>
+        <li><span lang="sk"><b>Ochrana pred pádmi pluginov</b> – pieseň sa vždy obnoví</span><span lang="en"><b>Plugin crash protection</b> – your song is always restored</span></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="zaciatok"><div class="wrap">
+  <h2><span lang="sk">Ako začať</span><span lang="en">Get started</span></h2>
+  <p class="intro"><span lang="sk">Za pár minút nahráš prvú pieseň.</span><span lang="en">Record your first song in a few minutes.</span></p>
+  <div class="steps">
+    <div class="card"><h3><span lang="sk">Stiahni a nainštaluj</span><span lang="en">Download and install</span></h3><p><span lang="sk">Inštalátor nepotrebuje administrátora. Nové verzie si program stiahne sám.</span><span lang="en">The installer needs no admin rights. The program downloads new versions by itself.</span></p></div>
+    <div class="card"><h3><span lang="sk">Prejdi Prvé kroky</span><span lang="en">Follow First steps</span></h3><p><span lang="sk">Krátky sprievodca ti ukáže, kde je nahrávanie, akordy, text a export.</span><span lang="en">A short guide shows you where recording, chords, lyrics and export are.</span></p></div>
+    <div class="card"><h3><span lang="sk">Tvor a zdieľaj</span><span lang="en">Create and share</span></h3><p><span lang="sk">Nahraj, zmixuj a ulož ako MP3 alebo video na TikTok jedným klikom.</span><span lang="en">Record, mix and save as MP3 or a TikTok video in one click.</span></p></div>
+  </div>
+</div></section>
+
+<section id="otazky" class="faq"><div class="wrap">
+  <h2><span lang="sk">Časté otázky</span><span lang="en">FAQ</span></h2>
+  <p class="intro"></p>
+  <details><summary><span lang="sk">Na akom počítači program beží?</span><span lang="en">What computer does it run on?</span></summary><p><span lang="sk">Windows 10 alebo 11, 64-bit. Stačí bežný počítač; na nahrávanie odporúčame slúchadlá na kábli.</span><span lang="en">Windows 10 or 11, 64-bit. An ordinary PC is enough; for recording we recommend wired headphones.</span></p></details>
+  <details><summary><span lang="sk">Môžem používať vlastné VST pluginy?</span><span lang="en">Can I use my own VST plugins?</span></summary><p><span lang="sk">Áno, program načíta VST3 nástroje a efekty. Ak niektorý plugin spôsobí pád, program si ho zapamätá a pri ďalšom spustení ho nenačíta.</span><span lang="en">Yes, the program loads VST3 instruments and effects. If a plugin crashes, the program remembers it and skips it on the next start.</span></p></details>
+  <details><summary><span lang="sk">Ako sa program aktualizuje?</span><span lang="en">How does the program update?</span></summary><p><span lang="sk">Pri spustení skontroluje novú verziu a ponúkne aktualizáciu. Po kliknutí sa sám nainštaluje a znova spustí.</span><span lang="en">On start it checks for a new version and offers an update. One click installs it and restarts the program.</span></p></details>
+  <details><summary><span lang="sk">Je program po slovensky?</span><span lang="en">Is the program in English?</span></summary><p><span lang="sk">Áno, program je po slovensky aj po anglicky a jazyk sa dá prepnúť.</span><span lang="en">Yes, the program is available in English and Slovak and the language can be switched.</span></p></details>
+  <details><summary><span lang="sk">Dá sa súčasne prehrávať aj nahrávať?</span><span lang="en">Can I play and record at the same time?</span></summary><p><span lang="sk">Áno. Pri nahrávaní hrajú všetky ostatné stopy a ty nahrávaš na stopu, ktorá má zapnuté ●.</span><span lang="en">Yes. While recording, all other tracks play and you record onto the track with ● turned on.</span></p></details>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2><span lang="sk">Tvoja prvá pieseň čaká</span><span lang="en">Your first song is waiting</span></h2>
+  <p><span lang="sk">Stiahni Korgus Sequencer a začni tvoriť ešte dnes.</span><span lang="en">Download Korgus Sequencer and start creating today.</span></p>
+  <a class="btn dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/KorgusSequencer-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg><span lang="sk">Stiahnuť pre Windows</span><span lang="en">Download for Windows</span></a>
+  <div class="meta"><span class="ver2"></span></div>
+</div></section>
+
+<footer><div class="wrap"><img src="img/icon.png" alt="" width="20" height="20" style="border-radius:3px"><span>© 2026 Korgus</span><span class="sp"></span><span lang="sk">Vyrobené na Slovensku</span><span lang="en">Made in Slovakia</span></div></footer>
+
+<script>
+(function(){
+  var h=document.documentElement;
+  function set(l){ h.setAttribute('data-lang',l); h.lang=l; document.title=l==='en'?'Korgus Sequencer – a music studio for Windows':'Korgus Sequencer – hudobné štúdio pre Windows';
+    document.querySelectorAll('.lang button').forEach(function(b){ b.classList.toggle('on',b.dataset.l===l); }); try{ localStorage.setItem('korgusWebLang',l); }catch(e){} }
+  var l=null; try{ l=localStorage.getItem('korgusWebLang'); }catch(e){}
+  if(!l){ var n=(navigator.language||'').toLowerCase(); l=(n.indexOf('sk')===0||n.indexOf('cs')===0)?'sk':'en'; }
+  if(/[?&]lang=(sk|en)/.test(location.search)) l=RegExp.$1;
+  set(l);
+  document.querySelectorAll('.lang button').forEach(function(b){ b.onclick=function(){ set(b.dataset.l); }; });
+  fetch('latest.json',{cache:'no-store'}).then(function(r){ return r.json(); }).then(function(j){ if(!j||!j.version) return;
+    document.querySelector('.ver').textContent=' · v'+j.version; document.querySelector('.ver2').textContent='v'+j.version; }).catch(function(){});
+})();
+</script>
+</body>
+</html>

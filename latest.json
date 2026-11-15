@@ -1,5 +1,5 @@
 {
-  "version": "1.0.73",
+  "version": "1.0.74",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Vocoder: výber spevovej stopy priamo v Inspirii, skratky klávesnice vždy, pravítko v editore nôt, zmena výšky okien."
+  "notes": "Oprava: Inspiria sa opäť rozpozná (Nauč sa zvuk, Prekvap ma v hlavičke stopy)."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.74",
+  "version": "1.0.75",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Oprava: Inspiria sa opäť rozpozná (Nauč sa zvuk, Prekvap ma v hlavičke stopy)."
+  "notes": "Oprava vocodera v Inspirii: spev sa dostane do syntezátora."
 }

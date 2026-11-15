@@ -1,5 +1,5 @@
 {
-  "version": "1.0.70",
+  "version": "1.0.72",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Klávesnica hrá vždy keď je program v popredí, ikona Hrať spolu (reproduktor), presúvanie stôp ťahaním."
+  "notes": "Vocoder v Inspirii (záložka VOCODER), Korgus Robot hlas, klávesnica hrá hneď po prepnutí okna."
 }

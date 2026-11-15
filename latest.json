@@ -1,5 +1,5 @@
 {
-  "version": "1.0.69",
+  "version": "1.0.70",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Skratky aj v okne syntezátora, klávesnica na viacerých stopách, obrázok kláves, presun častí medzi stopami, Korgus Gater, robot trojhlas vo vocoderi."
+  "notes": "Klávesnica hrá vždy keď je program v popredí, ikona Hrať spolu (reproduktor), presúvanie stôp ťahaním."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.65",
+  "version": "1.0.67",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Inspiria (nové meno syntezátora), tlačidlo Inšpirácia, Wavetable, verzia v hornej lište, ikona klávesnice."
+  "notes": "Korgus Master (mastering), Korgus Vocoder, klávesnica aj v okne syntezátora, skracovanie častí zo začiatku."
 }

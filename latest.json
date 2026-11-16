@@ -1,5 +1,5 @@
 {
-  "version": "1.0.79",
+  "version": "1.0.80",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Editor zvuku bicích podľa predlohy, Korgus Master len vstavaný."
+  "notes": "Editor zvuku bicích podľa predlohy, Korgus Master len vstavaný, spodný panel vždy dole."
 }

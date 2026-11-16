@@ -1,5 +1,5 @@
 {
-  "version": "1.0.77",
+  "version": "1.0.78",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Editor zvuku bicích (výška, filter, hlasitosť), skracovanie nôt zo začiatku."
+  "notes": "Nový editor zvuku bicích, sampel cez názov, nová časť podľa lokátorov, Mastering s indikátormi."
 }

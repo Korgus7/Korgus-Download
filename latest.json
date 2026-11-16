@@ -1,5 +1,5 @@
 {
-  "version": "1.0.88",
+  "version": "1.0.89",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Knižnica MIDI patternov (bicie, melódie, hity), názvy častí v aranžmáne."
+  "notes": "Knižnica s náhľadom a prehraním, vlastné témy v štýle hitov, stlmenie riadkov bicích."
 }

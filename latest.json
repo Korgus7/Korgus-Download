@@ -1,5 +1,5 @@
 {
-  "version": "1.0.87",
+  "version": "1.0.88",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nové sady bicích Pop, House, Drum & Bass, Afro, Latino bez skreslenia; skladba načíta bicie."
+  "notes": "Knižnica MIDI patternov (bicie, melódie, hity), názvy častí v aranžmáne."
 }

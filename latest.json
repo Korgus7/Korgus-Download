@@ -1,5 +1,5 @@
 {
-  "version": "1.0.76",
+  "version": "1.0.77",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Vocoder: menej sykaviek (de-esser), EQ vocodera, gombík Mix syntezátor / vocoder."
+  "notes": "Editor zvuku bicích (výška, filter, hlasitosť), skracovanie nôt zo začiatku."
 }

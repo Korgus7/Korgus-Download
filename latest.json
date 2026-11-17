@@ -1,13 +1,13 @@
 {
-  "version": "1.0.96",
+  "version": "1.0.97",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Prehľadnejšia lišta: Auto mix v mixpulte, automatizácia na stope (pravý klik), tónina na akordovej stope, slučka v + Stopa, text piesne v Súbore, spevník v Exporte.",
+  "notes": "+ Stopa, AI a Mix (F3) spolu nad stopami; v editore nôt lepidlo a guma.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10935808,
-      "sha256": "4c6c23766112e4f1915adb75f8f35f55264aae6c970c8ae9426efcfaa2f607ef"
+      "size": 10937856,
+      "sha256": "e62461d80cfee0e62d4a537a014ac3f5014f0ce4b99ba1c4b6bc2065a1407254"
     }
   ]
 }

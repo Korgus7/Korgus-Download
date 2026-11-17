@@ -1,13 +1,13 @@
 {
-  "version": "1.0.102",
+  "version": "1.0.103",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Kvantizácia aj koncov nôt (Začiatky / Začiatky aj konce / Len konce), dĺžka noty Voľne, koniec noty sa pri ťahaní zarovná na mriežku.",
+  "notes": "Tlačidlo ARP priamo na stope nástroja (klik = zapnúť/vypnúť, pravý klik = okno), oprava dĺžky vzoru v okne Korgus Arp.",
   "files": [
     {
-      "name": "korgus-ui.html",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 543599,
-      "sha256": "0fb13e864fa2c17d79e2651d74788ecf8e4b420dee332461318b58f8cafa0b68"
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 10952192,
+      "sha256": "adac9b877d332c552df6b46878d3c5bb062f92d97403455ad47a8dfb8dc192db"
     }
   ]
 }

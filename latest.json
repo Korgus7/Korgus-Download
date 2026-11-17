@@ -1,5 +1,5 @@
 {
-  "version": "1.0.90",
+  "version": "1.0.92",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Export L–R bez rany a skreslenia, presné nahrávanie MIDI, drag & drop MIDI, opravy okien a vzhľadu."
+  "notes": "Upratané menu: Súbor / Export / Nastavenia, Pomoc vpravo, + Stopa pri M a S, REF A/B na Mastri, nastavenia metronómu (koliesko vedľa metronómu)."
 }

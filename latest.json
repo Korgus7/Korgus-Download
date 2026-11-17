@@ -1,13 +1,13 @@
 {
-  "version": "1.0.111",
+  "version": "1.0.112",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Efekty majú grafy: EQ s krivkou a spektrom, kompresor s krivkou, dozvuk s miestnosťami, ozvena s opakovaniami, de-esser s tlačidlom Nájdi sykavky. Každý efekt má predvoľby, A/B, vypnutie a merače. Obálky zvuku bicích sa ťahajú aj hore a dole.",
+  "notes": "Obálky v úprave zvuku bicích: guličky sa ťahajú voľne myšou.",
   "files": [
     {
-      "name": "Korgus Sequencer.exe",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 11084800,
-      "sha256": "15ea5dc96cb141670aecfed3cb212abbbbcc057612d10d42669259c9b3dcdb6a"
+      "name": "korgus-ui.html",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
+      "size": 563670,
+      "sha256": "0844b8aff0cecc54a5d8b1b80a263d70212fa613a830c904c63a9bea647250e1"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "version": "1.0.104",
+  "version": "1.0.105",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Arp: hotové vzory (Pop, Trance gate, Avicii pluck…), Kocka pre náhodný vzor, zreteľne označený práve hraný krok.",
+  "notes": "Nová hlavička stopy: ikona typu pod číslom, MIDI kanál pred nástrojom, okno nástroja cez ikonu kláves vpravo, väčšie Prekvap ma. Arp si pamätá vybraný vzor.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10959872,
-      "sha256": "ab9dfffeb2f3b913513ca8106c5a31c4f0e6b98636455e58a33eb72f1db0b8c4"
+      "size": 10960896,
+      "sha256": "5e6c70cd56a1f31e905b671458e0e9e977d834bbe2ae377f95eddf22899cabad"
     }
   ]
 }

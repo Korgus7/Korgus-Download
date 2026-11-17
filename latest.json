@@ -1,13 +1,13 @@
 {
-  "version": "1.0.107",
+  "version": "1.0.108",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Editor nôt: tlačidlo Funkcie (arpeggiátor, humanizácia, transpozícia). Swing je v editore bicích. Hlasitosť stopy ukazuje dB pri ťahaní. Mastering asistent odstránený.",
+  "notes": "Editor bicích: 9 padov (klik = zvuk, názov = výber samplu, úprava zvuku, M, S, vlna samplu), 9 riadkov s hlasitosťou a panorámou. Pravý klik na pravítko: Nahrávať len medzi L a R. Zdvojiť, posun a Vymazať sú pod Funkcie. Pomoc: Klávesové skratky.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 545972,
-      "sha256": "584b6d89c311747e8c33e54568adfb2d9c2323744cbdb79ff6ecb3010c214008"
+      "size": 557146,
+      "sha256": "947949b73d719459b4f763a2967df9361313c30b36c457f08f921647dc82bf84"
     }
   ]
 }

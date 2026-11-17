@@ -1,13 +1,13 @@
 {
-  "version": "1.0.97",
+  "version": "1.0.98",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "+ Stopa, AI a Mix (F3) spolu nad stopami; v editore nôt lepidlo a guma.",
+  "notes": "Ikony Späť/Znova, dĺžka piesne podľa obsahu (bez políčka Takty), 1 prst a Oktáva pri klávesnici. Rozhranie sa odteraz môže aktualizovať aj bez nového programu.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10937856,
-      "sha256": "e62461d80cfee0e62d4a537a014ac3f5014f0ce4b99ba1c4b6bc2065a1407254"
+      "size": 10945024,
+      "sha256": "3e66b4516e14c2fdc4b31da3c68a4b08e96f49ff370d1bec6fdfcd37cc32f3a9"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "version": "1.0.101",
+  "version": "1.0.102",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Lokátory: ťahaním za vlajočku L alebo R sa posúva len ten lokátor.",
+  "notes": "Kvantizácia aj koncov nôt (Začiatky / Začiatky aj konce / Len konce), dĺžka noty Voľne, koniec noty sa pri ťahaní zarovná na mriežku.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 541898,
-      "sha256": "d561e44adefa517e4d5addc0025dd11c8b8db1850137c2403e3dfb9c94ee7fe1"
+      "size": 543599,
+      "sha256": "0fb13e864fa2c17d79e2651d74788ecf8e4b420dee332461318b58f8cafa0b68"
     }
   ]
 }

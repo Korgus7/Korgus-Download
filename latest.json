@@ -1,13 +1,13 @@
 {
-  "version": "1.0.108",
+  "version": "1.0.109",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Editor bicích: 9 padov (klik = zvuk, názov = výber samplu, úprava zvuku, M, S, vlna samplu), 9 riadkov s hlasitosťou a panorámou. Pravý klik na pravítko: Nahrávať len medzi L a R. Zdvojiť, posun a Vymazať sú pod Funkcie. Pomoc: Klávesové skratky.",
+  "notes": "Pady v editore bicích sú väčšie a tmavé, vlna zvuku cez celý pad, názov v jednom riadku, tlačidlá v rámikoch.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 557146,
-      "sha256": "947949b73d719459b4f763a2967df9361313c30b36c457f08f921647dc82bf84"
+      "size": 557483,
+      "sha256": "0d547e232dddf0e33c6e1fbcf5f65d51a50de8ad74b0228ccfa62c98eff42177"
     }
   ]
 }

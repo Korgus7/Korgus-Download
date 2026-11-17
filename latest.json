@@ -1,13 +1,19 @@
 {
-  "version": "1.0.116",
+  "version": "1.0.117",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Súprava z priečinka: názvy zvukov bez čísla na začiatku.",
+  "notes": "Nové súpravy bicích zo skutočných zvukov (Pop, House, Hlboká, Teplá, Svetlá, Krátka a tvrdá). Korgus Meter: merač hlasitosti s radarom, LUFS, True Peak a Mid/Side – tlačidlo MERAČ na Mastri v mixpulte.",
   "files": [
+    {
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 13633536,
+      "sha256": "0abbf4b562720caae403e88c46d947c08b22fa840589f3b89cb82514ed939239"
+    },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 564872,
-      "sha256": "2ded9c341b079a33684974a5465eea1afa12cbdcb8cbb97af3ac13c14f1344c3"
+      "size": 567605,
+      "sha256": "c56b6899ab021f587a7f77d2876de6c1e73e9300820affa520f53a05ac866036"
     }
   ]
 }

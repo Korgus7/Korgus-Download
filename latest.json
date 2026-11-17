@@ -1,8 +1,14 @@
 {
   "version": "1.0.114",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Obálky v úprave zvuku bicích: každá gulička sa ťahá sama, graf ide zdola.",
+  "notes": "Nový PulseDip (jedna krivka, živý zvuk, vlastný tvar, posun, Len basy, predvoľby) a grafy efektov. Obálky bicích: každá gulička sa ťahá sama.",
   "files": [
+    {
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 11101696,
+      "sha256": "b8da38d823673d8598cc4e985d06610e61903d1b618bddb2da7ef1c652b39530"
+    },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",

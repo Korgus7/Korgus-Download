@@ -1,19 +1,19 @@
 {
-  "version": "1.0.114",
+  "version": "1.0.115",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nový PulseDip (jedna krivka, živý zvuk, vlastný tvar, posun, Len basy, predvoľby) a grafy efektov. Obálky bicích: každá gulička sa ťahá sama.",
+  "notes": "Nový PulseDip (jedna krivka, živý zvuk, vlastný tvar, posun, Len basy, predvoľby). Úprava zvuku bicích: posuvníky A H D sú späť a hýbu sa spolu s guličkami v grafe.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 11101696,
-      "sha256": "b8da38d823673d8598cc4e985d06610e61903d1b618bddb2da7ef1c652b39530"
+      "size": 11102720,
+      "sha256": "77a840dc640076fa6220abec211d20fa1f6f94dfe5126ffcd58cb7b7f3ed3bba"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 564518,
-      "sha256": "2adaaa9238dcb0e5b7d0002478385ac55b761c58c129287e3c4cbe613a99ae26"
+      "size": 564844,
+      "sha256": "961c74be474644c26c37e5461ab3e2091dfaabac9f3695328d1c8fa38c920f64"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "version": "1.0.103",
+  "version": "1.0.104",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Tlačidlo ARP priamo na stope nástroja (klik = zapnúť/vypnúť, pravý klik = okno), oprava dĺžky vzoru v okne Korgus Arp.",
+  "notes": "Korgus Arp: hotové vzory (Pop, Trance gate, Avicii pluck…), Kocka pre náhodný vzor, zreteľne označený práve hraný krok.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10952192,
-      "sha256": "adac9b877d332c552df6b46878d3c5bb062f92d97403455ad47a8dfb8dc192db"
+      "size": 10959872,
+      "sha256": "ab9dfffeb2f3b913513ca8106c5a31c4f0e6b98636455e58a33eb72f1db0b8c4"
     }
   ]
 }

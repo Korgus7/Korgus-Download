@@ -1,13 +1,13 @@
 {
-  "version": "1.0.105",
+  "version": "1.0.106",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nová hlavička stopy: ikona typu pod číslom, MIDI kanál pred nástrojom, okno nástroja cez ikonu kláves vpravo, väčšie Prekvap ma. Arp si pamätá vybraný vzor.",
+  "notes": "Hlavička stopy: navrchu ikona, číslo a celý názov, vstup a nástroj v jednom riadku, MIDI kanál v menu stopy, širší farebný pruh, oddelený horný panel.",
   "files": [
     {
-      "name": "Korgus Sequencer.exe",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10960896,
-      "sha256": "5e6c70cd56a1f31e905b671458e0e9e977d834bbe2ae377f95eddf22899cabad"
+      "name": "korgus-ui.html",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
+      "size": 545072,
+      "sha256": "b197f5fb71661b28267f7c8f6fa47a484512c4d3b14dd2d53b16ea7e49fb2825"
     }
   ]
 }

@@ -1,5 +1,13 @@
 {
-  "version": "1.0.92",
+  "version": "1.0.95",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Upratané menu: Súbor / Export / Nastavenia, Pomoc vpravo, + Stopa pri M a S, REF A/B na Mastri, nastavenia metronómu (koliesko vedľa metronómu)."
+  "notes": "Aktualizácia bez inštalátora (Windows ju neblokuje). Upratané menu: Súbor / Export / Nastavenia, + Stopa pri M a S, REF A/B na Mastri, nastavenia metronómu.",
+  "files": [
+    {
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 10934784,
+      "sha256": "f4ebe3819964b050e9381a113f3ed660f3c5a0415ce9400f36aad0f50a89e89d"
+    }
+  ]
 }

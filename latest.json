@@ -1,13 +1,13 @@
 {
-  "version": "1.0.113",
+  "version": "1.0.114",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Obálky v úprave zvuku bicích: guličky sa ťahajú voľne myšou, bez šípok.",
+  "notes": "Obálky v úprave zvuku bicích: každá gulička sa ťahá sama, graf ide zdola.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 563670,
-      "sha256": "0844b8aff0cecc54a5d8b1b80a263d70212fa613a830c904c63a9bea647250e1"
+      "size": 564518,
+      "sha256": "2adaaa9238dcb0e5b7d0002478385ac55b761c58c129287e3c4cbe613a99ae26"
     }
   ]
 }

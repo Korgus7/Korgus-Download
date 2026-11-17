@@ -1,13 +1,13 @@
 {
-  "version": "1.0.106",
+  "version": "1.0.107",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Hlavička stopy: navrchu ikona, číslo a celý názov, vstup a nástroj v jednom riadku, MIDI kanál v menu stopy, širší farebný pruh, oddelený horný panel.",
+  "notes": "Editor nôt: tlačidlo Funkcie (arpeggiátor, humanizácia, transpozícia). Swing je v editore bicích. Hlasitosť stopy ukazuje dB pri ťahaní. Mastering asistent odstránený.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 545072,
-      "sha256": "b197f5fb71661b28267f7c8f6fa47a484512c4d3b14dd2d53b16ea7e49fb2825"
+      "size": 545972,
+      "sha256": "584b6d89c311747e8c33e54568adfb2d9c2323744cbdb79ff6ecb3010c214008"
     }
   ]
 }

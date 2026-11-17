@@ -1,13 +1,13 @@
 {
-  "version": "1.0.109",
+  "version": "1.0.110",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Pady v editore bicích sú väčšie a tmavé, vlna zvuku cez celý pad, názov v jednom riadku, tlačidlá v rámikoch.",
+  "notes": "Pady sú väčšie a idú po riadkoch 1-2-3 zhora. Úprava zvuku (✎) sa vysunie vľavo pri padoch, s grafickou obálkou. Nová stopa bicích hneď hrá so súpravou Pop.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 557483,
-      "sha256": "0d547e232dddf0e33c6e1fbcf5f65d51a50de8ad74b0228ccfa62c98eff42177"
+      "size": 561951,
+      "sha256": "f7b566489badb9f61b240d48051844e34d467aba3bfea6e2e66ccb4effe594d7"
     }
   ]
 }

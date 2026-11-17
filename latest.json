@@ -1,13 +1,13 @@
 {
-  "version": "1.0.100",
+  "version": "1.0.101",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Pri hre jedným prstom vidno, aký akord hrá. Klávesnica na obrazovke sa zobrazí ikonou vedľa klávesnice.",
+  "notes": "Lokátory: ťahaním za vlajočku L alebo R sa posúva len ten lokátor.",
   "files": [
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 541091,
-      "sha256": "0f4c6972241f32da11ce7f27d130f42d88e684458d829fd4f604631fdd3d8ed5"
+      "size": 541898,
+      "sha256": "d561e44adefa517e4d5addc0025dd11c8b8db1850137c2403e3dfb9c94ee7fe1"
     }
   ]
 }

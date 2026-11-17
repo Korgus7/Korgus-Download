@@ -1,13 +1,13 @@
 {
-  "version": "1.0.95",
+  "version": "1.0.96",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Aktualizácia bez inštalátora (Windows ju neblokuje). Upratané menu: Súbor / Export / Nastavenia, + Stopa pri M a S, REF A/B na Mastri, nastavenia metronómu.",
+  "notes": "Prehľadnejšia lišta: Auto mix v mixpulte, automatizácia na stope (pravý klik), tónina na akordovej stope, slučka v + Stopa, text piesne v Súbore, spevník v Exporte.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10934784,
-      "sha256": "f4ebe3819964b050e9381a113f3ed660f3c5a0415ce9400f36aad0f50a89e89d"
+      "size": 10935808,
+      "sha256": "4c6c23766112e4f1915adb75f8f35f55264aae6c970c8ae9426efcfaa2f607ef"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "version": "1.0.98",
+  "version": "1.0.99",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Ikony Späť/Znova, dĺžka piesne podľa obsahu (bez políčka Takty), 1 prst a Oktáva pri klávesnici. Rozhranie sa odteraz môže aktualizovať aj bez nového programu.",
+  "notes": "Rozbaľovacie menu (arpeggiátor, mriežka, dĺžka noty…) opäť fungujú, medzerník z okna syntezátora, tónina pre akordy jedným prstom, bez tlačidla Vymazať v editore nôt.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 10945024,
-      "sha256": "3e66b4516e14c2fdc4b31da3c68a4b08e96f49ff370d1bec6fdfcd37cc32f3a9"
+      "size": 10948096,
+      "sha256": "d03c54106cfc11d0aef2635770b873dc667d87b8780035e335696d60dc0e0b41"
     }
   ]
 }

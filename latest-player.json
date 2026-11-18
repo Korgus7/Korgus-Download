@@ -1,6 +1,6 @@
 {
-  "version": "1.0.38",
+  "version": "1.0.40",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Filmy: titulky, zvukové stopy, hlasitosť a pokračovanie tam, kde si skončil. Tlač (Ctrl+P), porovnanie fotiek (C), prevod formátov, export zoznamu do Excelu, kopírovanie s priebehom, loopy v tempe (♩), nová ikona."
+  "notes": "Oprava tlače: fotky sa tlačia priamo z programu s výberom tlačiarne, PDF a ostatné cez Windows."
 }

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.24",
+  "version": "1.0.26",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
   "notes": "Oprava čísla verzie – aktualizácie už fungujú správne."

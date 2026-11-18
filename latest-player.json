@@ -1,6 +1,6 @@
 {
-  "version": "1.0.40",
+  "version": "1.0.42",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Oprava tlače: fotky sa tlačia priamo z programu s výberom tlačiarne, PDF a ostatné cez Windows."
+  "notes": "Vyšší horný panel, viditeľné hľadanie, odsadený strom priečinkov. Tlač textových súborov a SVG priamo z programu."
 }

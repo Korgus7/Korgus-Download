@@ -62,6 +62,13 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--dim);font-siz
 footer .wrap{display:flex;gap:16px;align-items:center}
 @media(max-width:900px){.grid,.steps{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}nav{display:none}.hero h1{font-size:34px}}
 @media(max-width:600px){.grid,.steps{grid-template-columns:1fr}.hero{padding-top:44px}.logo .lt{display:none}header .wrap{gap:10px}.lang{flex:none}}
+.support{display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.support img{border-radius:6px;background:#fff;padding:8px}
+.support .txt{flex:1;min-width:260px}
+.support .txt p{color:var(--sub)}
+.sister{display:flex;gap:20px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:20px;text-decoration:none}
+.sister img{width:56px;height:56px;border-radius:6px}
+.sister b{display:block;font-size:18px}.sister span.d{color:var(--sub)}
 </style>
 </head>
 <body>
@@ -73,6 +80,8 @@ footer .wrap{display:flex;gap:16px;align-items:center}
     <a href="#zaciatok"><span lang="sk">Ako začať</span><span lang="en">Get started</span></a>
     <a href="#otazky"><span lang="sk">Otázky</span><span lang="en">FAQ</span></a>
     <a href="navod.html"><span lang="sk">Návod</span><span lang="en">User guide</span></a>
+    <a href="#podpora"><span lang="sk">Podpora</span><span lang="en">Support</span></a>
+    <a href="https://cami.sk/korgussequencer">Korgus Sequencer</a>
   </nav>
   <span class="sp"></span>
   <div class="lang"><button data-l="sk">SK</button><button data-l="en">EN</button></div>
@@ -134,6 +143,23 @@ footer .wrap{display:flex;gap:16px;align-items:center}
     <div class="card"><h3><span lang="sk">Vyber priečinok</span><span lang="en">Pick a folder</span></h3><p><span lang="sk">Vľavo v strome klikni na priečinok – všetko sa hneď ukáže.</span><span lang="en">Click a folder in the tree on the left – everything shows up at once.</span></p></div>
     <div class="card"><h3><span lang="sk">Prezeraj a triedi</span><span lang="en">Browse and sort</span></h3><p><span lang="sk">Šípky listujú, Enter otvorí na celú obrazovku, 1–9 presúva do cieľových priečinkov.</span><span lang="en">Arrows browse, Enter opens full screen, 1–9 move to target folders.</span></p></div>
   </div>
+</div></section>
+
+<section id="podpora"><div class="wrap">
+  <h2><span lang="sk">Podporte Korgus Player</span><span lang="en">Support Korgus Player</span></h2>
+  <div class="support">
+    <a href="https://payme.sk/2/q/PME?IBAN=SK0209000000000653071770&CN=%C4%8Caputa+Milan" title="payme.sk"><img src="img/podpora-qr.png" width="180" height="207" alt="QR kód na dobrovoľný príspevok (payme.sk)"></a>
+    <div class="txt">
+      <p><span lang="sk">Korgus Player je zadarmo, bez reklám a bez sledovania. Ak vám pomáha, môžete dobrovoľne prispieť na jeho vývoj a na overenie u Microsoftu, aby ho Windows neblokovali.</span><span lang="en">Korgus Player is free, with no ads and no tracking. If it helps you, you can voluntarily contribute to its development and to verification by Microsoft, so that Windows does not block it.</span></p>
+      <p><span lang="sk">QR kód naskenujte mobilom alebo bankovou aplikáciou – sumu zvolíte sami.</span><span lang="en">Scan the QR code with your phone or banking app (Slovak banks) – you choose the amount.</span></p>
+      <a class="btn" href="https://paypal.me/korgus"><span lang="sk">Prispieť cez PayPal</span><span lang="en">Donate via PayPal</span></a>
+    </div>
+  </div>
+</div></section>
+
+<section id="sequencer"><div class="wrap">
+  <h2><span lang="sk">Robíš hudbu?</span><span lang="en">Making music?</span></h2>
+  <a class="sister" href="https://cami.sk/korgussequencer"><img src="img/sequencer-icon.png" alt="" onerror="this.style.display='none'"><div><b>Korgus Sequencer</b><span class="d"><span lang="sk">Bezplatné hudobné štúdio od rovnakého autora – nahrávanie, akordy, text piesne, mix a export na TikTok. Samply z Korgus Playera doň pretiahneš myšou.</span><span lang="en">A free music studio by the same author – recording, chords, lyrics, mixing and TikTok export. Drag samples from Korgus Player straight into it.</span></span></div></a>
 </div></section>
 
 <section id="otazky" class="faq"><div class="wrap">

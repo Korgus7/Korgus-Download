@@ -1,6 +1,6 @@
 {
-  "version": "1.0.42",
+  "version": "1.0.49",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Vyšší horný panel, viditeľné hľadanie, odsadený strom priečinkov. Tlač textových súborov a SVG priamo z programu."
+  "notes": "Karty, hľadanie vo všetkých podpriečinkoch (Enter), podobné fotky a zvuky, video z fotiek s hudbou, prepojenie s Korgus Sequencerom, návod na použitie (☰ → Návod)."
 }

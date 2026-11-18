@@ -1,13 +1,13 @@
 {
-  "version": "1.0.121",
+  "version": "1.0.122",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nový editor zvuku padu (karty Hlasitosť / Výška / Filter, jeden graf s vlnou samplu). Tlačidlo Reset MIDI navrchu. Správca pluginov v Nastaveniach, s hľadaním. MIDI z knižnice melódií sa posunie do tóniny piesne. Väčšie písmo na padoch.",
+  "notes": "Nový jednotný vzhľad: svetlé okná s bielou hlavičkou, jedno hlavné tlačidlo, jednofarebné čiarové ikony. Ploché tlačidlá a hlasitosť v hlavičkách stôp. Vyššie horné menu. Okná Pluginy a Nastavenia zvuku v rovnakých farbách.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13671424,
-      "sha256": "078b82c7485ec13833d6c23afd9a2f5e03b4da805a5d14aa44c48f9bc6d2c34e"
+      "size": 13682176,
+      "sha256": "3d8624c8a6d8f83f784f5d4d76d2f87d1514e142c410e87c7e21c4604761757e"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,8 +18,8 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 576236,
-      "sha256": "b88e19f67fcae1cd816fdc73bb2a53f83bd2bd83be50e87fee43f599735cf4e0"
+      "size": 584397,
+      "sha256": "bea23963a09c9411dc313fbf6077ec06f9b84f5652166a7cefecab5635ff63ea"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.23",
+  "version": "1.0.24",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Svetlá téma, angličtina, dva panely (F9), Otvoriť v Prieskumníkovi, automatické aktualizácie."
+  "notes": "Oprava čísla verzie – aktualizácie už fungujú správne."
 }

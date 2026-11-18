@@ -1,6 +1,6 @@
 {
-  "version": "1.0.26",
+  "version": "1.0.30",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Oprava čísla verzie – aktualizácie už fungujú správne."
+  "notes": "PDF výkresy s bielym pozadím, čitateľný text vo svetlej téme, tlačidlo ? s návodom k triedeniu 1–9."
 }

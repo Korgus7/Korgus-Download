@@ -1,19 +1,25 @@
 {
-  "version": "1.0.117",
+  "version": "1.0.120",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nové súpravy bicích zo skutočných zvukov (Pop, House, Hlboká, Teplá, Svetlá, Krátka a tvrdá). Korgus Meter: merač hlasitosti s radarom, LUFS, True Peak a Mid/Side – tlačidlo MERAČ na Mastri v mixpulte.",
+  "notes": "Správca pluginov: cudzie pluginy si zaškrtneš, ostatné sa pri spustení nenačítajú. Inspiria: šípky ◀ ▶ prepínajú samply z priečinka, Prekvap ma z hlavičky stopy už nestíši zvuk. Bubeník: väčšie pady, prehľadnejšie grafy obálok.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13633536,
-      "sha256": "0abbf4b562720caae403e88c46d947c08b22fa840589f3b89cb82514ed939239"
+      "size": 13661184,
+      "sha256": "930fc8c8125afc9483db927fd9d5f8d2797d381c4f7b804ae10207c576da8d4d"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 23770624,
+      "sha256": "fb9b4e79c0a647bd5afb77ccc112bc51893977d9c74070e3321911428bd01f93"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 567605,
-      "sha256": "c56b6899ab021f587a7f77d2876de6c1e73e9300820affa520f53a05ac866036"
+      "size": 568841,
+      "sha256": "cef448eb27318c90e38f552f4cdd0ec67d50672d01fef26bf1a1d6ce38562cdc"
     }
   ]
 }

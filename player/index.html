@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sk" data-lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korgus Player – rýchly prehliadač obrázkov, hudby, videí a dokumentov</title>
+<meta name="description" content="Korgus Player – bezplatný a rýchly prehliadač pre Windows: obrázky, hudba, samply, videá, PDF, 3D modely na jednom mieste, so stromom priečinkov a triedením. / A fast free viewer for Windows.">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#141b25;--bg2:#1b2431;--panel:#222d3c;--line:#2f3c4f;--steel:#2d4362;--steel2:#3c5677;--txt:#e4e9ef;--sub:#a3afbf;--dim:#7d8a9b;--gold:#c9a35a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 "Segoe UI",Tahoma,Arial,sans-serif}
+html[data-lang="sk"] [lang="en"],html[data-lang="en"] [lang="sk"]{display:none!important}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:10;background:rgba(20,27,37,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;gap:18px;height:62px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;text-decoration:none}
+.logo img{width:30px;height:30px;border-radius:3px}
+nav{display:flex;gap:20px;margin-left:24px;font-size:14px;color:var(--sub)}
+nav a{text-decoration:none}nav a:hover{color:var(--txt)}
+.sp{flex:1}
+.lang{display:flex;border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.lang button{background:transparent;color:var(--sub);border:0;padding:5px 10px;font:600 12px Tahoma,Arial,sans-serif;cursor:pointer}
+.lang button.on{background:var(--steel);color:#fff}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--steel);color:#fff;border:1px solid var(--steel2);border-radius:3px;padding:12px 22px;font-weight:600;text-decoration:none;transition:background .15s}
+.btn:hover{background:var(--steel2)}
+.btn.sm{padding:7px 14px;font-size:14px}
+.btn svg{width:18px;height:18px}
+.hero{padding:72px 0 40px;background:radial-gradient(1200px 500px at 70% -10%,#25344a 0,transparent 60%)}
+.hero h1{font-size:46px;line-height:1.15;margin:0 0 18px;max-width:780px}
+.free{display:inline-block;background:rgba(201,163,90,.14);border:1px solid rgba(201,163,90,.45);color:#e2c58c;border-radius:3px;padding:5px 12px;font-weight:600;font-size:15px;margin:0 0 18px}
+.hero p.lead{font-size:19px;color:var(--sub);max-width:680px;margin:0 0 30px}
+.meta{font-size:13px;color:var(--dim);margin-top:12px}
+.shot{margin-top:46px;border:1px solid var(--line);border-radius:3px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.shot img{display:block;width:100%;height:auto}
+section{padding:70px 0;border-top:1px solid var(--line)}
+section h2{font-size:32px;margin:0 0 10px}
+section .intro{color:var(--sub);max-width:720px;margin:0 0 36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:20px}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0;color:var(--sub);font-size:14.5px}
+.card .ic{width:34px;height:34px;border-radius:3px;background:var(--steel);display:flex;align-items:center;justify-content:center;margin-bottom:12px;color:#fff}
+.card .ic svg{width:18px;height:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.two .shot{margin:0}
+ul.check{list-style:none;padding:0;margin:18px 0 0}
+ul.check li{padding:6px 0 6px 28px;position:relative;color:var(--sub)}
+ul.check li::before{content:'';position:absolute;left:4px;top:13px;width:12px;height:7px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+ul.check b{color:var(--txt);font-weight:600}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:s}
+.steps .card{counter-increment:s}
+.steps .card::before{content:counter(s);display:block;font-size:28px;font-weight:700;color:var(--gold);margin-bottom:4px}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:14px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq p{color:var(--sub);margin:10px 0 0}
+.cta{text-align:center;background:linear-gradient(180deg,var(--bg2),var(--bg))}
+.cta p{color:var(--sub)}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--dim);font-size:13px}
+footer .wrap{display:flex;gap:16px;align-items:center}
+@media(max-width:900px){.grid,.steps{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}nav{display:none}.hero h1{font-size:34px}}
+@media(max-width:600px){.grid,.steps{grid-template-columns:1fr}.hero{padding-top:44px}.logo .lt{display:none}header .wrap{gap:10px}.lang{flex:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="#top"><img src="img/icon.png" alt=""><span class="lt">KORGUS PLAYER</span></a>
+  <nav>
+    <a href="#funkcie"><span lang="sk">Funkcie</span><span lang="en">Features</span></a>
+    <a href="#samply"><span lang="sk">Pre hudobníkov</span><span lang="en">For musicians</span></a>
+    <a href="#zaciatok"><span lang="sk">Ako začať</span><span lang="en">Get started</span></a>
+    <a href="#otazky"><span lang="sk">Otázky</span><span lang="en">FAQ</span></a>
+  </nav>
+  <span class="sp"></span>
+  <div class="lang"><button data-l="sk">SK</button><button data-l="en">EN</button></div>
+  <a class="btn sm dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/player/KorgusPlayer-Setup.exe"><span lang="sk">Stiahnuť zadarmo</span><span lang="en">Free download</span></a>
+</div></header>
+
+<div class="hero" id="top"><div class="wrap">
+  <h1><span lang="sk">Jeden rýchly program na všetky tvoje súbory.</span><span lang="en">One fast program for all your files.</span></h1>
+  <div class="free"><span lang="sk">Úplne zadarmo · bez reklám · bez registrácie</span><span lang="en">Completely free · no ads · no sign-up</span></div>
+  <p class="lead"><span lang="sk">Fotky, hudba, samply, filmy, PDF aj 3D modely – v jednom okne so stromom priečinkov. Žiadne čakanie ako pri Fotkách vo Windows, žiadne prepínanie medzi piatimi programami.</span><span lang="en">Photos, music, samples, films, PDFs and 3D models – in one window with a folder tree. No waiting like in Windows Photos, no switching between five programs.</span></p>
+  <a class="btn dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/player/KorgusPlayer-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg><span lang="sk">Stiahnuť zadarmo pre Windows</span><span lang="en">Free download for Windows</span></a>
+  <div class="meta"><span lang="sk">Zadarmo · Windows 10 / 11, 64-bit · inštalácia bez administrátora · automatické aktualizácie</span><span lang="en">Free · Windows 10 / 11, 64-bit · no admin rights needed · automatic updates</span><span class="ver"></span> · <a href="https://github.com/Korgus7/Korgus-Download/raw/main/player/Korgus%20Player.exe"><span lang="sk">bez inštalácie (.exe)</span><span lang="en">portable (.exe)</span></a></div>
+  <div class="shot"><img lang="sk" src="img/grid_sk.jpg" alt="Korgus Player – fotky s náhľadom"><img lang="en" src="img/grid_en.jpg" alt="Korgus Player – photos with preview"></div>
+</div></div>
+
+<section id="funkcie"><div class="wrap">
+  <h2><span lang="sk">Všetko otvorí, nič nečaká</span><span lang="en">Opens everything, waits for nothing</span></h2>
+  <p class="intro"><span lang="sk">Vznikol, lebo na Windows chýbal jeden jednoduchý prehliadač, ktorý zvládne obrázky, zvuk aj video naraz a dá sa v ňom aj upratovať.</span><span lang="en">Made because Windows lacked one simple viewer that handles images, sound and video at once – and lets you tidy up too.</span></p>
+  <div class="grid"><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></div><h3><span lang="sk">Obrázky okamžite</span><span lang="en">Images instantly</span></h3><p><span lang="sk">JPG, PNG, HEIC, RAW, WebP, SVG, EPS… Náhľady sa načítajú hneď, listuješ šípkami aj na celej obrazovke, s prezentáciou a hudbou.</span><span lang="en">JPG, PNG, HEIC, RAW, WebP, SVG, EPS… Thumbnails load right away, browse with arrow keys even full screen, with a slideshow and music.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h0"/></svg></div><h3><span lang="sk">Všetky zvuky</span><span lang="en">Every sound</span></h3><p><span lang="sk">MP3, WAV, FLAC, AIFF, OGG, M4A, aj REX loopy a MIDI. Zoznam s vlnou, BPM a tóninou – ideálne na prehľadávanie samplov.</span><span lang="en">MP3, WAV, FLAC, AIFF, OGG, M4A, even REX loops and MIDI. A list with waveform, BPM and key – ideal for browsing samples.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9l5 3-5 3z"/></svg></div><h3><span lang="sk">Filmy a videá</span><span lang="en">Films and videos</span></h3><p><span lang="sk">MKV, MP4, AVI, MOV, M2TS aj 4K. Titulky a zvukové stopy, pokračovanie tam, kde si skončil, uloženie snímky z videa.</span><span lang="en">MKV, MP4, AVI, MOV, M2TS and 4K. Subtitles and audio tracks, resume where you left off, save a still frame.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7M9 8h3"/></svg></div><h3><span lang="sk">Dokumenty</span><span lang="en">Documents</span></h3><p><span lang="sk">PDF, texty, tabuľky, Word, Excel, PowerPoint a fonty si pozrieš bez otvárania ďalších programov.</span><span lang="en">View PDF, text, spreadsheets, Word, Excel, PowerPoint and fonts without opening other programs.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></div><h3><span lang="sk">3D a CAD</span><span lang="en">3D and CAD</span></h3><p><span lang="sk">STL a 3MF pre 3D tlač, OBJ, výkresy DXF (a náhľad DWG) – otočíš, priblížiš, pozrieš z každej strany.</span><span lang="en">STL and 3MF for 3D printing, OBJ, DXF drawings (plus DWG preview) – rotate, zoom and look from every side.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h10M4 12h7M4 17h4"/><path d="M17 5v14M14 16l3 3 3-3"/></svg></div><h3><span lang="sk">Triedenie 1–9</span><span lang="en">Sorting 1–9</span></h3><p><span lang="sk">Nastav si cieľové priečinky a súbory triediš jedným klávesom. Pomýlil si sa? Ctrl+Z.</span><span lang="en">Set target folders and sort files with a single key. Made a mistake? Ctrl+Z.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M12 4v16"/></svg></div><h3><span lang="sk">Dva panely</span><span lang="en">Two panels</span></h3><p><span lang="sk">Ako v Total Commanderi: F5 kopíruje, F6 presúva, s priebehom aj pri veľkých súboroch.</span><span lang="en">Like Total Commander: F5 copies, F6 moves, with progress even for large files.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg></div><h3><span lang="sk">Úpravy fotiek</span><span lang="en">Photo edits</span></h3><p><span lang="sk">Otočenie bez straty kvality, orezanie, jas, kontrast, hromadné zmenšenie, porovnanie dvoch fotiek vedľa seba.</span><span lang="en">Lossless rotation, crop, brightness, contrast, batch resize, compare two photos side by side.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 6.9H22l-6 4.4 2.3 7L12 16l-6.3 4.3 2.3-7-6-4.4h7.6z"/></svg></div><h3><span lang="sk">Hodnotenie a štítky</span><span lang="en">Ratings and labels</span></h3><p><span lang="sk">Hviezdičky a farebné štítky, triedenie podľa dátumu fotenia, hľadanie duplikátov, hromadné premenovanie.</span><span lang="en">Stars and colour labels, sorting by date taken, duplicate finder, batch rename.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg></div><h3><span lang="sk">Prevod formátov</span><span lang="en">Format conversion</span></h3><p><span lang="sk">WAV → MP3/FLAC, HEIC → JPG a ďalšie – hromadne, originály ostanú.</span><span lang="en">WAV → MP3/FLAC, HEIC → JPG and more – in batches, originals stay untouched.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></div><h3><span lang="sk">Čím to otvoriť?</span><span lang="en">What opens it?</span></h3><p><span lang="sk">Pri každom súbore vidíš, čo je to za formát a ktorými programami (aj zadarmo) sa dá upraviť.</span><span lang="en">For every file you see what the format is and which programs (free ones too) can edit it.</span></p></div><div class="card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="1"/><path d="M7 14h10v7H7z"/></svg></div><h3><span lang="sk">Tlač a export</span><span lang="en">Print and export</span></h3><p><span lang="sk">Tlač cez Windows (Ctrl+P) a export zoznamu skladieb so BPM a tóninou do Excelu.</span><span lang="en">Print via Windows (Ctrl+P) and export a track list with BPM and key to Excel.</span></p></div></div>
+</div></section>
+
+<section id="samply"><div class="wrap">
+  <div class="two">
+    <div>
+      <h2><span lang="sk">Pre hudobníkov</span><span lang="en">For musicians</span></h2>
+      <p class="intro" style="margin-bottom:0"><span lang="sk">Prechádzaj samply ako v DAW prehliadači – bez otvárania projektu.</span><span lang="en">Browse samples like in a DAW browser – without opening a project.</span></p>
+      <ul class="check">
+        <li><span lang="sk"><b>BPM a tónina</b> sa zistia automaticky</span><span lang="en"><b>BPM and key</b> are detected automatically</span></li>
+        <li><span lang="sk"><b>Tempo</b> – loopy prehrá v tempe tvojej skladby</span><span lang="en"><b>Tempo</b> – loops play in your song tempo</span></li>
+        <li><span lang="sk"><b>REX, AIFF, W64, MIDI</b> – prehrá aj formáty, ktoré bežné prehrávače nepoznajú</span><span lang="en"><b>REX, AIFF, W64, MIDI</b> – plays formats ordinary players don't know</span></li>
+        <li><span lang="sk"><b>Ťahaj myšou</b> sample priamo do Cubase, Abletonu či FL Studia</span><span lang="en"><b>Drag</b> samples straight into Cubase, Ableton or FL Studio</span></li>
+        <li><span lang="sk"><b>Triedenie 1–9</b> – kicky, snare, pady do priečinkov jedným klávesom</span><span lang="en"><b>Sorting 1–9</b> – kicks, snares, pads into folders with one key</span></li>
+      </ul>
+    </div>
+    <div class="shot"><img lang="sk" src="img/list_sk.jpg" alt="Samply so BPM a tóninou"><img lang="en" src="img/list_en.jpg" alt="Samples with BPM and key"></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="two">
+    <div class="shot"><img lang="sk" src="img/cmp_sk.jpg" alt="Porovnanie dvoch fotiek"><img lang="en" src="img/cmp_en.jpg" alt="Comparing two photos"></div>
+    <div>
+      <h2><span lang="sk">Uprac fotky za pár minút</span><span lang="en">Tidy photos in minutes</span></h2>
+      <ul class="check">
+        <li><span lang="sk"><b>Porovnaj</b> dve podobné fotky vedľa seba a nechaj lepšiu</span><span lang="en"><b>Compare</b> two similar photos side by side and keep the better one</span></li>
+        <li><span lang="sk"><b>Duplikáty</b> nájde a označí za teba</span><span lang="en"><b>Duplicates</b> found and marked for you</span></li>
+        <li><span lang="sk"><b>Zmenši</b> celý priečinok naraz – kópie, originály ostanú</span><span lang="en"><b>Resize</b> a whole folder at once – as copies, originals stay</span></li>
+        <li><span lang="sk"><b>Premenuj</b> podľa dátumu fotenia</span><span lang="en"><b>Rename</b> by date taken</span></li>
+        <li><span lang="sk"><b>Mapa</b> – ukáže, kde bola fotka odfotená</span><span lang="en"><b>Map</b> – shows where a photo was taken</span></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="zaciatok"><div class="wrap">
+  <h2><span lang="sk">Ako začať</span><span lang="en">Get started</span></h2>
+  <div class="steps">
+    <div class="card"><h3><span lang="sk">Stiahni a nainštaluj</span><span lang="en">Download and install</span></h3><p><span lang="sk">Inštalácia trvá pár sekúnd a nepýta administrátora.</span><span lang="en">Installation takes seconds and needs no admin rights.</span></p></div>
+    <div class="card"><h3><span lang="sk">Vyber priečinok</span><span lang="en">Pick a folder</span></h3><p><span lang="sk">Vľavo v strome klikni na priečinok – všetko sa hneď ukáže.</span><span lang="en">Click a folder in the tree on the left – everything shows up at once.</span></p></div>
+    <div class="card"><h3><span lang="sk">Prezeraj a triedi</span><span lang="en">Browse and sort</span></h3><p><span lang="sk">Šípky listujú, Enter otvorí na celú obrazovku, 1–9 presúva do cieľových priečinkov.</span><span lang="en">Arrows browse, Enter opens full screen, 1–9 move to target folders.</span></p></div>
+  </div>
+</div></section>
+
+<section id="otazky" class="faq"><div class="wrap">
+  <h2><span lang="sk">Otázky</span><span lang="en">FAQ</span></h2>
+  <details><summary><span lang="sk">Je to naozaj zadarmo?</span><span lang="en">Is it really free?</span></summary><p><span lang="sk">Áno. Bez reklám, bez registrácie, bez obmedzení.</span><span lang="en">Yes. No ads, no sign-up, no limits.</span></p></details><details><summary><span lang="sk">Potrebujem administrátora?</span><span lang="en">Do I need admin rights?</span></summary><p><span lang="sk">Nie. Inštaluje sa len pre teba a aktualizuje sa sám.</span><span lang="en">No. It installs just for you and updates itself.</span></p></details><details><summary><span lang="sk">Ako pridám „Otvoriť v Korgus Player“ do Prieskumníka?</span><span lang="en">How do I add “Open in Korgus Player” to Explorer?</span></summary><p><span lang="sk">V programe klikni na ☰ vpravo hore a zapni túto voľbu. Potom stačí pravý klik na priečinok alebo súbor.</span><span lang="en">Click ☰ at the top right and turn the option on. Then just right-click a folder or file.</span></p></details><details><summary><span lang="sk">Zmení program moje súbory?</span><span lang="en">Will it change my files?</span></summary><p><span lang="sk">Nie, kým to sám nechceš – otočenie, úpravy či presun robí len na tvoj pokyn a presun vrátiš cez Ctrl+Z. Hodnotenia a štítky sa ukladajú bokom, nie do súborov.</span><span lang="en">Not unless you ask – rotating, editing or moving only happens on your command and moves can be undone with Ctrl+Z. Ratings and labels are stored separately, not in your files.</span></p></details><details><summary><span lang="sk">Funguje aj bez inštalácie?</span><span lang="en">Does it work without installing?</span></summary><p><span lang="sk">Áno, stiahni si samostatný súbor Korgus Player.exe. Na videá treba ešte knižnicu, ktorú si program stiahne cez ☰.</span><span lang="en">Yes, download the standalone Korgus Player.exe. Videos need an extra library that the program downloads via ☰.</span></p></details>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2><span lang="sk">Vyskúšaj Korgus Player</span><span lang="en">Try Korgus Player</span></h2>
+  <p><span lang="sk">Zadarmo pre Windows 10 a 11.</span><span lang="en">Free for Windows 10 and 11.</span> <span class="ver2"></span></p>
+  <a class="btn dl" href="https://github.com/Korgus7/Korgus-Download/raw/main/player/KorgusPlayer-Setup.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 19h16"/></svg><span lang="sk">Stiahnuť zadarmo</span><span lang="en">Free download</span></a>
+  <p style="margin-top:22px"><span lang="sk">Od rovnakého autora:</span><span lang="en">By the same author:</span> <a href="https://cami.sk/korgussequencer">Korgus Sequencer</a></p>
+</div></section>
+
+<footer><div class="wrap"><img src="img/icon.png" alt="" width="20" height="20" style="border-radius:3px"><span>© 2026 Korgus</span><span class="sp"></span><span lang="sk">Vyrobené na Slovensku</span><span lang="en">Made in Slovakia</span></div></footer>
+
+<script>
+(function(){
+  var h=document.documentElement;
+  function set(l){ h.setAttribute('data-lang',l); h.lang=l; document.title=l==='en'?'Korgus Player – a fast viewer for images, music, video and documents':'Korgus Player – rýchly prehliadač obrázkov, hudby, videí a dokumentov';
+    document.querySelectorAll('.lang button').forEach(function(b){ b.classList.toggle('on',b.dataset.l===l); }); try{ localStorage.setItem('korgusWebLang',l); }catch(e){} }
+  var l=null; try{ l=localStorage.getItem('korgusWebLang'); }catch(e){}
+  if(!l){ var n=(navigator.language||'').toLowerCase(); l=(n.indexOf('sk')===0||n.indexOf('cs')===0)?'sk':'en'; }
+  if(/[?&]lang=(sk|en)/.test(location.search)) l=RegExp.$1;
+  set(l);
+  document.querySelectorAll('.lang button').forEach(function(b){ b.onclick=function(){ set(b.dataset.l); }; });
+  fetch('https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/latest-player.json',{cache:'no-store'}).then(function(r){ return r.json(); }).then(function(j){ if(!j||!j.version) return;
+    document.querySelector('.ver').textContent=' · v'+j.version; document.querySelector('.ver2').textContent='v'+j.version; }).catch(function(){});
+})();
+</script>
+</body>
+</html>

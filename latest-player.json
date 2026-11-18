@@ -1,6 +1,6 @@
 {
-  "version": "1.0.30",
+  "version": "1.0.38",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "PDF výkresy s bielym pozadím, čitateľný text vo svetlej téme, tlačidlo ? s návodom k triedeniu 1–9."
+  "notes": "Filmy: titulky, zvukové stopy, hlasitosť a pokračovanie tam, kde si skončil. Tlač (Ctrl+P), porovnanie fotiek (C), prevod formátov, export zoznamu do Excelu, kopírovanie s priebehom, loopy v tempe (♩), nová ikona."
 }

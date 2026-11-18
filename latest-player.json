@@ -1,6 +1,6 @@
 {
-  "version": "1.0.49",
+  "version": "1.0.55",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Karty, hľadanie vo všetkých podpriečinkoch (Enter), podobné fotky a zvuky, video z fotiek s hudbou, prepojenie s Korgus Sequencerom, návod na použitie (☰ → Návod)."
+  "notes": "Zvukový výstup a ASIO, výrez zo samplu (ťahaním po vlne), {bpm} a {tonina} v hromadnom premenovaní, import fotiek z karty a fotoaparátu."
 }

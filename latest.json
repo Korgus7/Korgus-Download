@@ -1,13 +1,13 @@
 {
- "version": "1.0.134",
+ "version": "1.0.135",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Rozpoznávanie akordov z nahrávky hľadá zmenu na každom údere v hudbe – nezávisle od tempa, aj prvý úder po doznení. Novo zahraté tóny majú prednosť pred doznievajúcim predošlým akordom. Stopy v aranžmáne sa dajú zväčšiť až na 400 bodov.",
+ "notes": "Rozpoznávanie akordov: keď sa ten istý akord zahrá znova (nový úder), zapíše sa znova – noty v stope akordov udierajú spolu s nahrávkou. Pribudli kvintakordy (power chord, napr. Eb5) a názvy podľa tóniny (Db namiesto C# v b-tóninách).",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13682688,
-   "sha256": "a9b2ae9f678086e67d5c11fb316006cb38cecbe5262268a1d16be74b940f7269"
+   "size": 13797888,
+   "sha256": "8470afeb32bb5ea89a9b673300b03dbae1cac9c7b94ce15c15e8098e74456418"
   },
   {
    "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 653660,
-   "sha256": "3b6ece128085d88fdb3e04be0ba5f9881d32b58fb85c2750c03a9557d9661749"
+   "size": 653818,
+   "sha256": "0efca4316184734cf15ddaa74e86a4e968249178e9491adce20961b2ecfbd083"
   }
  ],
- "notes_en": "Chord recognition from recordings now looks for a change at every hit in the music – independent of the tempo, including the first hit after a decay. Newly played notes take priority over the previous chord still ringing. Arrangement tracks can be enlarged up to 400 px."
+ "notes_en": "Chord recognition: when the same chord is played again (a new hit), it is written again – the notes in the chord track hit together with the recording. Added power chords (e.g. Eb5) and key-aware names (Db instead of C# in flat keys)."
 }

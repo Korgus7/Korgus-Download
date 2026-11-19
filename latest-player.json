@@ -1,6 +1,6 @@
 {
-  "version": "1.0.60",
+  "version": "1.0.61",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Hore len ikony (popis pri prejdení myšou), nastavenia ako ozubené koliesko. Hľadanie končí s oknom súborov. Posuvník veľkosti náhľadov v lište pod súbormi. Tempo v prehrávači len pri zvuku."
+  "notes": "Nová sada ikon (tenké čiary), nové ikony otáčania s jasnou šípkou. Bubliny pri ikonách ako vo Windows, krátke a bez zátvoriek."
 }

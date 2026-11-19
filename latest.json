@@ -1,26 +1,26 @@
 {
- "version": "1.0.130",
+ "version": "1.0.131",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Producent (ikona slúchadiel v lište Aranžmánu): rozoberie pieseň a navrhne zlepšenia – každý si vypočuješ, prepneš A/B a prijmeš alebo zahodíš. Verzie piesne (ikona vetvy): skús viac nápadov ako vetvy, prepínaj aj počas hrania a preber časť z inej verzie. Zvuk napodobený ústami: nahraj zvuk do audio stopy a v Nauč sa zvuk ho vyber – Inspiria z neho spraví syntezátor. Krivka energie: pri nízkej energii redšie bicie, filter Inspirie sa privrie, tlačidlom ju úplne vypneš.",
+ "notes": "Všetko k sebe pasuje: keď pieseň nemá akordovú stopu, Korgus akordy zistí z toho, čo hrá. Pri novom akorde ponúkne tie, ktoré najlepšie nadväzujú (aj odvážnejšie). Basy, linky a melódie z knižnice sa doladia na akordy, vlastné melódie sú zoradené podľa toho, ako pasujú (★). Nepasujúce dlhé tóny sú v editore označené červeným. Inspiria: zvuk s rovnakým názvom sa neprepíše, dostane číslo.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13640704,
-   "sha256": "5b25888eeb967f553f31ee0505800dbfbea5648e21b0fa1f78229dab4a25d8b8"
+   "size": 13650432,
+   "sha256": "61cb7fc2e96cf5dfd6e834a4164bdd51c27b1955db87764c9aa99d292b192575"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 26579968,
-   "sha256": "b5397e28547c57e68fdcb3d91823626d5de9a99403c495c35aedf951d1f4776d"
+   "size": 26584064,
+   "sha256": "cb8fb51d58e613214bea9a5388e3166c684a507ee87fc26677715840027ec2ea"
   },
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 630811,
-   "sha256": "4b468ea055871552ea2a907312d91897fe5a1500a45abe768e34804a7e7f826d"
+   "size": 639975,
+   "sha256": "21253b6ef9a192eed3b389172e34e5ae3481ab8a0b2ced9da2803f4b19069208"
   }
  ],
- "notes_en": "Producer (headphones icon in the Arrangement bar): analyses the song and suggests improvements – hear each one, switch A/B, accept or discard. Song versions (branch icon): try several ideas as branches, switch even while playing and take a part from another version. Mouth-imitated sound: record a sound into an audio track and pick it in Learn sound – Inspiria turns it into a synth. Energy curve: sparser drums and a darker Inspiria filter at low energy; the button turns it off completely."
+ "notes_en": "Everything fits together: if the song has no chord lane, Korgus detects the chords from what's playing. A new chord offers the ones that follow best (and bolder ones). Basses, lines and melodies from the library are fitted to the chords; your own melodies are sorted by how well they fit (★). Long notes that clash are outlined in red in the editor. Inspiria: a sound with an existing name is no longer overwritten, it gets a number."
 }

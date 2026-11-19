@@ -1,26 +1,26 @@
 {
- "version": "1.0.128",
+ "version": "1.0.129",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Inspiria: 22 zabudovaných vzoriek nástrojov (vo vrstve Sampel → Vzorky ▾) – gitary, basy, sláčiky, dychy, zbor, organ, zvonkohry. LFO môže ísť podľa tempa piesne (gombík Tempo: 1/4, 1/8, 1/16, trioly) – napr. vlnenie filtra pri base. Sequencer: pri vloženom MIDI alebo vzore z knižnice je vidieť názov, odkiaľ je a tónina (bublina nad časťou a hlavička editora).",
+ "notes": "Krivka energie: tlačidlo s vlnovkou v lište Aranžmánu zobrazí pás ENERGIA. Nakresli myšou, kde má pieseň stúpať a klesať – nástroje sa podľa krivky pridajú alebo uberú a zosilnia či stíšia. Pravý klik na pás: podľa sekcií, prechody podľa krivky, zrušiť. Inspiria: zdroj zvuku Klavír | Vzorky | WAV, jednotné ikony. Väčšie ikony okna nástroja a efektu, rovnako veľké Stop, Play a Nahrávanie.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13719040,
-   "sha256": "92fad7d421b74bd5fed636b2ae484dd5eb856512418d358e97b8c711e65b8b44"
+   "size": 13608448,
+   "sha256": "b5310580113c234b13c3677ca9f526c266c86767cf5dda1bdffd5a04086f3e5b"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 26575360,
-   "sha256": "ad67d47082bee465559a0261d08047049f57d7046d2a07c923f626f0a8426426"
+   "size": 26579968,
+   "sha256": "b5397e28547c57e68fdcb3d91823626d5de9a99403c495c35aedf951d1f4776d"
   },
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 597326,
-   "sha256": "0286bfb6d525b1027b62180a65c90187aad0cc5e7c8812ed0d2ec40b887afe14"
+   "size": 607118,
+   "sha256": "c5d38007ce50abaa02e1c87c8de3a134fddacc9dc9ec3ac6a8fd9fb366de3c52"
   }
  ],
- "notes_en": "Inspiria: 22 built-in instrument samples (in a layer, Sample → Samples ▾) – guitars, basses, strings, winds, choir, organ, mallets. The LFO can follow the song tempo (Tempo knob: 1/4, 1/8, 1/16, triplets) – e.g. a filter wobble on a bass. Sequencer: an inserted MIDI file or library pattern shows its name, where it came from and its key (tooltip over the part and the editor header)."
+ "notes_en": "Energy curve: the wave button in the Arrangement bar shows the ENERGY lane. Draw where the song should rise and fall – instruments are added, removed, made louder or quieter to follow the curve. Right-click the lane: from sections, transitions from the curve, remove. Inspiria: sound source Piano | Samples | WAV, unified icons. Bigger instrument and effect window icons, Stop, Play and Record the same size."
 }

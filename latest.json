@@ -1,13 +1,13 @@
 {
-  "version": "1.0.123",
+  "version": "1.0.125",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Prehľadnejšie menu Súbor, Export a Nastavenia. Správa pluginov s kartou Zakázané. V hlavičke stopy tlačidlá A (automatizácia), SC (sidechain) a zmrazenie. Tmavá mriežka v bubeníkovi a jemnejšie okraje panelov.",
+  "notes": "Prehľadné menu stopy: Pridať objekt z knižnice, Duplikovať stopu, Nahrať do novej audio stopy. Farba stopy klikom na pásik, MIDI kanál vo výbere MIDI vstupu, prechodové efekty pravým klikom do prázdneho miesta v aranžmáne. Aktualizovaná Pomoc.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13692416,
-      "sha256": "b62a911b763c6926bc8178df14c83924cfe6d13b879a1c9a5246f8812a9d1c96"
+      "size": 13697024,
+      "sha256": "fe8c30d536987f17da4428f5bb8836ec17d6cbd5b4ce726e1ac360c791add440"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,8 +18,8 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 585788,
-      "sha256": "db6ac7dc33562961b408b102e56f15a7949e7f994b0b1e6b8089fea663a34e73"
+      "size": 590445,
+      "sha256": "17bfee5ba74da2bc3fd1141e1e2d97553d6fd6a359a51cb52446e5b5db07d6bc"
     }
   ]
 }

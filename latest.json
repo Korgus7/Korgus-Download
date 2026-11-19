@@ -1,13 +1,13 @@
 {
- "version": "1.0.132",
+ "version": "1.0.133",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Presnejšie rozpoznávanie akordov z nahrávky: zachytí aj krátke akordy (1 doba), septakordy, sus4, zmenšené a obraty (napr. C/E), berie do úvahy basu, ladenie a tóninu a neruší ho bicie. Opravené: akord B (b) sa predtým čítal ako H.",
+ "notes": "Doprovod k úseku: pravý klik na nahrávku alebo časť → Doprovod. Bicie, bas, akordy a sólo sa vygenerujú podľa akordov piesne, šípkami ◀ ▶ prepínaš návrhy počas hrania, dĺžka = vybraný kúsok. Pri nahrávke bez akordov ich program najprv rozpozná. Akordy z nahrávky sa teraz menia presne na úderoch v hudbe.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13775872,
-   "sha256": "b564dd8fe44712a14bf3c92b491b83f730a422858d795e29fd8d07f5501ecaa9"
+   "size": 13673984,
+   "sha256": "62e5b4a7b200398ec05c5bba0bf3d47449d94224684a30b70311df7a0a568356"
   },
   {
    "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 639975,
-   "sha256": "21253b6ef9a192eed3b389172e34e5ae3481ab8a0b2ced9da2803f4b19069208"
+   "size": 653630,
+   "sha256": "311e4a02d4bad5bd8206f568d580e06625342274478043d47967382f65de430e"
   }
  ],
- "notes_en": "More accurate chord recognition from recordings: catches short chords (1 beat), seventh chords, sus4, diminished and inversions (e.g. C/E), uses the bass line, tuning and key, and ignores drums. Fixed: a Bb chord used to be read as B."
+ "notes_en": "Accompaniment for a section: right-click a recording or part → Accompaniment. Drums, bass, chords and solo are generated from the song's chords, switch suggestions with ◀ ▶ while playing, length = the selected piece. For a recording without chords they are detected first. Chords from recordings now change exactly on the hits in the music."
 }

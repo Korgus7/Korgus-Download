@@ -1,13 +1,13 @@
 {
- "version": "1.0.133",
+ "version": "1.0.134",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Doprovod k úseku: pravý klik na nahrávku alebo časť → Doprovod. Bicie, bas, akordy a sólo sa vygenerujú podľa akordov piesne, šípkami ◀ ▶ prepínaš návrhy počas hrania, dĺžka = vybraný kúsok. Pri nahrávke bez akordov ich program najprv rozpozná. Akordy z nahrávky sa teraz menia presne na úderoch v hudbe.",
+ "notes": "Rozpoznávanie akordov z nahrávky hľadá zmenu na každom údere v hudbe – nezávisle od tempa, aj prvý úder po doznení. Novo zahraté tóny majú prednosť pred doznievajúcim predošlým akordom. Stopy v aranžmáne sa dajú zväčšiť až na 400 bodov.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13673984,
-   "sha256": "62e5b4a7b200398ec05c5bba0bf3d47449d94224684a30b70311df7a0a568356"
+   "size": 13682688,
+   "sha256": "a9b2ae9f678086e67d5c11fb316006cb38cecbe5262268a1d16be74b940f7269"
   },
   {
    "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 653630,
-   "sha256": "311e4a02d4bad5bd8206f568d580e06625342274478043d47967382f65de430e"
+   "size": 653660,
+   "sha256": "3b6ece128085d88fdb3e04be0ba5f9881d32b58fb85c2750c03a9557d9661749"
   }
  ],
- "notes_en": "Accompaniment for a section: right-click a recording or part → Accompaniment. Drums, bass, chords and solo are generated from the song's chords, switch suggestions with ◀ ▶ while playing, length = the selected piece. For a recording without chords they are detected first. Chords from recordings now change exactly on the hits in the music."
+ "notes_en": "Chord recognition from recordings now looks for a change at every hit in the music – independent of the tempo, including the first hit after a decay. Newly played notes take priority over the previous chord still ringing. Arrangement tracks can be enlarged up to 400 px."
 }

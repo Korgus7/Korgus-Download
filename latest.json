@@ -21,5 +21,6 @@
    "size": 593454,
    "sha256": "d0a6497ba40fc58e792585a4cdb0ad23810347d7dacdb969968991e196db2f99"
   }
- ]
+ ],
+ "notes_en": "Inspiria: new layer options – pitch jump at the start of the note, mixed-in noise, filter following key and velocity. Icon switches instead of dropdowns, a single Advanced button, language taken from Sequencer. On a track with Inspiria, Surprise me and Learn sound are on the right of the track name row. Drummer: filter type as icons and 12/24 dB."
 }

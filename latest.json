@@ -1,13 +1,13 @@
 {
- "version": "1.0.129",
+ "version": "1.0.130",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Krivka energie: tlačidlo s vlnovkou v lište Aranžmánu zobrazí pás ENERGIA. Nakresli myšou, kde má pieseň stúpať a klesať – nástroje sa podľa krivky pridajú alebo uberú a zosilnia či stíšia. Pravý klik na pás: podľa sekcií, prechody podľa krivky, zrušiť. Inspiria: zdroj zvuku Klavír | Vzorky | WAV, jednotné ikony. Väčšie ikony okna nástroja a efektu, rovnako veľké Stop, Play a Nahrávanie.",
+ "notes": "Producent (ikona slúchadiel v lište Aranžmánu): rozoberie pieseň a navrhne zlepšenia – každý si vypočuješ, prepneš A/B a prijmeš alebo zahodíš. Verzie piesne (ikona vetvy): skús viac nápadov ako vetvy, prepínaj aj počas hrania a preber časť z inej verzie. Zvuk napodobený ústami: nahraj zvuk do audio stopy a v Nauč sa zvuk ho vyber – Inspiria z neho spraví syntezátor. Krivka energie: pri nízkej energii redšie bicie, filter Inspirie sa privrie, tlačidlom ju úplne vypneš.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13608448,
-   "sha256": "b5310580113c234b13c3677ca9f526c266c86767cf5dda1bdffd5a04086f3e5b"
+   "size": 13640704,
+   "sha256": "5b25888eeb967f553f31ee0505800dbfbea5648e21b0fa1f78229dab4a25d8b8"
   },
   {
    "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 607118,
-   "sha256": "c5d38007ce50abaa02e1c87c8de3a134fddacc9dc9ec3ac6a8fd9fb366de3c52"
+   "size": 630811,
+   "sha256": "4b468ea055871552ea2a907312d91897fe5a1500a45abe768e34804a7e7f826d"
   }
  ],
- "notes_en": "Energy curve: the wave button in the Arrangement bar shows the ENERGY lane. Draw where the song should rise and fall – instruments are added, removed, made louder or quieter to follow the curve. Right-click the lane: from sections, transitions from the curve, remove. Inspiria: sound source Piano | Samples | WAV, unified icons. Bigger instrument and effect window icons, Stop, Play and Record the same size."
+ "notes_en": "Producer (headphones icon in the Arrangement bar): analyses the song and suggests improvements – hear each one, switch A/B, accept or discard. Song versions (branch icon): try several ideas as branches, switch even while playing and take a part from another version. Mouth-imitated sound: record a sound into an audio track and pick it in Learn sound – Inspiria turns it into a synth. Energy curve: sparser drums and a darker Inspiria filter at low energy; the button turns it off completely."
 }

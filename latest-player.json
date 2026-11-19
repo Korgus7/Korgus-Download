@@ -1,6 +1,6 @@
 {
-  "version": "1.0.58",
+  "version": "1.0.59",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Cesta hore ako predtým, s ikonou na kopírovanie. Filter, triedenie, zobrazenie a hľadanie nad pravým oknom. Posuvník dole vpravo mení veľkosť náhľadov (v zozname výšku riadkov). Šírka stĺpcov v zozname sa mení ťahaním. Po otvorení programu sa nič samo neprehráva."
+  "notes": "Popisy pri ikonách hore. Kopírovanie cesty úplne vľavo, cesta písmom ako strom priečinkov. Filter, Triedenie, Mriežka/Zoznam a Hľadať nad zoznamom súborov. Mriežka/Zoznam len prepína. Stĺpce zoznamu v menu Triedenie. Deliace čiarky v nadpise zoznamu na zmenu šírky stĺpcov. Výraznejší posuvník veľkosti náhľadov dole vpravo."
 }

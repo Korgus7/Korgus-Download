@@ -1,25 +1,25 @@
 {
-  "version": "1.0.122",
+  "version": "1.0.123",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nový jednotný vzhľad: svetlé okná s bielou hlavičkou, jedno hlavné tlačidlo, jednofarebné čiarové ikony. Ploché tlačidlá a hlasitosť v hlavičkách stôp. Vyššie horné menu. Okná Pluginy a Nastavenia zvuku v rovnakých farbách.",
+  "notes": "Prehľadnejšie menu Súbor, Export a Nastavenia. Správa pluginov s kartou Zakázané. V hlavičke stopy tlačidlá A (automatizácia), SC (sidechain) a zmrazenie. Tmavá mriežka v bubeníkovi a jemnejšie okraje panelov.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13682176,
-      "sha256": "3d8624c8a6d8f83f784f5d4d76d2f87d1514e142c410e87c7e21c4604761757e"
+      "size": 13692416,
+      "sha256": "b62a911b763c6926bc8178df14c83924cfe6d13b879a1c9a5246f8812a9d1c96"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 23770624,
-      "sha256": "fb9b4e79c0a647bd5afb77ccc112bc51893977d9c74070e3321911428bd01f93"
+      "size": 23716864,
+      "sha256": "89211ea3e6fe9a1163553128df15914bb2d68272d98784214fc961bc10d18495"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 584397,
-      "sha256": "bea23963a09c9411dc313fbf6077ec06f9b84f5652166a7cefecab5635ff63ea"
+      "size": 585788,
+      "sha256": "db6ac7dc33562961b408b102e56f15a7949e7f994b0b1e6b8089fea663a34e73"
     }
   ]
 }

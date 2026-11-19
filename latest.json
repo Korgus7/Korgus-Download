@@ -1,26 +1,26 @@
 {
- "version": "1.0.127",
+ "version": "1.0.128",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Inspiria: 6 nových zvukov – Flauta, Gitara s trsatkom, Elektronický tom, Kopák, Laserový lead, Vzdušný pad. Prekvap ma občas pridá dych, vzduch alebo úder na začiatku tónu. Prepínače namiesto malých rozbaľovacích zoznamov v efektoch a oknách. Popis novej verzie v jazyku programu.",
+ "notes": "Inspiria: 22 zabudovaných vzoriek nástrojov (vo vrstve Sampel → Vzorky ▾) – gitary, basy, sláčiky, dychy, zbor, organ, zvonkohry. LFO môže ísť podľa tempa piesne (gombík Tempo: 1/4, 1/8, 1/16, trioly) – napr. vlnenie filtra pri base. Sequencer: pri vloženom MIDI alebo vzore z knižnice je vidieť názov, odkiaľ je a tónina (bublina nad časťou a hlavička editora).",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13715968,
-   "sha256": "d836d98835430679c8bd9c4f134f8a3977afada866301933576690010e17166f"
+   "size": 13719040,
+   "sha256": "92fad7d421b74bd5fed636b2ae484dd5eb856512418d358e97b8c711e65b8b44"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 23754240,
-   "sha256": "ad0a3f1eb48f0669bd8638f2186bc573fc87f6c7da42a803d74be75cac7d66d4"
+   "size": 26575360,
+   "sha256": "ad67d47082bee465559a0261d08047049f57d7046d2a07c923f626f0a8426426"
   },
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 595466,
-   "sha256": "a3fd61f5d4e11ec195f25425201bbda0a63fec475a92a29e3d2a0472ca1f4990"
+   "size": 597326,
+   "sha256": "0286bfb6d525b1027b62180a65c90187aad0cc5e7c8812ed0d2ec40b887afe14"
   }
  ],
- "notes_en": "Inspiria: 6 new sounds – Flute, Picked Guitar, Electronic Tom, Kick, Laser Lead, Airy Pad. Surprise me now sometimes adds breath, air or a pitch hit at the start of the note. Switches instead of small dropdowns in effects and dialogs. Update notes in the program's language."
+ "notes_en": "Inspiria: 22 built-in instrument samples (in a layer, Sample → Samples ▾) – guitars, basses, strings, winds, choir, organ, mallets. The LFO can follow the song tempo (Tempo knob: 1/4, 1/8, 1/16, triplets) – e.g. a filter wobble on a bass. Sequencer: an inserted MIDI file or library pattern shows its name, where it came from and its key (tooltip over the part and the editor header)."
 }

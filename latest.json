@@ -1,26 +1,26 @@
 {
- "version": "1.0.126",
+ "version": "1.0.127",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Inspiria: nové možnosti vrstvy – skok výšky na začiatku tónu, primiešaný šum, filter podľa klávesu a sily úderu. Prepínače s ikonami namiesto rozbaľovacích zoznamov, jedno tlačidlo Rozšírená, jazyk podľa Sequencera. Pri stope s Inspiriou sú Prekvap ma a Nauč sa zvuk vpravo v riadku názvu. Bubeník: typ filtra ikonami a 12/24 dB.",
+ "notes": "Inspiria: 6 nových zvukov – Flauta, Gitara s trsatkom, Elektronický tom, Kopák, Laserový lead, Vzdušný pad. Prekvap ma občas pridá dych, vzduch alebo úder na začiatku tónu. Prepínače namiesto malých rozbaľovacích zoznamov v efektoch a oknách. Popis novej verzie v jazyku programu.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13585920,
-   "sha256": "5df841446b974e955410882386b0f69c17de7009734a64994e95bc3c2e47c37f"
+   "size": 13715968,
+   "sha256": "d836d98835430679c8bd9c4f134f8a3977afada866301933576690010e17166f"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 23796736,
-   "sha256": "c4a5256d0d7032b99a63d29312ddbacf2762c07aaae45278d5c51bd28cad0457"
+   "size": 23754240,
+   "sha256": "ad0a3f1eb48f0669bd8638f2186bc573fc87f6c7da42a803d74be75cac7d66d4"
   },
   {
    "name": "korgus-ui.html",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 593454,
-   "sha256": "d0a6497ba40fc58e792585a4cdb0ad23810347d7dacdb969968991e196db2f99"
+   "size": 595466,
+   "sha256": "a3fd61f5d4e11ec195f25425201bbda0a63fec475a92a29e3d2a0472ca1f4990"
   }
  ],
- "notes_en": "Inspiria: new layer options – pitch jump at the start of the note, mixed-in noise, filter following key and velocity. Icon switches instead of dropdowns, a single Advanced button, language taken from Sequencer. On a track with Inspiria, Surprise me and Learn sound are on the right of the track name row. Drummer: filter type as icons and 12/24 dB."
+ "notes_en": "Inspiria: 6 new sounds – Flute, Picked Guitar, Electronic Tom, Kick, Laser Lead, Airy Pad. Surprise me now sometimes adds breath, air or a pitch hit at the start of the note. Switches instead of small dropdowns in effects and dialogs. Update notes in the program's language."
 }

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.55",
+  "version": "1.0.57",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Zvukový výstup a ASIO, výrez zo samplu (ťahaním po vlne), {bpm} a {tonina} v hromadnom premenovaní, import fotiek z karty a fotoaparátu."
+  "notes": "Zvuk cez WASAPI (namiesto ASIO). Horná lišta s ikonami a menu: filter, triedenie, zobrazenie (veľkosť náhľadov a riadkov, stĺpce zoznamu). Ctrl + koliesko mení veľkosť náhľadov. Cesta hore po častiach – klik skočí do priečinka. Kopírovanie cesty (aj Ctrl+Shift+C). Klik na veľký náhľad otvorí celú obrazovku. Po otvorení programu sa video ani MIDI samo nespustí. Rýchlejšie zatváranie."
 }

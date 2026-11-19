@@ -1,6 +1,6 @@
 {
-  "version": "1.0.61",
+  "version": "1.0.65",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Nová sada ikon (tenké čiary), nové ikony otáčania s jasnou šípkou. Bubliny pri ikonách ako vo Windows, krátke a bez zátvoriek."
+  "notes": "Prehrávanie zvuku aj v dvoch paneloch. Zvuky v zozname s ikonou noty, ostatné súbory ako list papiera (nepletú sa s priečinkami). Obyčajné písmo namiesto tučného v celom programe."
 }

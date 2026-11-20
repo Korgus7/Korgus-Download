@@ -1,26 +1,26 @@
 {
-  "version": "1.0.140",
+  "version": "1.0.141",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Meranie rýchlosti štartu (start-log.txt).",
+  "notes": "Rýchlejší štart. Tlačidlo FX v Inspirii aj v hlavičke stopy (efekty zap/vyp). Nové vzorky: akustická, jazzová a elektrická gitara, basgitara, kontrabas.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13804544,
-      "sha256": "32a67b6663bbc0214f11e19945916ada919d82f8048f1e284b5c9ef77cd0ce52"
+      "size": 13810688,
+      "sha256": "90f8fb30717a4416c6a0b1f9b1a82c07ce88b53ef627cc04df29f6cb871e0c55"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 73153024,
-      "sha256": "f0a4a7616ae19a5f3996d3ab1e0077e4f0bd32b2f86f0b819dd3f885b882f4be"
+      "size": 73902592,
+      "sha256": "d883346d4fef044dafa106d1fc260dbf93dabf623d5d19396c563a7ce79fe670"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 655115,
-      "sha256": "17e6c8c5c7fa43e92896fe6c009a61db6be2d831ff9a35e9e0569dce752b5343"
+      "size": 656414,
+      "sha256": "e89bbe84eb01a1b7a7358460c34b6a7a864d3ea6bca6f25ebbfc877173e06cd8"
     }
   ],
-  "notes_en": "Startup timing log (start-log.txt)."
+  "notes_en": "Faster startup. FX button in Inspiria and in the track header (effects on/off). New samples: acoustic, jazz and electric guitar, bass guitar, double bass."
 }

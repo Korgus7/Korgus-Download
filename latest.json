@@ -1,26 +1,26 @@
 {
- "version": "1.0.138",
- "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Korgus Inspiria má dve časti: Nástroje (36 nahratých nástrojov) a Syntezátor. Doterajšie zvuky sú roztriedené v Syntezátore – Synth klávesy, Pady, Synth sláčiky, Plucky, Synth basy a Leady. Prekvap ma, Obmena a Nauč sa zvuk sú v časti Syntezátor.",
- "files": [
-  {
-   "name": "Korgus Sequencer.exe",
-   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13798912,
-   "sha256": "95bf67340221f3bb4842cc79a283134233f11186f1457847d29fbb6f6e8a8963"
-  },
-  {
-   "name": "Korgus Inspiria.vst3",
-   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 73149952,
-   "sha256": "d4b3457e28e27c48e7c37c07bb0c41527d98127b6d9404c27c45bedf4251677a"
-  },
-  {
-   "name": "korgus-ui.html",
-   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-   "size": 655115,
-   "sha256": "17e6c8c5c7fa43e92896fe6c009a61db6be2d831ff9a35e9e0569dce752b5343"
-  }
- ],
- "notes_en": "Korgus Inspiria has two sections: Instruments (36 recorded instruments) and Synthesizer. The previous sounds are sorted in the Synthesizer – Synth Keys, Pads, Synth Strings, Plucks, Synth Bass and Leads. Surprise me, Vary and Learn sound are in the Synthesizer section."
+  "version": "1.0.139",
+  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
+  "notes": "Inspiria: prepínač Nástroje / Syntezátor aj v rozšírenej verzii.",
+  "files": [
+    {
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 13798912,
+      "sha256": "2e4e023fb0a590eec23c06c88cf65be236d46f72baa3eca2d03e665b69b524c2"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 73153024,
+      "sha256": "f0a4a7616ae19a5f3996d3ab1e0077e4f0bd32b2f86f0b819dd3f885b882f4be"
+    },
+    {
+      "name": "korgus-ui.html",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
+      "size": 655115,
+      "sha256": "17e6c8c5c7fa43e92896fe6c009a61db6be2d831ff9a35e9e0569dce752b5343"
+    }
+  ],
+  "notes_en": "Inspiria: Instruments / Synthesizer switch in the extended view too."
 }

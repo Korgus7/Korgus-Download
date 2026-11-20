@@ -1,19 +1,19 @@
 {
- "version": "1.0.137",
+ "version": "1.0.138",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Korgus Inspiria: ďalších 16 nahratých nástrojov – pizzicato, tremolo a staccato sláčiky, harfa, píšťalový organ, elektrická gitara, ústna harmonika, lesný roh, hoboj, fagot, tuba, okarína, zobcová flauta, kalimba, rúrkové zvony a xylofón. Držané tóny prechádzajú do opakovania ešte plynulejšie. Editor bicích a nôt: lišta je rozdelená do skupín (zápis, rytmus/linky a funkcie, kvantizácia, dĺžka) a pri bicích sa s dĺžkou časti predĺži aj vzor, takže v editore vidíš celú časť.",
+ "notes": "Korgus Inspiria má dve časti: Nástroje (36 nahratých nástrojov) a Syntezátor. Doterajšie zvuky sú roztriedené v Syntezátore – Synth klávesy, Pady, Synth sláčiky, Plucky, Synth basy a Leady. Prekvap ma, Obmena a Nauč sa zvuk sú v časti Syntezátor.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13684736,
-   "sha256": "258f0723c22d99910badf29bf8a517737d33cce9dc18b6219e0f2da4a74e570a"
+   "size": 13798912,
+   "sha256": "95bf67340221f3bb4842cc79a283134233f11186f1457847d29fbb6f6e8a8963"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 73085440,
-   "sha256": "64de62dd00f5503864b81e8f59a82376c0fc2cb5a5c5c63032fa8600851ed809"
+   "size": 73149952,
+   "sha256": "d4b3457e28e27c48e7c37c07bb0c41527d98127b6d9404c27c45bedf4251677a"
   },
   {
    "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
    "sha256": "17e6c8c5c7fa43e92896fe6c009a61db6be2d831ff9a35e9e0569dce752b5343"
   }
  ],
- "notes_en": "Korgus Inspiria: 16 more recorded instruments – pizzicato, tremolo and staccato strings, harp, pipe organ, electric guitar, harmonica, French horn, oboe, bassoon, tuba, ocarina, recorder, kalimba, tubular bells and xylophone. Held notes loop even more smoothly. Drum and note editor: the toolbar is split into groups (input, rhythm/lines and functions, quantize, length), and for drums the pattern grows with the part length, so the editor shows the whole part."
+ "notes_en": "Korgus Inspiria has two sections: Instruments (36 recorded instruments) and Synthesizer. The previous sounds are sorted in the Synthesizer – Synth Keys, Pads, Synth Strings, Plucks, Synth Bass and Leads. Surprise me, Vary and Learn sound are in the Synthesizer section."
 }

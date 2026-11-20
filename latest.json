@@ -1,13 +1,13 @@
 {
-  "version": "1.0.139",
+  "version": "1.0.140",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: prepínač Nástroje / Syntezátor aj v rozšírenej verzii.",
+  "notes": "Meranie rýchlosti štartu (start-log.txt).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13798912,
-      "sha256": "2e4e023fb0a590eec23c06c88cf65be236d46f72baa3eca2d03e665b69b524c2"
+      "size": 13804544,
+      "sha256": "32a67b6663bbc0214f11e19945916ada919d82f8048f1e284b5c9ef77cd0ce52"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -22,5 +22,5 @@
       "sha256": "17e6c8c5c7fa43e92896fe6c009a61db6be2d831ff9a35e9e0569dce752b5343"
     }
   ],
-  "notes_en": "Inspiria: Instruments / Synthesizer switch in the extended view too."
+  "notes_en": "Startup timing log (start-log.txt)."
 }

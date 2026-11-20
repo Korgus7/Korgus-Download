@@ -1,19 +1,19 @@
 {
- "version": "1.0.135",
+ "version": "1.0.136",
  "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
- "notes": "Rozpoznávanie akordov: keď sa ten istý akord zahrá znova (nový úder), zapíše sa znova – noty v stope akordov udierajú spolu s nahrávkou. Pribudli kvintakordy (power chord, napr. Eb5) a názvy podľa tóniny (Db namiesto C# v b-tóninách).",
+ "notes": "Korgus Inspiria: 20 nových realistických nástrojov nahratých z ozajstných nástrojov – koncertný klavír, pianíno, Rhodes, čembalo, akustická a jazzová gitara, basgitara, jazzový kontrabas, sláčiková sekcia, sólové husle, violončelá, jazzová trúbka s dusítkom aj otvorená, tenor saxofón, trombón, flauta, klarinet, vibrafón, marimba a zvonkohra. Každý reaguje na silu úderu a držané tóny znejú plynulo. Vo vrstve ich nájdeš pod zdrojom „Nástroj“. Doterajšie zvuky sú v kategórii „Roztriediť“.",
  "files": [
   {
    "name": "Korgus Sequencer.exe",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-   "size": 13797888,
-   "sha256": "8470afeb32bb5ea89a9b673300b03dbae1cac9c7b94ce15c15e8098e74456418"
+   "size": 13683712,
+   "sha256": "08c57118aba481e22b9a52405b6faffd1bd09b13feccc5133eef725831854802"
   },
   {
    "name": "Korgus Inspiria.vst3",
    "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-   "size": 26584064,
-   "sha256": "cb8fb51d58e613214bea9a5388e3166c684a507ee87fc26677715840027ec2ea"
+   "size": 55065600,
+   "sha256": "7cdaeccb925d7795429556cc9b0eb38f03a0ee1faac8d8bf6843516c0a7b5a62"
   },
   {
    "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
    "sha256": "0efca4316184734cf15ddaa74e86a4e968249178e9491adce20961b2ecfbd083"
   }
  ],
- "notes_en": "Chord recognition: when the same chord is played again (a new hit), it is written again – the notes in the chord track hit together with the recording. Added power chords (e.g. Eb5) and key-aware names (Db instead of C# in flat keys)."
+ "notes_en": "Korgus Inspiria: 20 new realistic instruments recorded from real instruments – concert grand, upright piano, Rhodes, harpsichord, acoustic and jazz guitar, bass guitar, jazz upright bass, string section, solo violin, cellos, muted and open jazz trumpet, tenor sax, trombone, flute, clarinet, vibraphone, marimba and glockenspiel. Each responds to velocity and held notes sound smooth. In a layer they are under the source \"Instrument\". The previous sounds are in the category \"To sort\"."
 }

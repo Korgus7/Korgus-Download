@@ -1,6 +1,6 @@
 {
-  "version": "1.0.65",
+  "version": "1.0.68",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Prehrávanie zvuku aj v dvoch paneloch. Zvuky v zozname s ikonou noty, ostatné súbory ako list papiera (nepletú sa s priečinkami). Obyčajné písmo namiesto tučného v celom programe."
+  "notes": "Jedno okno: ďalší súbor sa otvorí v spustenom Playeri. Svetlejšia ikona. Výrez: šípky na presný posun a veľkosť."
 }

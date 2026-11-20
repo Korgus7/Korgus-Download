@@ -1,7 +1,7 @@
 {
   "version": "1.0.141",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Rýchlejší štart. Tlačidlo FX v Inspirii aj v hlavičke stopy (efekty zap/vyp). Nové vzorky: akustická, jazzová a elektrická gitara, basgitara, kontrabas.",
+  "notes": "Rýchlejší štart (pieseň hneď, nástroje sa dočítajú). FX pre všetky stopy, obľúbené zvuky na pravý klik na ✦. Inspiria: ukážka zvuku pri výbere, živšie nástroje, jemnejšia akustická gitara. Gitarové brnknutie v editore.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 656414,
-      "sha256": "e89bbe84eb01a1b7a7358460c34b6a7a864d3ea6bca6f25ebbfc877173e06cd8"
+      "size": 661081,
+      "sha256": "dece0359b66f1f763337e013d870de305f9a6b254b28d59a6b4d80386e36217a"
     }
   ],
-  "notes_en": "Faster startup. FX button in Inspiria and in the track header (effects on/off). New samples: acoustic, jazz and electric guitar, bass guitar, double bass."
+  "notes_en": "Faster startup (song right away, instruments load after). FX for all tracks, favourite sounds on right-click of ✦. Inspiria: sound preview when picking, livelier instruments, softer acoustic guitar. Guitar strum in the editor."
 }

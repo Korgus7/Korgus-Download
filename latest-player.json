@@ -1,6 +1,6 @@
 {
-  "version": "1.0.69",
+  "version": "1.0.70",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Výrez zvuku: šípky na presný začiatok a koniec. Opakovanie a náhodné poradie vľavo pri prehrávači. Tempo len pri loopoch so známym BPM. MIDI zastaví hrajúci WAV."
+  "notes": "Výrez: úchyty so šípkami priamo na čiarach (zvuk aj obrázok). Priečinky: nový, premenovať, do koša. Rýchlejšie prvé prehratie."
 }

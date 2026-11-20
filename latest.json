@@ -1,19 +1,19 @@
 {
-  "version": "1.0.141",
+  "version": "1.0.142",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
   "notes": "Rýchlejší štart (pieseň hneď, nástroje sa dočítajú). FX pre všetky stopy, obľúbené zvuky na pravý klik na ✦. Inspiria: ukážka zvuku pri výbere, živšie nástroje, jemnejšia akustická gitara. Gitarové brnknutie v editore.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13810688,
-      "sha256": "90f8fb30717a4416c6a0b1f9b1a82c07ce88b53ef627cc04df29f6cb871e0c55"
+      "size": 13709312,
+      "sha256": "4a18cd420c3c8bf22d28f43099975708c7a2d213ce06c342d8912f2f62af89fd"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 73902592,
-      "sha256": "d883346d4fef044dafa106d1fc260dbf93dabf623d5d19396c563a7ce79fe670"
+      "size": 74093568,
+      "sha256": "4b804f53a2abb233969c9cd76a4de8399a946426f350379cbecef0ffbbe783e5"
     },
     {
       "name": "korgus-ui.html",

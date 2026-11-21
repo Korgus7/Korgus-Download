@@ -1,6 +1,6 @@
 {
-  "version": "1.0.72",
+  "version": "1.0.73",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Výrez zvuku: priblíženie kolieskom, podrobná vlna, Shift = jemné ťahanie, strih na prechode nulou. Video: filmový pás pod videom s výrezom, priblížením a uložením výrezu do MP4."
+  "notes": "Samply sa už neprehrávajú samy za sebou – sample sa zahrá raz (skladby nad 60 s pokračujú ďalšou ako doteraz). Plus zoom vlny a filmový pás videa z 1.0.72."
 }

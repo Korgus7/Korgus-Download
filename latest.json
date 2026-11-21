@@ -1,13 +1,13 @@
 {
-  "version": "1.0.144",
+  "version": "1.0.145",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nahrávanie bicích z klávesnice, MIDI kláves aj klikom na pady funguje. ● zapne aj reproduktor stopy, MIDI hrá len stopy so zapnutým reproduktorom (alebo vybranú). Inspiria: citlivosť kláves – ikona klávesnice vedľa ♪.",
+  "notes": "MIDI na bicích: zvuky súpravy hrá len program – klavír už nehrá spolu s bicími a nie je dvojitý úder. Vlna na padoch je v strede.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13711360,
-      "sha256": "4f855600da43df64197e48fb308d2d9268e79eea0dfd98e9277815d6d8feed34"
+      "size": 13716480,
+      "sha256": "5a64a1de1097bdda396c008ffa6a100de000db8f61f6ee923d0558cb6c31a34a"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 663127,
-      "sha256": "80f37a820d03f215bc13703e2e058df1f5909ba3d97b17ad240dac0bddd866cc"
+      "size": 663958,
+      "sha256": "c9255985bb02e8fdf95931ffbb359474b38ed571898c457f409bf2b1589191b5"
     }
   ],
-  "notes_en": "Recording drums from the computer keyboard, MIDI keys and by clicking pads works. ● also turns on the track speaker; MIDI plays only tracks with the speaker on (or the selected one). Inspiria: key sensitivity – keyboard icon next to ♪."
+  "notes_en": "MIDI on drums: kit sounds are played only by the program – the piano no longer plays along with the drums and there is no double hit. Pad waveforms are centred."
 }

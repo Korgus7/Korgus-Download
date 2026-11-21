@@ -1,26 +1,26 @@
 {
-  "version": "1.0.143",
+  "version": "1.0.144",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: citlivosť kláves (jemná / normálna / tvrdá) – ikona klávesnice vedľa ♪.",
+  "notes": "Nahrávanie bicích z klávesnice, MIDI kláves aj klikom na pady funguje. ● zapne aj reproduktor stopy, MIDI hrá len stopy so zapnutým reproduktorom (alebo vybranú). Inspiria: citlivosť kláves – ikona klávesnice vedľa ♪.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13825024,
-      "sha256": "4d7f62f4a4ebd791a06820f74ddeb622401323f9dbecc51808576e5bfbb357f4"
+      "size": 13711360,
+      "sha256": "4f855600da43df64197e48fb308d2d9268e79eea0dfd98e9277815d6d8feed34"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 74057216,
-      "sha256": "34ae8bd5f3a3a6cd32462564f4f3c21663ae028834d20df8b4eca3ce27841060"
+      "sha256": "fba0710245b5f8ffc3d73fc5e1c0d3765fcba6f0de2ecdcf06a027b0ca3ef055"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 661081,
-      "sha256": "dece0359b66f1f763337e013d870de305f9a6b254b28d59a6b4d80386e36217a"
+      "size": 663127,
+      "sha256": "80f37a820d03f215bc13703e2e058df1f5909ba3d97b17ad240dac0bddd866cc"
     }
   ],
-  "notes_en": "Inspiria: key sensitivity (soft / normal / hard) – keyboard icon next to ♪."
+  "notes_en": "Recording drums from the computer keyboard, MIDI keys and by clicking pads works. ● also turns on the track speaker; MIDI plays only tracks with the speaker on (or the selected one). Inspiria: key sensitivity – keyboard icon next to ♪."
 }

@@ -1,19 +1,19 @@
 {
-  "version": "1.0.153",
+  "version": "1.0.154",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: pri načítaní samplu sa sám zistí jeho tón (Zákl. tón a Jemne). Nový editor samplu (✎): začiatok, koniec, nábeh, doznenie, slučka s plynulým prelínaním, prehrávanie odzadu.",
+  "notes": "Inspiria: prehľadnejšie okno – zvuky sú vždy rovnako veľké tlačidlá, jedna farba výberu, gombíky ukazujú smer zmeny (napr. „jasnejší 30 %“), tlačidlo ♪ Ukážka s popisom a vysvetlenie Inšpirácie.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13738496,
-      "sha256": "aa335e81c6d805bd46bffeec9e3cda1cd66084db22385cab2177f22c8fc1fd8b"
+      "sha256": "2f4fd98ad750172bddf5768b6f2469297928678f188bcb307e5832283268a503"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74115072,
-      "sha256": "e5c8a3544da0a7317eb2a9bd31abe7ac6992a34c497b26c41ac6133c106f7b88"
+      "size": 74121216,
+      "sha256": "313d3251fcd720403bc0b36a6663dba1e4e0ae2b828f939cd0bf3760183bdb8f"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
     }
   ],
-  "notes_en": "Inspiria: loading a sample detects its pitch automatically (Root and Fine). New sample editor (✎): start, end, fade-in, fade-out, loop with smooth crossfade, reverse."
+  "notes_en": "Inspiria: clearer window – sound buttons are always the same size, one selection colour, knobs show the direction of change (e.g. “brighter 30 %”), a labelled ♪ Preview button and an explanation of Inspiration."
 }

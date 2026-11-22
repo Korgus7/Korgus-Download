@@ -1,19 +1,19 @@
 {
-  "version": "1.0.154",
+  "version": "1.0.155",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: prehľadnejšie okno – zvuky sú vždy rovnako veľké tlačidlá, jedna farba výberu, gombíky ukazujú smer zmeny (napr. „jasnejší 30 %“), tlačidlo ♪ Ukážka s popisom a vysvetlenie Inšpirácie.",
+  "notes": "Inspiria: menšie tlačidlá zvukov, menšia Inšpirácia a gombíky, veľkosť okna je pod ikonou v hlavičke Inspirie. Opravený text pri Dozvuku.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13738496,
-      "sha256": "2f4fd98ad750172bddf5768b6f2469297928678f188bcb307e5832283268a503"
+      "sha256": "12cf6fc3c7878c93aa7ba8a85cd7fcf5f80932f2dd781e573e12e9a1f5473130"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74121216,
-      "sha256": "313d3251fcd720403bc0b36a6663dba1e4e0ae2b828f939cd0bf3760183bdb8f"
+      "size": 74127360,
+      "sha256": "22fba368653f9ad378c04dd08fc5e8613065a1e2f6c7724a463a059f39e2ab75"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
     }
   ],
-  "notes_en": "Inspiria: clearer window – sound buttons are always the same size, one selection colour, knobs show the direction of change (e.g. “brighter 30 %”), a labelled ♪ Preview button and an explanation of Inspiration."
+  "notes_en": "Inspiria: smaller sound buttons, smaller Inspiration button and knobs, window size is behind an icon in Inspiria's header. Fixed the Release knob text."
 }

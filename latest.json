@@ -1,19 +1,19 @@
 {
-  "version": "1.0.162",
+  "version": "1.0.163",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: čistejší zvuk – oscilátory bez zrnitosti pri vysokých tónoch, kvalitnejšie prehrávanie vlastných vzoriek, dozvuk bez basov a menej tlmený, menej dozvuku a chorusu v syntezátorových zvukoch.",
+  "notes": "Inspiria: nový klavír Steinway B s plnými výškami (jasnejší a čistejší), 8-pásmový ekvalizér celého zvuku – šírka pásma pravým tlačidlom, Shiftom alebo kolieskom, nový efekt Lesk, gitara bez „banja“.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13743104,
-      "sha256": "89106c3c55bed0a6271ec43ca2962c868ed4cb6f76872f8c65e3af2c58fd50f9"
+      "sha256": "14777ee2822dcfea63da2cad478ae520a85dd59459202b8b9eb0ded7b73893dd"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74131968,
-      "sha256": "63e1af41ffdd0c878989172482795244f6a8e76d39219b580ecc4cbf080474ec"
+      "size": 85168128,
+      "sha256": "bc0d92da65f54bd5f9ad7bd9dd927eee8a03ee80648deb12838b9d8a3c32b5aa"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "c6785f8e01e2963df9627eb2d6139033160c6c3be3af6516f388a4c1774e8012"
     }
   ],
-  "notes_en": "Inspiria: cleaner sound – oscillators without grit on high notes, better playback of your own samples, reverb without lows and less damped, less reverb and chorus in synth sounds."
+  "notes_en": "Inspiria: new Steinway B piano with full highs (brighter and cleaner), 8-band EQ for the whole sound – band width with the right button, Shift or the wheel, new Air effect, guitar without the “banjo” sound."
 }

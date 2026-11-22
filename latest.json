@@ -1,26 +1,20 @@
 {
-  "version": "1.0.145",
+  "version": "1.0.147",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "MIDI na bicích: zvuky súpravy hrá len program – klavír už nehrá spolu s bicími a nie je dvojitý úder. Vlna na padoch je v strede.",
+  "notes": "Bicie: pri nahrávaní už nie sú dvojité údery, Inspiria nehrá spolu s bicími z MIDI kláves, svetlé pozadie mriežky. Aktualizácia nevymieňa nezmenené súbory.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13716480,
-      "sha256": "5a64a1de1097bdda396c008ffa6a100de000db8f61f6ee923d0558cb6c31a34a"
-    },
-    {
-      "name": "Korgus Inspiria.vst3",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74057216,
-      "sha256": "fba0710245b5f8ffc3d73fc5e1c0d3765fcba6f0de2ecdcf06a027b0ca3ef055"
+      "size": 13717504,
+      "sha256": "dd59bd23f93aac8f7f96935aeaa2ece4602217020be432ca17c48864586960e7"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 663958,
-      "sha256": "c9255985bb02e8fdf95931ffbb359474b38ed571898c457f409bf2b1589191b5"
+      "size": 663838,
+      "sha256": "1677f331b6c070c4a89a674b15f0a9e0172ad9465e25ba236c267a72d3530c6c"
     }
   ],
-  "notes_en": "MIDI on drums: kit sounds are played only by the program – the piano no longer plays along with the drums and there is no double hit. Pad waveforms are centred."
+  "notes_en": "Drums: no more double hits when recording, Inspiria no longer plays along with drums from MIDI keys, light grid background. Updates no longer replace unchanged files."
 }

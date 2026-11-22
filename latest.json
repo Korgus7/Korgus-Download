@@ -1,26 +1,20 @@
 {
-  "version": "1.0.155",
+  "version": "1.0.156",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: menšie tlačidlá zvukov, menšia Inšpirácia a gombíky, veľkosť okna je pod ikonou v hlavičke Inspirie. Opravený text pri Dozvuku.",
+  "notes": "M stíši stopu okamžite. V bubeníkovi: tlačidlo × Vymazať všetko, zvýraznený Rytmus a Sada, ručne vybraná sada ostane pri zmene rytmu. Ikona nástroja na stope bicích otvorí bubeníka.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13738496,
-      "sha256": "12cf6fc3c7878c93aa7ba8a85cd7fcf5f80932f2dd781e573e12e9a1f5473130"
-    },
-    {
-      "name": "Korgus Inspiria.vst3",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74127360,
-      "sha256": "22fba368653f9ad378c04dd08fc5e8613065a1e2f6c7724a463a059f39e2ab75"
+      "size": 13739520,
+      "sha256": "ed23b5bbfa1bfcbc8a08b27d4c17f4bb5600995d73186aad50b193721e45b097"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 674594,
-      "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
+      "size": 675894,
+      "sha256": "2af94621eacb3d7bd584f0b62debe79059fb4362733b1c072947d22b2ce8ca8a"
     }
   ],
-  "notes_en": "Inspiria: smaller sound buttons, smaller Inspiration button and knobs, window size is behind an icon in Inspiria's header. Fixed the Release knob text."
+  "notes_en": "M mutes a track instantly. Drum editor: × Clear all button, highlighted Rhythm and Kit, a manually chosen kit stays when changing rhythms. The instrument icon on a drum track opens the drum editor."
 }

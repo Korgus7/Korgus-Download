@@ -1,20 +1,26 @@
 {
-  "version": "1.0.148",
+  "version": "1.0.149",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "C = metronóm aj pri hraní z klávesnice (sila úderu V/B). Stopy so zapnutým reproduktorom hrajú aj s bicími. × v riadkoch bubeníka vymaže riadok. AQ a mriežka v spodnom paneli.",
+  "notes": "Citlivosť MIDI kláves je v spodnom paneli (Ľahký / Normálna / Tvrdý úder) a platí pre všetky nástroje aj bicie. Nahrávanie v cykle vytvorí jednu časť presne od L po R.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13720064,
-      "sha256": "7003bc157a60a749cfd6e6068c1008c0d637309020a94d977b573e8053b885ac"
+      "size": 13724672,
+      "sha256": "a3f3259ab4ac68fa1f6c48bca05161af4c50b884fff7284cc4011c6bada4f489"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 74056704,
+      "sha256": "8ee2ff3d207c448434cf47ccc97e6e637b7cb7ebe1a6214e1d19adeffa0d9dbe"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 666503,
-      "sha256": "3fded905e4b5ffe8785933c1497de28d782ec6d5f5b85d6cd5697f1fe6b08fb7"
+      "size": 668560,
+      "sha256": "bc62ffaaa50de81c477a46849af195f6738aeca1bf7bd575c4117c1b29019b6d"
     }
   ],
-  "notes_en": "C = metronome also while playing from the computer keyboard (velocity V/B). Tracks with the speaker on also play along with drums. × in drum rows clears the row. AQ and grid in the bottom bar."
+  "notes_en": "MIDI key sensitivity is in the bottom bar (Light / Normal / Hard touch) and applies to all instruments and drums. Cycle recording creates one part exactly from L to R."
 }

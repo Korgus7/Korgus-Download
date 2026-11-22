@@ -1,13 +1,19 @@
 {
-  "version": "1.0.151",
+  "version": "1.0.152",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nauč sa zvuk: počas učenia vidíš spektrum zdroja a najlepší pokus Inspirie, ktorý sa k nemu približuje. V riadkoch bubeníka sú tlačidlá M a S (prepojené s padmi).",
+  "notes": "Inspiria: vlastný sampel sa automaticky vyrovná na plnú hlasitosť. Nástroje v menu sú rozdelené do skupín (klávesy, gitary, sláčiky, dychy…).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13738496,
-      "sha256": "b164ca77fbc064d1ef3ba05b459b360265196d2cdb8588fe03b8db4da532bd84"
+      "sha256": "487200dcc2517b91424216b10099408f6db54826778ae647db8d944d1052de81"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 74061312,
+      "sha256": "4968dda2dda3f5d2b584b8f09899f122b627876d7ca491f6a62a8f87fea424c1"
     },
     {
       "name": "korgus-ui.html",
@@ -16,5 +22,5 @@
       "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
     }
   ],
-  "notes_en": "Learn sound: while learning you see the source spectrum and Inspiria's best attempt getting closer to it. Drum rows now have M and S buttons (linked with the pads)."
+  "notes_en": "Inspiria: your own sample is automatically brought up to full volume. Instruments in the menu are grouped (keys, guitars, strings, winds…)."
 }

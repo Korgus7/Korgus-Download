@@ -1,19 +1,19 @@
 {
-  "version": "1.0.152",
+  "version": "1.0.153",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: vlastný sampel sa automaticky vyrovná na plnú hlasitosť. Nástroje v menu sú rozdelené do skupín (klávesy, gitary, sláčiky, dychy…).",
+  "notes": "Inspiria: pri načítaní samplu sa sám zistí jeho tón (Zákl. tón a Jemne). Nový editor samplu (✎): začiatok, koniec, nábeh, doznenie, slučka s plynulým prelínaním, prehrávanie odzadu.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13738496,
-      "sha256": "487200dcc2517b91424216b10099408f6db54826778ae647db8d944d1052de81"
+      "sha256": "aa335e81c6d805bd46bffeec9e3cda1cd66084db22385cab2177f22c8fc1fd8b"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74061312,
-      "sha256": "4968dda2dda3f5d2b584b8f09899f122b627876d7ca491f6a62a8f87fea424c1"
+      "size": 74115072,
+      "sha256": "e5c8a3544da0a7317eb2a9bd31abe7ac6992a34c497b26c41ac6133c106f7b88"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
     }
   ],
-  "notes_en": "Inspiria: your own sample is automatically brought up to full volume. Instruments in the menu are grouped (keys, guitars, strings, winds…)."
+  "notes_en": "Inspiria: loading a sample detects its pitch automatically (Root and Fine). New sample editor (✎): start, end, fade-in, fade-out, loop with smooth crossfade, reverse."
 }

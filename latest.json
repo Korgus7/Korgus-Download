@@ -1,20 +1,20 @@
 {
-  "version": "1.0.159",
+  "version": "1.0.160",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Vrátené rozhranie z verzie 1.0.157 (hlavička stopy a spodný panel ako predtým).",
+  "notes": "Pri nahrávaní držaný tón rastie priebežne. V editore nôt pod Funkcie pribudlo: Legato, Staccato, Pevná dĺžka, Sila úderu a Vymazať zdvojené noty.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13740032,
-      "sha256": "0b9c67ea9150680676d5535e55b0ef21f46c2083009a3b0533d92b90e37549c4"
+      "size": 13742592,
+      "sha256": "efdb8ab796e0c1e66879dfd3d2f880dd4f689c81acad6b0bea666a98a8f2971e"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 676183,
-      "sha256": "e6bf762295864c11dc1faa67ecc9c3dfe2d59ad77969f93173446f3129684979"
+      "size": 678899,
+      "sha256": "05adb58e242a17573f64a3358b8d87c74df871272c987576ef33f9bb95220896"
     }
   ],
-  "notes_en": "Restored the interface from version 1.0.157 (track header and bottom bar as before)."
+  "notes_en": "While recording, a held note grows live. New in the note editor Functions menu: Legato, Staccato, Fixed length, Velocity and Delete duplicate notes."
 }

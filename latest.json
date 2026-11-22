@@ -1,26 +1,26 @@
 {
-  "version": "1.0.163",
+  "version": "1.0.164",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: nový klavír Steinway B s plnými výškami (jasnejší a čistejší), 8-pásmový ekvalizér celého zvuku – šírka pásma pravým tlačidlom, Shiftom alebo kolieskom, nový efekt Lesk, gitara bez „banja“.",
+  "notes": "Oprava pádu Inspirie (po aktualizácii sa znova sama povolí), editor nôt má po otvorení alebo prepnutí stopy hneď fokus – Ctrl+A označí noty.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13743104,
-      "sha256": "14777ee2822dcfea63da2cad478ae520a85dd59459202b8b9eb0ded7b73893dd"
+      "size": 13745152,
+      "sha256": "df7dfa785be5332e20c2551e98f6cdb3cf486894d88a6b720ab72e21b03a675d"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 85168128,
-      "sha256": "bc0d92da65f54bd5f9ad7bd9dd927eee8a03ee80648deb12838b9d8a3c32b5aa"
+      "sha256": "56fde477f460a1306cfd5b576b974b9fbc0488ff5c53545deede6b34df444543"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 679186,
-      "sha256": "c6785f8e01e2963df9627eb2d6139033160c6c3be3af6516f388a4c1774e8012"
+      "size": 679382,
+      "sha256": "b87a6ac820b8f810c693858c9c0e4b135d96184d061a8c416e98916d4ad2ec6f"
     }
   ],
-  "notes_en": "Inspiria: new Steinway B piano with full highs (brighter and cleaner), 8-band EQ for the whole sound – band width with the right button, Shift or the wheel, new Air effect, guitar without the “banjo” sound."
+  "notes_en": "Inspiria crash fix (it is re-enabled automatically after the update); the note editor gets focus right after opening or switching tracks – Ctrl+A selects the notes."
 }

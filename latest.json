@@ -1,19 +1,19 @@
 {
-  "version": "1.0.164",
+  "version": "1.0.165",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Oprava pádu Inspirie (po aktualizácii sa znova sama povolí), editor nôt má po otvorení alebo prepnutí stopy hneď fokus – Ctrl+A označí noty.",
+  "notes": "Inspiria: 13 zvukov jasnejších a s menej dozvukom, 5 nových čistých filmových zvukov (Púštny dron, Púštny roh, Hlboký spev, Piesočný bas, Čistý filmový pad), pôvodný klavír na porovnanie, odstránená jednosmerná zložka (viac rezervy).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13745152,
-      "sha256": "df7dfa785be5332e20c2551e98f6cdb3cf486894d88a6b720ab72e21b03a675d"
+      "sha256": "db671b66805feabfcd3783ab6f50251669c5781c63617b32f39564bf6a0e80a7"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 85168128,
-      "sha256": "56fde477f460a1306cfd5b576b974b9fbc0488ff5c53545deede6b34df444543"
+      "size": 100389888,
+      "sha256": "3f06e1b1c631c05be8f1e7c18f415abf7c1b9e85e57d2e199d970e7276df8afa"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "b87a6ac820b8f810c693858c9c0e4b135d96184d061a8c416e98916d4ad2ec6f"
     }
   ],
-  "notes_en": "Inspiria crash fix (it is re-enabled automatically after the update); the note editor gets focus right after opening or switching tracks – Ctrl+A selects the notes."
+  "notes_en": "Inspiria: 13 sounds brighter and with less reverb, 5 new clean cinematic sounds, the original piano for comparison, DC offset removed (more headroom)."
 }

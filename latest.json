@@ -1,20 +1,20 @@
 {
-  "version": "1.0.150",
+  "version": "1.0.151",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nauč sa zvuk: počas učenia oceľový „Matrix“ s hodnotami, ktoré program skúša, a priebežnou zhodou. Ak sampel do vrstvy B nepomôže, program to oznámi. Nahrávanie v slučke: tón držaný cez koniec slučky sa uloží správne.",
+  "notes": "Nauč sa zvuk: počas učenia vidíš spektrum zdroja a najlepší pokus Inspirie, ktorý sa k nemu približuje. V riadkoch bubeníka sú tlačidlá M a S (prepojené s padmi).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13731328,
-      "sha256": "c381adf23b6e990c6e2f715acc3f25a63d4ab28616d06f3613f252c79b35fc2b"
+      "size": 13738496,
+      "sha256": "b164ca77fbc064d1ef3ba05b459b360265196d2cdb8588fe03b8db4da532bd84"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 671952,
-      "sha256": "fd6c5671b5020952af06e4c0ff563920d1275ae0b3968239a447e2b267c3a895"
+      "size": 674594,
+      "sha256": "6cef645af76f1e9b9f4f0d5be72bc6151f61e2d5d6a9dbcd63278f844ce2757c"
     }
   ],
-  "notes_en": "Learn sound: a steel “Matrix” view with the values being tried and the current match. If a layer B sample doesn't help, the program says so. Loop recording: a note held across the loop end is saved correctly."
+  "notes_en": "Learn sound: while learning you see the source spectrum and Inspiria's best attempt getting closer to it. Drum rows now have M and S buttons (linked with the pads)."
 }

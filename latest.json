@@ -1,20 +1,20 @@
 {
-  "version": "1.0.147",
+  "version": "1.0.148",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Bicie: pri nahrávaní už nie sú dvojité údery, Inspiria nehrá spolu s bicími z MIDI kláves, svetlé pozadie mriežky. Aktualizácia nevymieňa nezmenené súbory.",
+  "notes": "C = metronóm aj pri hraní z klávesnice (sila úderu V/B). Stopy so zapnutým reproduktorom hrajú aj s bicími. × v riadkoch bubeníka vymaže riadok. AQ a mriežka v spodnom paneli.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13717504,
-      "sha256": "dd59bd23f93aac8f7f96935aeaa2ece4602217020be432ca17c48864586960e7"
+      "size": 13720064,
+      "sha256": "7003bc157a60a749cfd6e6068c1008c0d637309020a94d977b573e8053b885ac"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 663838,
-      "sha256": "1677f331b6c070c4a89a674b15f0a9e0172ad9465e25ba236c267a72d3530c6c"
+      "size": 666503,
+      "sha256": "3fded905e4b5ffe8785933c1497de28d782ec6d5f5b85d6cd5697f1fe6b08fb7"
     }
   ],
-  "notes_en": "Drums: no more double hits when recording, Inspiria no longer plays along with drums from MIDI keys, light grid background. Updates no longer replace unchanged files."
+  "notes_en": "C = metronome also while playing from the computer keyboard (velocity V/B). Tracks with the speaker on also play along with drums. × in drum rows clears the row. AQ and grid in the bottom bar."
 }

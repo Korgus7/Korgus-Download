@@ -1,19 +1,19 @@
 {
-  "version": "1.0.161",
+  "version": "1.0.162",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: unison až 16 hlasov so širším sterom, analógový charakter filtra, nový gombík Plnosť, plnšie pady a leady. Výber nástroja na stope prepne hranie na túto stopu.",
+  "notes": "Inspiria: čistejší zvuk – oscilátory bez zrnitosti pri vysokých tónoch, kvalitnejšie prehrávanie vlastných vzoriek, dozvuk bez basov a menej tlmený, menej dozvuku a chorusu v syntezátorových zvukoch.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13743104,
-      "sha256": "b624fea9be79c73e061bdc3ac8fc35fb2487543b9f281a0dba03dc31e3036e66"
+      "sha256": "89106c3c55bed0a6271ec43ca2962c868ed4cb6f76872f8c65e3af2c58fd50f9"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74129920,
-      "sha256": "94e7d8d3022eb0808bbb47f0047811151d1c0a82e9bbf1b968a6bbaac6fa39da"
+      "size": 74131968,
+      "sha256": "63e1af41ffdd0c878989172482795244f6a8e76d39219b580ecc4cbf080474ec"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "c6785f8e01e2963df9627eb2d6139033160c6c3be3af6516f388a4c1774e8012"
     }
   ],
-  "notes_en": "Inspiria: unison up to 16 voices with wider stereo, analog-style filter, new Fullness knob, fuller pads and leads. Choosing an instrument on a track switches playing to that track."
+  "notes_en": "Inspiria: cleaner sound – oscillators without grit on high notes, better playback of your own samples, reverb without lows and less damped, less reverb and chorus in synth sounds."
 }

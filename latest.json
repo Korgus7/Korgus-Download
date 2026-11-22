@@ -1,26 +1,20 @@
 {
-  "version": "1.0.149",
+  "version": "1.0.150",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Citlivosť MIDI kláves je v spodnom paneli (Ľahký / Normálna / Tvrdý úder) a platí pre všetky nástroje aj bicie. Nahrávanie v cykle vytvorí jednu časť presne od L po R.",
+  "notes": "Nauč sa zvuk: počas učenia oceľový „Matrix“ s hodnotami, ktoré program skúša, a priebežnou zhodou. Ak sampel do vrstvy B nepomôže, program to oznámi. Nahrávanie v slučke: tón držaný cez koniec slučky sa uloží správne.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13724672,
-      "sha256": "a3f3259ab4ac68fa1f6c48bca05161af4c50b884fff7284cc4011c6bada4f489"
-    },
-    {
-      "name": "Korgus Inspiria.vst3",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 74056704,
-      "sha256": "8ee2ff3d207c448434cf47ccc97e6e637b7cb7ebe1a6214e1d19adeffa0d9dbe"
+      "size": 13731328,
+      "sha256": "c381adf23b6e990c6e2f715acc3f25a63d4ab28616d06f3613f252c79b35fc2b"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 668560,
-      "sha256": "bc62ffaaa50de81c477a46849af195f6738aeca1bf7bd575c4117c1b29019b6d"
+      "size": 671952,
+      "sha256": "fd6c5671b5020952af06e4c0ff563920d1275ae0b3968239a447e2b267c3a895"
     }
   ],
-  "notes_en": "MIDI key sensitivity is in the bottom bar (Light / Normal / Hard touch) and applies to all instruments and drums. Cycle recording creates one part exactly from L to R."
+  "notes_en": "Learn sound: a steel “Matrix” view with the values being tried and the current match. If a layer B sample doesn't help, the program says so. Loop recording: a note held across the loop end is saved correctly."
 }

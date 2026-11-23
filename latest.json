@@ -1,13 +1,13 @@
 {
-  "version": "1.0.177",
+  "version": "1.0.178",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nové: ✦ Pokračuj v mojej melódii (AI) v editore nôt (Funkcie) – beží u teba, model sa stiahne pri prvom použití. Korgus Dynamika = kompresor + limiter v jednom efekte. Lokátory L–R sa dajú ťahať aj v editore bicích a nôt.",
+  "notes": "Oprava AI (model sa po stiahnutí dá otvoriť) a lokátory L–R: okraje sa dajú ťahať aj v editore bicích a nôt.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13907456,
-      "sha256": "8eebc8a904a35f26d4cef3bc71d3e585fe4ad6f55545b025e7e0c4f3a9bbb9fb"
+      "size": 13908480,
+      "sha256": "1caa93a27bc338e983c44b4277a7d2f3af642031e812cf5bc233dc1589c8294d"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 692507,
-      "sha256": "52372b04f09fdd77fcce2279b9dbc7a14e194ba6039e57c5b02895f08156c60b"
+      "size": 692848,
+      "sha256": "502c9bee8af802e4b4f9a40236a297184b376ae14e6ece423c7c6f00e9eb5390"
     }
   ],
-  "notes_en": "New: ✦ Continue my melody (AI) in the note editor (Functions) – runs locally, the model downloads on first use. Korgus Dynamika = compressor + limiter in one effect. L–R locators can be dragged in the drum and note editors too."
+  "notes_en": "AI fix (the model opens after download) and L–R locators: edges can be dragged in the drum and note editors."
 }

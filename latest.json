@@ -1,19 +1,19 @@
 {
-  "version": "1.0.178",
+  "version": "1.0.179",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Oprava AI (model sa po stiahnutí dá otvoriť) a lokátory L–R: okraje sa dajú ťahať aj v editore bicích a nôt.",
+  "notes": "Korgus Inspiria – editor samplu: nové skenovanie slučky (≋ Skenovať, Rýchlosť, Rozsah, Tvar). Slučka sa sama posúva po sampli a mení farbu zvuku.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13908480,
-      "sha256": "1caa93a27bc338e983c44b4277a7d2f3af642031e812cf5bc233dc1589c8294d"
+      "sha256": "c1a2abc954c44dea0f9054c02a95b67337fc637783c74f454c1fe61a6eedb600"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 95870464,
-      "sha256": "b1c6e99d3084e8186ec58f0c9c119fa23f89cf8a68380ca20c88ebb58a55c2d8"
+      "size": 95876096,
+      "sha256": "2d7d4bef97f6dac9166e77c2adeabd285ec843a006b2d013211bf53bbdc0d5d6"
     },
     {
       "name": "korgus-ui.html",

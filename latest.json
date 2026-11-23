@@ -1,19 +1,19 @@
 {
-  "version": "1.0.171",
+  "version": "1.0.172",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "EQ asistent v Inspirii aj v Korgus EQ: tlačidlo ✦ Asistent – vyber druh zvuku, pusti skladbu, asistent počúva asi 12 sekúnd a navrhne ekvalizér (aj stlmenie rezonancií). Gombík Sila a tlačidlo Späť.",
+  "notes": "Korgus Master: tlačidlo ✦ Asistent namiesto výberu štýlu – vypočuje pieseň a nastaví štýl, Jas, Basy a Dynamiku. Asistent EQ vie ladiť podľa referenčnej pesničky. Klavír v Inspirii bez šumu nahrávky.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13793280,
-      "sha256": "865e0d468eac266f03d5a02891202ac9b481e032be2c88cca5ee1b85f0f1d512"
+      "size": 13806080,
+      "sha256": "d9bf18f74943fca0f9bf3e8b4be07b285c4d7d6184d6ee76b2a7bee78ec88b31"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 100424192,
-      "sha256": "64a889ea8083c5eb20a47ccdb381ebc307836797c7c9de486ab18d4185409bb3"
+      "size": 95869952,
+      "sha256": "8f30db6fce79ad6bf6bedc179947b9524e165bbdb20bde6b67b818933fb83409"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "21a1b422208c437af9f130520c5a5a3c28c3771dea7355f3d0c6f66f3a3a801e"
     }
   ],
-  "notes_en": "EQ assistant in Inspiria and Korgus EQ: ✦ Assistant button – pick the sound type, play the song, it listens ~12 s and suggests an EQ (including resonance cuts). Strength slider and Undo."
+  "notes_en": "Korgus Master: ✦ Assistant instead of the style menu – listens to the song and sets style, Brightness, Bass and Punch. The EQ assistant can match the reference song. Inspiria piano without recording hiss."
 }

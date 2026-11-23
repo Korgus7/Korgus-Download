@@ -1,26 +1,26 @@
 {
-  "version": "1.0.167",
+  "version": "1.0.168",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Bubeník: ikona koša na vymazanie zvukov padov. Stopa: bledší pruh hlasitosti s menším zaoblením.",
+  "notes": "Bubeník: vymazané zvuky padov sa už samy nenačítajú späť, zmena rytmu nemení zvuky. Inspiria: 8-pásmový ekvalizér aj pre vrstvy A a B.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13748224,
-      "sha256": "56a44f8b4caf7c2247c79b83d3f0aecc8bf262b61cdd3bcce98fd92de7e29171"
+      "sha256": "4f67d82306e4d133fe26055824fac623358e12828e80c4546c609f176bb253e7"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 100388352,
-      "sha256": "e6c7715a325da11f55bcf4f92da7b228a7c9bebe2909e95131f2e6f887b4f33a"
+      "size": 100392448,
+      "sha256": "8ce137a0a4dfee15152795b8943af98bf10d00ec0d5060e160b96b27dcbb180a"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 682395,
-      "sha256": "d8606f74ecd91f4bfc902a2ae1a250e2e2ccccc089fc6f39e13a7e2981d4390f"
+      "size": 682506,
+      "sha256": "ecce2c9cb5df77f9a93bd76d29c665a6f40cba417559189222348d501133ea85"
     }
   ],
-  "notes_en": "Drums: trash icon to clear pad sounds. Track: lighter volume bar with smaller rounding."
+  "notes_en": "Drums: cleared pad sounds no longer reload by themselves, changing the rhythm keeps the sounds. Inspiria: 8-band EQ for layers A and B too."
 }

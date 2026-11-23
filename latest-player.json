@@ -1,6 +1,6 @@
 {
-  "version": "1.0.79",
+  "version": "1.0.80",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Korgus Commander: rýchle hľadanie (Ctrl+Alt+písmená), Ctrl+← / Ctrl+→, vlastnosti súboru (Alt+Enter), všetky súbory z podpriečinkov (Ctrl+B), príkazový riadok, vzhľad (písmo, farba označených, stĺpce), deliace čiarky a ťahanie šírky stĺpcov, kapitola v návode."
+  "notes": "Skener siete (☰ → Skener siete, aj v Korgus Commanderi): zariadenia v rozsahu IP adries s názvom, MAC adresou, výrobcom a službami (web, FTP, vzdialená plocha, zdieľané priečinky, kamery, tlačiarne). Dvojklik ich otvorí, zdieľaný priečinok rovno v Korgus Commanderi."
 }

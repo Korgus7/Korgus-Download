@@ -1,26 +1,26 @@
 {
-  "version": "1.0.181",
+  "version": "1.0.182",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Sampler: slučka a skenovanie (ako v Inspirii), zoom kolieskom myši na zvuku. Skenovanie teraz drží výšku podľa tónov (Sampler aj Inspiria), zoom aj v editore samplu Inspirie. Gombíky, posuvníky a prepínače bez guľatých prvkov.",
+  "notes": "Vypínač efektov priamo na stope, pri viacerých efektoch sa dajú rozbaliť. „Pokračuj v mojej melódii“ aj v menu bloku na stope. Skenovanie slučky (Sampler aj Inspiria) znova po skokoch – Rýchlosť určuje aj veľkosť skoku.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13934592,
-      "sha256": "7b78e433142480d9b143ef1b5fec553b6a2eee89cc055f4b45350769918d458d"
+      "size": 13936128,
+      "sha256": "227303680878152a68d0ba657eb482197067a7565fb64aea15a6d31f39a8f818"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 95879680,
-      "sha256": "836d8aa449dee8eba5e2ae956bccda0e133413832e62dbe95fd5a7b199299e2d"
+      "sha256": "2f073e02554a1a40ecafe5416af3408d51eda01bcd137a5c36d1aa3cc10e55d3"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 692878,
-      "sha256": "805ad95929e155c7c01a2699a595d04fae6319b1823cd3c11e249e7b41489819"
+      "size": 695273,
+      "sha256": "f7f7ed8e576eadd523ae677bbeee6cce1435d1d015ffc2a062c565b3b44d46a8"
     }
   ],
-  "notes_en": "Korgus Sampler: loop and scanning (as in Inspiria), mouse-wheel zoom on the sound. Scanning now keeps the pitch with the notes (Sampler and Inspiria), zoom also in the Inspiria sample editor. Knobs, sliders and toggles without round elements."
+  "notes_en": "Effect on/off switch right on the track; with several effects they can be expanded. \"Continue my melody\" also in the part menu on the track. Loop scanning (Sampler and Inspiria) back to jumps – Rate also sets the jump size."
 }

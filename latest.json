@@ -1,13 +1,13 @@
 {
-  "version": "1.0.172",
+  "version": "1.0.173",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Master: tlačidlo ✦ Asistent namiesto výberu štýlu – vypočuje pieseň a nastaví štýl, Jas, Basy a Dynamiku. Asistent EQ vie ladiť podľa referenčnej pesničky. Klavír v Inspirii bez šumu nahrávky.",
+  "notes": "Korgus Master má zlúčený merač (radar, LUFS, True Peak) a ukazovateľ priebehu asistenta. De-esser má asistenta. Dvojhlas a Robot hlas sú v jednom efekte Korgus Hlas. Veľkosť okna pluginu je pod ikonou v pravom hornom rohu.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13806080,
-      "sha256": "d9bf18f74943fca0f9bf3e8b4be07b285c4d7d6184d6ee76b2a7bee78ec88b31"
+      "size": 13827584,
+      "sha256": "1b7a0f513ea58fc9f63ecb5cb4ad959d77495e91fd5fb96cc74e1495c69ce0f5"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 687432,
-      "sha256": "21a1b422208c437af9f130520c5a5a3c28c3771dea7355f3d0c6f66f3a3a801e"
+      "size": 686640,
+      "sha256": "a8c665e1cbd3e5dab2cf62a737a30b6dceb2e9f60ef793563864c55f7f6dda8f"
     }
   ],
-  "notes_en": "Korgus Master: ✦ Assistant instead of the style menu – listens to the song and sets style, Brightness, Bass and Punch. The EQ assistant can match the reference song. Inspiria piano without recording hiss."
+  "notes_en": "Korgus Master now includes the meter (radar, LUFS, True Peak) and an assistant progress bar. De-esser has an assistant. Double voice and Robot voice merged into Korgus Hlas. Plugin window size is under an icon in the top-right corner."
 }

@@ -1,26 +1,26 @@
 {
-  "version": "1.0.165",
+  "version": "1.0.166",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: 13 zvukov jasnejších a s menej dozvukom, 5 nových čistých filmových zvukov (Púštny dron, Púštny roh, Hlboký spev, Piesočný bas, Čistý filmový pad), pôvodný klavír na porovnanie, odstránená jednosmerná zložka (viac rezervy).",
+  "notes": "Bubeník: ikony nad padmi – vymazať všetky zvuky a náhodné zvuky. Displej: klik prepína takty / sekundy / samply / snímky. Inspiria: Šírka, Úder a Lesk pod Morphom, otázniky namiesto drobných popisov.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13745152,
-      "sha256": "db671b66805feabfcd3783ab6f50251669c5781c63617b32f39564bf6a0e80a7"
+      "size": 13748224,
+      "sha256": "135143623177ebcb2cffb69fdd2f70628ea1aca8d7dec55b7ea3a3d777e21122"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 100389888,
-      "sha256": "3f06e1b1c631c05be8f1e7c18f415abf7c1b9e85e57d2e199d970e7276df8afa"
+      "size": 100388352,
+      "sha256": "e6c7715a325da11f55bcf4f92da7b228a7c9bebe2909e95131f2e6f887b4f33a"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 679382,
-      "sha256": "b87a6ac820b8f810c693858c9c0e4b135d96184d061a8c416e98916d4ad2ec6f"
+      "size": 682170,
+      "sha256": "58ea44e9f5f2ef15a72cfbcb714b495f693961ba6675254fde0f004f329a5626"
     }
   ],
-  "notes_en": "Inspiria: 13 sounds brighter and with less reverb, 5 new clean cinematic sounds, the original piano for comparison, DC offset removed (more headroom)."
+  "notes_en": "Drums: icons above the pads – clear all sounds and random sounds. Display: click toggles bars / seconds / samples / frames. Inspiria: Width, Punch and Shine under Morph, ? buttons instead of small hints."
 }

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.75",
+  "version": "1.0.76",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Korgus Commander: FTP pripojenia (tlačidlo FTP v strede hore alebo Ctrl+F, export a import hesiel), zobrazenie skrytých a systémových súborov, ikona na kopírovanie cesty, označené súbory červenou, v oknách zvýraznené tlačidlo (šípky a Tab prepínajú), opravený kláves Delete."
+  "notes": "Opravy: v Korgus Commanderi sa po spustení nič samo neprehrá, zmena farby už Player nezavrie, FTP jasne hlási pripájanie aj chybu (v okne)."
 }

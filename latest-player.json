@@ -1,6 +1,6 @@
 {
-  "version": "1.0.73",
+  "version": "1.0.74",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Samply sa už neprehrávajú samy za sebou – sample sa zahrá raz (skladby nad 60 s pokračujú ďalšou ako doteraz). Plus zoom vlny a filmový pás videa z 1.0.72."
+  "notes": "Korgus Commander: tlačidlo KC vľavo hore prepne Player na správcu súborov s dvoma panelmi ako v Total Commanderi (F3–F8, kopírovanie a presun s priebehom, Kôš, označovanie pravým tlačidlom). Tlačidlo KP prepne späť, program si pamätá režim."
 }

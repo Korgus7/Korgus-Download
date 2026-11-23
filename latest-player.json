@@ -1,6 +1,6 @@
 {
-  "version": "1.0.76",
+  "version": "1.0.77",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Opravy: v Korgus Commanderi sa po spustení nič samo neprehrá, pri zmene farby sa najprv zastaví prehrávanie, FTP jasne hlási pripájanie aj chybu (v okne)."
+  "notes": "Korgus Commander: archívy ZIP/RAR/7z ako priečinok (Alt+F5 zbaliť, Alt+F9 rozbaliť), karty (Ctrl+T), obľúbené (Ctrl+D), rýchly náhľad (Ctrl+Q), hromadné premenovanie (Ctrl+M), hľadanie (Alt+F7), porovnanie podľa obsahu, synchronizácia priečinkov aj s FTP, veľkosť priečinka na medzerník, FTP v lište diskov s odpojením, SSL/TLS (FTPS), úprava súboru na serveri (F4)."
 }

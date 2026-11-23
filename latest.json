@@ -1,26 +1,26 @@
 {
-  "version": "1.0.179",
+  "version": "1.0.181",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Inspiria – editor samplu: nové skenovanie slučky (≋ Skenovať, Rýchlosť, Rozsah, Tvar). Slučka sa sama posúva po sampli a mení farbu zvuku.",
+  "notes": "Korgus Sampler: slučka a skenovanie (ako v Inspirii), zoom kolieskom myši na zvuku. Skenovanie teraz drží výšku podľa tónov (Sampler aj Inspiria), zoom aj v editore samplu Inspirie. Gombíky, posuvníky a prepínače bez guľatých prvkov.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13908480,
-      "sha256": "c1a2abc954c44dea0f9054c02a95b67337fc637783c74f454c1fe61a6eedb600"
+      "size": 13934592,
+      "sha256": "7b78e433142480d9b143ef1b5fec553b6a2eee89cc055f4b45350769918d458d"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 95876096,
-      "sha256": "2d7d4bef97f6dac9166e77c2adeabd285ec843a006b2d013211bf53bbdc0d5d6"
+      "size": 95879680,
+      "sha256": "836d8aa449dee8eba5e2ae956bccda0e133413832e62dbe95fd5a7b199299e2d"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 692848,
-      "sha256": "502c9bee8af802e4b4f9a40236a297184b376ae14e6ece423c7c6f00e9eb5390"
+      "size": 692878,
+      "sha256": "805ad95929e155c7c01a2699a595d04fae6319b1823cd3c11e249e7b41489819"
     }
   ],
-  "notes_en": "Korgus Inspiria sample editor: new loop scanning (Scan, Rate, Range, Shape). The loop moves through the sample by itself and changes the timbre."
+  "notes_en": "Korgus Sampler: loop and scanning (as in Inspiria), mouse-wheel zoom on the sound. Scanning now keeps the pitch with the notes (Sampler and Inspiria), zoom also in the Inspiria sample editor. Knobs, sliders and toggles without round elements."
 }

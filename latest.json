@@ -1,13 +1,13 @@
 {
-  "version": "1.0.166",
+  "version": "1.0.167",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Bubeník: ikony nad padmi – vymazať všetky zvuky a náhodné zvuky. Displej: klik prepína takty / sekundy / samply / snímky. Inspiria: Šírka, Úder a Lesk pod Morphom, otázniky namiesto drobných popisov.",
+  "notes": "Bubeník: ikona koša na vymazanie zvukov padov. Stopa: bledší pruh hlasitosti s menším zaoblením.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13748224,
-      "sha256": "135143623177ebcb2cffb69fdd2f70628ea1aca8d7dec55b7ea3a3d777e21122"
+      "sha256": "56a44f8b4caf7c2247c79b83d3f0aecc8bf262b61cdd3bcce98fd92de7e29171"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 682170,
-      "sha256": "58ea44e9f5f2ef15a72cfbcb714b495f693961ba6675254fde0f004f329a5626"
+      "size": 682395,
+      "sha256": "d8606f74ecd91f4bfc902a2ae1a250e2e2ccccc089fc6f39e13a7e2981d4390f"
     }
   ],
-  "notes_en": "Drums: icons above the pads – clear all sounds and random sounds. Display: click toggles bars / seconds / samples / frames. Inspiria: Width, Punch and Shine under Morph, ? buttons instead of small hints."
+  "notes_en": "Drums: trash icon to clear pad sounds. Track: lighter volume bar with smaller rounding."
 }

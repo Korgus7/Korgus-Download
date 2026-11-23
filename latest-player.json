@@ -2,5 +2,5 @@
   "version": "1.0.76",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Opravy: v Korgus Commanderi sa po spustení nič samo neprehrá, zmena farby už Player nezavrie, FTP jasne hlási pripájanie aj chybu (v okne)."
+  "notes": "Opravy: v Korgus Commanderi sa po spustení nič samo neprehrá, pri zmene farby sa najprv zastaví prehrávanie, FTP jasne hlási pripájanie aj chybu (v okne)."
 }

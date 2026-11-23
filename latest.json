@@ -1,19 +1,19 @@
 {
-  "version": "1.0.170",
+  "version": "1.0.171",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Nový spoločný ekvalizér v Inspirii aj v Korgus EQ: klik na bod ukáže uchytky šírky pásma, Shift = jemné doladenie, farebné pásma. Nová ikona náhodných zvukov v bubeníkovi.",
+  "notes": "EQ asistent v Inspirii aj v Korgus EQ: tlačidlo ✦ Asistent – vyber druh zvuku, pusti skladbu, asistent počúva asi 12 sekúnd a navrhne ekvalizér (aj stlmenie rezonancií). Gombík Sila a tlačidlo Späť.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13775360,
-      "sha256": "fada53024657d6d6be432ffa74f37a2c2f32842d896565ca16f08d4ed1b4a818"
+      "size": 13793280,
+      "sha256": "865e0d468eac266f03d5a02891202ac9b481e032be2c88cca5ee1b85f0f1d512"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 100405248,
-      "sha256": "9fd65c624090ad4a74ae45db2d940046427e56cdea69370099ebe8513e4169b6"
+      "size": 100424192,
+      "sha256": "64a889ea8083c5eb20a47ccdb381ebc307836797c7c9de486ab18d4185409bb3"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "21a1b422208c437af9f130520c5a5a3c28c3771dea7355f3d0c6f66f3a3a801e"
     }
   ],
-  "notes_en": "New shared equalizer in Inspiria and Korgus EQ: click a point to show band-width handles, Shift = fine tuning, coloured bands. New random sounds icon in the drum editor."
+  "notes_en": "EQ assistant in Inspiria and Korgus EQ: ✦ Assistant button – pick the sound type, play the song, it listens ~12 s and suggests an EQ (including resonance cuts). Strength slider and Undo."
 }

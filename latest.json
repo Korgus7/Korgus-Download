@@ -22,5 +22,5 @@
       "sha256": "502c9bee8af802e4b4f9a40236a297184b376ae14e6ece423c7c6f00e9eb5390"
     }
   ],
-  "notes_en": "AI fix (the model opens after download) and L–R locators: edges can be dragged in the drum and note editors."
+  "notes_en": "Korgus Inspiria sample editor: new loop scanning (Scan, Rate, Range, Shape). The loop moves through the sample by itself and changes the timbre."
 }

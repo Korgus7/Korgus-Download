@@ -1,26 +1,26 @@
 {
-  "version": "1.0.169",
+  "version": "1.0.170",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Mixpult: výška sa mení ťahaním horného okraja, efekty sa dajú ťahať medzi slotmi aj stopami (s Alt sa skopírujú). Korgus EQ má 8 pásiem ako Inspiria. Stopa môže sledovať akordovú stopu (pravý klik na stopu → Sleduje akordy).",
+  "notes": "Nový spoločný ekvalizér v Inspirii aj v Korgus EQ: klik na bod ukáže uchytky šírky pásma, Shift = jemné doladenie, farebné pásma. Nová ikona náhodných zvukov v bubeníkovi.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13760512,
-      "sha256": "7ba2edee6b59f98f6c9d646c5888e80c743ff103cebe6b9d944bd8ae36aadb07"
+      "size": 13775360,
+      "sha256": "fada53024657d6d6be432ffa74f37a2c2f32842d896565ca16f08d4ed1b4a818"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 100392448,
-      "sha256": "8ce137a0a4dfee15152795b8943af98bf10d00ec0d5060e160b96b27dcbb180a"
+      "size": 100405248,
+      "sha256": "9fd65c624090ad4a74ae45db2d940046427e56cdea69370099ebe8513e4169b6"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 687128,
-      "sha256": "a25e40ae32cea54caf358452c63b4dc10e0aedcc8d2c5f034ed5f651efbd0c20"
+      "size": 687432,
+      "sha256": "21a1b422208c437af9f130520c5a5a3c28c3771dea7355f3d0c6f66f3a3a801e"
     }
   ],
-  "notes_en": "Mixer: drag the top edge to resize, drag effects between slots and tracks (Alt = copy). Korgus EQ has 8 bands like Inspiria. A track can follow the chord track (right-click the track → Follows chords)."
+  "notes_en": "New shared equalizer in Inspiria and Korgus EQ: click a point to show band-width handles, Shift = fine tuning, coloured bands. New random sounds icon in the drum editor."
 }

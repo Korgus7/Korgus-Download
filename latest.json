@@ -1,13 +1,13 @@
 {
-  "version": "1.0.176",
+  "version": "1.0.177",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Oprava: zoznam efektov je späť. Korgus Master má tlačidlá Referencia a A/B, z mixpultu zmizli REF A/B a MERAČ. Inspiria: množstvo modulácie (MOD) ako posuvníky. Nauč sa zvuk: priebeh je súčasťou obrázka.",
+  "notes": "Nové: ✦ Pokračuj v mojej melódii (AI) v editore nôt (Funkcie) – beží u teba, model sa stiahne pri prvom použití. Korgus Dynamika = kompresor + limiter v jednom efekte. Lokátory L–R sa dajú ťahať aj v editore bicích a nôt.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13832704,
-      "sha256": "8ab1ff938eedc9168cd526c0e55834515d1558a3839238940c98b0a8b8cb8e63"
+      "size": 13907456,
+      "sha256": "8eebc8a904a35f26d4cef3bc71d3e585fe4ad6f55545b025e7e0c4f3a9bbb9fb"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 686232,
-      "sha256": "a3d7d2ad8dd0f0a9d1e68ca1d6531945a8c1b8e8b6e5f2ddd469465429a5cb3c"
+      "size": 692507,
+      "sha256": "52372b04f09fdd77fcce2279b9dbc7a14e194ba6039e57c5b02895f08156c60b"
     }
   ],
-  "notes_en": "Fix: the effects list is back. Korgus Master has Reference and A/B buttons; REF A/B and METER removed from the mixer. Inspiria: modulation amounts as sliders. Learn sound: progress is part of the picture."
+  "notes_en": "New: ✦ Continue my melody (AI) in the note editor (Functions) – runs locally, the model downloads on first use. Korgus Dynamika = compressor + limiter in one effect. L–R locators can be dragged in the drum and note editors too."
 }

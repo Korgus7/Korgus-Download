@@ -1,26 +1,26 @@
 {
-  "version": "1.0.182",
+  "version": "1.0.184",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Vypínač efektov priamo na stope, pri viacerých efektoch sa dajú rozbaliť. „Pokračuj v mojej melódii“ aj v menu bloku na stope. Skenovanie slučky (Sampler aj Inspiria) znova po skokoch – Rýchlosť určuje aj veľkosť skoku.",
+  "notes": "Klávesy v okne pluginu (napr. šípky v Inspirii) už neprepínajú stopy. Transpozícia MIDI vstupu priamo na stope. Šírka panelu stôp a výška každej stopy sa menia ťahaním. Inspiria: uloženie výseku samplu ako nový zvuk (Moje samply).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13936128,
-      "sha256": "227303680878152a68d0ba657eb482197067a7565fb64aea15a6d31f39a8f818"
+      "size": 13942272,
+      "sha256": "2f2dde9f9bdfad72d9e944e92f271679e9e2fab3f92b564348b6ba087cb634c7"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 95879680,
-      "sha256": "2f073e02554a1a40ecafe5416af3408d51eda01bcd137a5c36d1aa3cc10e55d3"
+      "size": 95888384,
+      "sha256": "95e25414644207c9c8feb05159b51dcead05038f5431d8f30ad15c665924f8ac"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 695273,
-      "sha256": "f7f7ed8e576eadd523ae677bbeee6cce1435d1d015ffc2a062c565b3b44d46a8"
+      "size": 700029,
+      "sha256": "7f52109725683e8d7db7a1a06bac9b5ff4cda96a344cf4b50b33eb0cbdbd8964"
     }
   ],
-  "notes_en": "Effect on/off switch right on the track; with several effects they can be expanded. \"Continue my melody\" also in the part menu on the track. Loop scanning (Sampler and Inspiria) back to jumps – Rate also sets the jump size."
+  "notes_en": "Keys in a plugin window (e.g. arrows in Inspiria) no longer switch tracks. MIDI input transpose right on the track. Track panel width and each track height can be dragged. Inspiria: save a sample cut as a new sound (My samples)."
 }

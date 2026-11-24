@@ -1,6 +1,6 @@
 {
-  "version": "1.0.81",
+  "version": "1.0.82",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Skener siete: vľavo zariadenia, vpravo podrobnosti a živý obraz z kamery, vlastné názvy zariadení, zvýraznené nové zariadenia. Korgus Commander: náhľady obrázkov (Ctrl+Shift+F1), porovnanie priečinkov (Shift+F2), vrátenie premenovania a presunu (Ctrl+Z), uložené dvojice priečinkov na synchronizáciu, automatické nahrávanie zmien na server."
+  "notes": "Sieť priamo v Korgus Commanderi (tlačidlo Sieť v lište diskov): zariadenia, zdieľané priečinky, podrobnosti a obraz z kamery v druhom paneli. Prenos z mobilu cez Wi-Fi s QR kódom. Prehľad diskov, mapa „Čo zaberá miesto“, pravé ťahanie s výberom Kopírovať / Presunúť, nástroje Playera (zmenšiť, previesť, podobné fotky, duplikáty) aj v Commanderi."
 }

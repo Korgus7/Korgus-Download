@@ -1,6 +1,6 @@
 {
-  "version": "1.0.83",
+  "version": "1.0.84",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Korgus Commander: v hornej lište sú menšie tlačidlá FTP, Sieť, Mobil a Disky. Druhý klik na Sieť vráti panel do priečinka. Opravené: podrobnosti siete už nezostanú v druhom paneli. Mobil pri prenose cez Wi-Fi ukazuje, kam sa súbor v PC uložil."
+  "notes": "Korgus Commander: Sieť, Mobil a Disky sú ikony v hornej lište. V sieti je ceruzka na zmenu rozsahu adries. Po prijatí súboru z mobilu sa hneď otvorí priečinok a súbor sa označí."
 }

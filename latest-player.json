@@ -1,6 +1,6 @@
 {
-  "version": "1.0.88",
+  "version": "1.0.90",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Rýchle priečinky v hornej lište: Plocha, Dokumenty, Stiahnuté, Obrázky, Hudba, Videá, OneDrive aj vlastné – vyber fajkou."
+  "notes": "Flash (SWF): prehráva sa priamo v Playeri cez pribalený Ruffle."
 }

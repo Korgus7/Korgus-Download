@@ -1,26 +1,26 @@
 {
-  "version": "1.0.184",
+  "version": "1.0.185",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Klávesy v okne pluginu (napr. šípky v Inspirii) už neprepínajú stopy. Transpozícia MIDI vstupu priamo na stope. Šírka panelu stôp a výška každej stopy sa menia ťahaním. Inspiria: uloženie výseku samplu ako nový zvuk (Moje samply).",
+  "notes": "Klik na audio klip otvorí dole editor (hlasitosť, nábeh a stíšenie, orezanie, výber L–R, zoom, funkcie). Jemnejšia označená stopa, ukazovateľ načítavania nástrojov po štarte. Sampler: nábeh a stíšenie slučky, Načítať zvuk v strede. Inspiria: nové menu zvukov (Syntetické / Prírodné), FX ako ikona v efektoch, Inšpirácia s oknom celého MIDI.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13942272,
-      "sha256": "2f2dde9f9bdfad72d9e944e92f271679e9e2fab3f92b564348b6ba087cb634c7"
+      "size": 13963776,
+      "sha256": "90acff1c58854ee2888f1fc75073f6f3f4f9225e78d50a984789f31d81bf63a0"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 95888384,
-      "sha256": "95e25414644207c9c8feb05159b51dcead05038f5431d8f30ad15c665924f8ac"
+      "size": 95944704,
+      "sha256": "0dffa5f4785432189441418960e5ee1f37946dd4b841dc4f2e01c98b362f422b"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 700029,
-      "sha256": "7f52109725683e8d7db7a1a06bac9b5ff4cda96a344cf4b50b33eb0cbdbd8964"
+      "size": 719543,
+      "sha256": "f7e75a37ddfe297d1bb201c1499e6a5570fd7cfd3bd7064bdd84e75111cb106f"
     }
   ],
-  "notes_en": "Keys in a plugin window (e.g. arrows in Inspiria) no longer switch tracks. MIDI input transpose right on the track. Track panel width and each track height can be dragged. Inspiria: save a sample cut as a new sound (My samples)."
+  "notes_en": "Clicking an audio clip opens an editor below (volume, fade in and out, trim, L–R selection, zoom, functions). Softer selected track, loading indicator for instruments after start. Sampler: loop fade in and out, Load sound in the middle. Inspiria: new sound menu (Synthetic / Acoustic), FX as an icon in the effects, Inspiration with a window of all your MIDI."
 }

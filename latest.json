@@ -1,26 +1,26 @@
 {
-  "version": "1.0.185",
+  "version": "1.0.188",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Klik na audio klip otvorí dole editor (hlasitosť, nábeh a stíšenie, orezanie, výber L–R, zoom, funkcie). Jemnejšia označená stopa, ukazovateľ načítavania nástrojov po štarte. Sampler: nábeh a stíšenie slučky, Načítať zvuk v strede. Inspiria: nové menu zvukov (Syntetické / Prírodné), FX ako ikona v efektoch, Inšpirácia s oknom celého MIDI.",
+  "notes": "Inspiria: nové nástroje – viola, pikola, banjo, tympany, bicia súprava, ručné bubny a perkusie. Nástroje sú samostatné súbory: Inspiria je menšia a nástroj sa stiahne sám pri prvom použití. Inšpirácia sa dá vymazať (↺). Editor audio klipu ukáže pri priblížení presnú vlnu.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 13963776,
-      "sha256": "90acff1c58854ee2888f1fc75073f6f3f4f9225e78d50a984789f31d81bf63a0"
+      "size": 13971968,
+      "sha256": "a20073b6e25cadc5a67bdac79d2c0f0a004f04f89ee4d2559b3f88beb7191319"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 95944704,
-      "sha256": "0dffa5f4785432189441418960e5ee1f37946dd4b841dc4f2e01c98b362f422b"
+      "size": 46798848,
+      "sha256": "2410bd78c36114ed65c2ad9be3fdde9feda15ee2257ddeb2a9230ffeac7a40b8"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 719543,
-      "sha256": "f7e75a37ddfe297d1bb201c1499e6a5570fd7cfd3bd7064bdd84e75111cb106f"
+      "size": 720784,
+      "sha256": "d1a2405acca67fcacddd3c24350e91aab6d1a9ced80e13ec6fc36984153e9a12"
     }
   ],
-  "notes_en": "Clicking an audio clip opens an editor below (volume, fade in and out, trim, L–R selection, zoom, functions). Softer selected track, loading indicator for instruments after start. Sampler: loop fade in and out, Load sound in the middle. Inspiria: new sound menu (Synthetic / Acoustic), FX as an icon in the effects, Inspiration with a window of all your MIDI."
+  "notes_en": "Inspiria: new instruments – viola, piccolo, banjo, timpani, drum kit, hand drums and percussion. Instruments are separate files: Inspiria is smaller and an instrument downloads by itself the first time you use it. Inspiration can be cleared (↺). The audio clip editor shows the exact waveform when zoomed in."
 }

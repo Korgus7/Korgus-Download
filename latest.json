@@ -1,20 +1,26 @@
 {
-  "version": "1.0.193",
+  "version": "1.0.195",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: nový editor samplu – väčší, prehľadnejší, časy hore, tlmené farby, pásik na posúvanie priblíženia, krajšie tlačidlá; okno editora má vzhľad Inspirie. Celesta hrá len vo svojom rozsahu.",
+  "notes": "Pluginy sa pri štarte načítajú len pre stopy v piesni. Audio editor: pri veľkom zväčšení už nie je biela plocha. Inspiria: úpravy v editore samplu znejú hneď počas ťahania, krížik vo vyhľadávaní zvukov.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14001152,
-      "sha256": "dc2619261556e3b34bd87e92b4b0c1764bedb1dc39567f06d1a4313f5dfc13e8"
+      "size": 14005760,
+      "sha256": "15265035e29b961915a64f870a9c89871678f0c1c3e58ebf37cc3eeca57bb77e"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46818816,
-      "sha256": "6db3f2290ac5b2a38f4055c56c1a6e6c840aacfc519e8a3cb18836c6c53a4b73"
+      "size": 46821376,
+      "sha256": "4a035ff9aef73156b884e19525c354df64ea558663a6fcc0bb94a065e92ec027"
+    },
+    {
+      "name": "korgus-ui.html",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
+      "size": 727167,
+      "sha256": "232c5f0596fd736e07e5a9d6e39bc7ed8c2fdf16599e1f6885371ec3a661566a"
     }
   ],
-  "notes_en": "Inspiria: new sample editor – bigger and clearer, times at the top, muted colours, a strip to move the zoomed view, nicer buttons; the editor window uses the Inspiria look. Celesta plays only in its own range."
+  "notes_en": "Plugins load at startup only for tracks in the song. Audio editor: no more white area when zoomed in a lot. Inspiria: sample editor changes are heard immediately while dragging, clear button in sound search."
 }

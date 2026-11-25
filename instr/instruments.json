@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "files": [
   {
    "id": 1,
@@ -232,8 +232,8 @@
   {
    "id": 40,
    "name": "instr_40.knin",
-   "size": 617242,
-   "sha256": "b2f54ca15015f31624db8296ce7dd69dbeed94c9966935fec60ec695c5644657"
+   "size": 339176,
+   "sha256": "b3671cc8cf9504d56305b83bcb9906cec726f7724fe9418b8087817cebd646c2"
   },
   {
    "id": 41,
@@ -244,14 +244,38 @@
   {
    "id": 42,
    "name": "instr_42.knin",
-   "size": 344672,
-   "sha256": "cc4aa2ae166d67841dff3c0465832984d690b6aed840a13410ead633b02ea372"
+   "size": 161556,
+   "sha256": "15a4d437049ae7f93e556601d4b7d28f22a13592b548f3c960bfe3b9de9eed3b"
   },
   {
    "id": 43,
    "name": "instr_43.knin",
    "size": 857121,
    "sha256": "50b78dc7fdd552f564a51dc105d9d3f75b4cbb63f3d6e79e9aadd4ea5135ce78"
+  },
+  {
+   "id": 44,
+   "name": "instr_44.knin",
+   "size": 645429,
+   "sha256": "34de5c53ddaa8b10f4840c45c29a26f6a198b2d6d6b469b85e58cde0be3e8275"
+  },
+  {
+   "id": 45,
+   "name": "instr_45.knin",
+   "size": 290734,
+   "sha256": "187ae2cfaecdb645a28b55e6d755687d15780762c66f22adc931cdf2200392f9"
+  },
+  {
+   "id": 46,
+   "name": "instr_46.knin",
+   "size": 776167,
+   "sha256": "a45937a547dafbe446a4fcca4db3ba60aac27f4d73e72b74131e09653d9fd59d"
+  },
+  {
+   "id": 47,
+   "name": "instr_47.knin",
+   "size": 788368,
+   "sha256": "ae3688ea2d4bc08d21e8ddda46695faa25730640bb37592d456ec803995afc0f"
   }
  ]
 }

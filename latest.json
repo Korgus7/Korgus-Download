@@ -1,26 +1,14 @@
 {
-  "version": "1.0.192",
+  "version": "1.0.193",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Akai MPC: pady hrajú bicie, synchronizácia MIDI Clock (vedie Korgus alebo ovládač), učenie MIDI aj pre pady a klávesy. Inspiria: nový nástroj Koncertná celesta; editor samplu – výsek a slučka sa dajú posúvať ťahaním, menej tlačidiel (ďalšie v ponuke ⋯), skenovanie sa ukáže len keď je zapnuté.",
+  "notes": "Inspiria: nový editor samplu – väčší, prehľadnejší, časy hore, tlmené farby, pásik na posúvanie priblíženia, krajšie tlačidlá; okno editora má vzhľad Inspirie. Celesta hrá len vo svojom rozsahu.",
   "files": [
-    {
-      "name": "Korgus Sequencer.exe",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14001152,
-      "sha256": "ecd22278697f1e32e367c24ca8de8734823fba6c3a25d31db9e8b24e58dd2060"
-    },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46819328,
-      "sha256": "ae9e3883333677c62279f5a89eb2cac2a5717ff176483b9f9a87e71ebd10ce8d"
-    },
-    {
-      "name": "korgus-ui.html",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 726722,
-      "sha256": "bc959c091b77ab81a1272619e812f7bec1532a34b2dd56dfaf6bb11d886c64d0"
+      "size": 46818816,
+      "sha256": "6db3f2290ac5b2a38f4055c56c1a6e6c840aacfc519e8a3cb18836c6c53a4b73"
     }
   ],
-  "notes_en": "Akai MPC: pads play drums, MIDI Clock sync (Korgus or the controller leads), MIDI learn for pads and keys too. Inspiria: new Concert Celesta instrument; sample editor – drag to move the selection and loop, fewer buttons (more in the ⋯ menu), scan settings show only when scan is on."
+  "notes_en": "Inspiria: new sample editor – bigger and clearer, times at the top, muted colours, a strip to move the zoomed view, nicer buttons; the editor window uses the Inspiria look. Celesta plays only in its own range."
 }

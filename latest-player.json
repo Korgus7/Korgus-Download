@@ -1,6 +1,6 @@
 {
-  "version": "1.0.86",
+  "version": "1.0.87",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Commander: väčšie ikony s popisom, okno kopírovania ako v TC (pauza, na pozadí, rýchlosť), * + - z numerickej klávesnice, F3 späť, farba a jazyk v ponuke. Mobil: rady pri neúspechu, iná adresa PC."
+  "notes": "Commander: * označí aj priečinky. Mobil: tlačidlo Povoliť v bráne firewall, ak sa mobil nevie pripojiť."
 }

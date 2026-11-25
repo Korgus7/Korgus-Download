@@ -1,19 +1,19 @@
 {
-  "version": "1.0.189",
+  "version": "1.0.190",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: nové tympany (hrajú len vo svojom rozsahu), svetové perkusie (cajón, bongá, kongy, kastanety, darbuka…), akordeón, ukulele, gajdy a klasická gitara.",
+  "notes": "Inspiria: nová bicia súprava (MuldjordKit – 6 síl úderu, tomy, činely), nahraté nástroje sú hlasnejšie a pri jemnom hraní už nie sú ticho, odšumené doznievanie, pri bicích sú klávesy so zvukom podfarbené.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 13971968,
-      "sha256": "d105ec0d10ddf6a72f45e292d14482b15043fea9a376578789df1c1699e4563f"
+      "sha256": "d1a2fdac683b2ec58bd758ec99b05961fb9708eaf09e4fdfdaf06da8568e2244"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46800384,
-      "sha256": "fc1e6281db80193091af06fbc2195356821cb51885734d9029cb1be5f0db143d"
+      "size": 46813184,
+      "sha256": "3067131a4652b34e8b420c89c46762b71ebef5274df433da76471b7717842ea5"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "d1a2405acca67fcacddd3c24350e91aab6d1a9ced80e13ec6fc36984153e9a12"
     }
   ],
-  "notes_en": "Inspiria: new timpani (play only in their own range), world percussion (cajón, bongos, congas, castanets, darbuka…), accordion, ukulele, bagpipe and classical guitar."
+  "notes_en": "Inspiria: new drum kit (MuldjordKit – 6 velocity layers, toms, cymbals), sampled instruments are louder and no longer quiet when played softly, denoised tails, keys with sounds are highlighted for drums."
 }

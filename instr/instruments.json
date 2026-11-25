@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "files": [
   {
    "id": 1,
@@ -226,32 +226,32 @@
   {
    "id": 39,
    "name": "instr_39.knin",
-   "size": 362198,
-   "sha256": "52802cf8999ceb01df89efa3da7a513604dcc24b59ed76bc92c2f426378e62f2"
+   "size": 352305,
+   "sha256": "f32f7337877a4e5597e07b7d914049b16da457a33ac44c6b7771a50345f49bbf"
   },
   {
    "id": 40,
    "name": "instr_40.knin",
-   "size": 339176,
-   "sha256": "b3671cc8cf9504d56305b83bcb9906cec726f7724fe9418b8087817cebd646c2"
+   "size": 329358,
+   "sha256": "49c055164362a2c0e67e64115564d113e1db8325baca7eabe10ac5c211469f48"
   },
   {
    "id": 41,
    "name": "instr_41.knin",
-   "size": 1002765,
-   "sha256": "22065833d53c7f8c6cd348c3ce54254b22c4537e75473f06bdd7570f754f9feb"
+   "size": 3942666,
+   "sha256": "9e390b0e96175e878264f2968a10c88dfce885eb6621f24963526e8e07600945"
   },
   {
    "id": 42,
    "name": "instr_42.knin",
-   "size": 161556,
-   "sha256": "15a4d437049ae7f93e556601d4b7d28f22a13592b548f3c960bfe3b9de9eed3b"
+   "size": 160775,
+   "sha256": "0763d52b86e1f82a8c5c0ae96867a18715421d08a52f7bc334355926721d5fc5"
   },
   {
    "id": 43,
    "name": "instr_43.knin",
-   "size": 857121,
-   "sha256": "50b78dc7fdd552f564a51dc105d9d3f75b4cbb63f3d6e79e9aadd4ea5135ce78"
+   "size": 670885,
+   "sha256": "ac61da19d5d7d074fd50225d68d8e0643cb531eb97c539ba99a44bced26cd360"
   },
   {
    "id": 44,
@@ -262,8 +262,8 @@
   {
    "id": 45,
    "name": "instr_45.knin",
-   "size": 290734,
-   "sha256": "187ae2cfaecdb645a28b55e6d755687d15780762c66f22adc931cdf2200392f9"
+   "size": 282959,
+   "sha256": "0b1f49a1c151d4d6dacf2ee39aad59ae12c8c942e99902fdbebda645474d2543"
   },
   {
    "id": 46,
@@ -274,8 +274,8 @@
   {
    "id": 47,
    "name": "instr_47.knin",
-   "size": 788368,
-   "sha256": "ae3688ea2d4bc08d21e8ddda46695faa25730640bb37592d456ec803995afc0f"
+   "size": 733752,
+   "sha256": "3a3c1373066ae74b2b003bb7380ea5dae91de0e4987372faf1c045502f631953"
   }
  ]
 }

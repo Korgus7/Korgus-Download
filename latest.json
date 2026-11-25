@@ -4,6 +4,12 @@
   "notes": "Inspiria: nový editor samplu – väčší, prehľadnejší, časy hore, tlmené farby, pásik na posúvanie priblíženia, krajšie tlačidlá; okno editora má vzhľad Inspirie. Celesta hrá len vo svojom rozsahu.",
   "files": [
     {
+      "name": "Korgus Sequencer.exe",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
+      "size": 14001152,
+      "sha256": "dc2619261556e3b34bd87e92b4b0c1764bedb1dc39567f06d1a4313f5dfc13e8"
+    },
+    {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 46818816,

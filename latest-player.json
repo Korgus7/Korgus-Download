@@ -1,6 +1,6 @@
 {
-  "version": "1.0.84",
+  "version": "1.0.86",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Korgus Commander: Sieť, Mobil a Disky sú ikony v hornej lište. V sieti je ceruzka na zmenu rozsahu adries. Po prijatí súboru z mobilu sa hneď otvorí priečinok a súbor sa označí."
+  "notes": "Commander: väčšie ikony s popisom, okno kopírovania ako v TC (pauza, na pozadí, rýchlosť), * + - z numerickej klávesnice, F3 späť, farba a jazyk v ponuke. Mobil: rady pri neúspechu, iná adresa PC."
 }

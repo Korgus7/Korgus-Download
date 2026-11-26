@@ -1,26 +1,20 @@
 {
-  "version": "1.0.211",
+  "version": "1.0.213",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria, editor samplu: značka K sa pri slučke chytala na mieste slučky – opravené; slučka ostáva vždy medzi Z a K; prekryté značky: hore sa chytá Z/K, dole L. Ukazovateľ prehrávania (Inspiria aj Sampler) beží len kým držíš kláves.",
+  "notes": "Sekcie: klik na sekciu = skok na jej začiatok, PageUp / PageDown = predchádzajúca / ďalšia sekcia, zoznam sekcií v ponuke pravítka. Editor nôt: Funkcie → Sila úderu → Zadať číslom. Shift+R (alebo pravý klik na Nahrávanie) uloží, čo si práve zahral, aj bez nahrávania. Korgus Sampler: Glide a Mono (808 basy).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14037504,
-      "sha256": "b57f66de7414fbce1551e0ed0c4ed31cc30657e207522154f4a1c2fd771e3a07"
-    },
-    {
-      "name": "Korgus Inspiria.vst3",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46844416,
-      "sha256": "75dd4953a0da886aa3cb42be393a84d242ecb7ab9fd37d2e9f2379991c62eb02"
+      "size": 14045696,
+      "sha256": "b02867e8547d7c6484786d3f151f25e340cb8364f74ffe6cece774f2caff4ce6"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 750386,
-      "sha256": "38e5d267b05ae7cd601a3f25155c23a9de201cabbde9125e09bddb53227d2deb"
+      "size": 757121,
+      "sha256": "b2a3f909b6d1ad14838c5258e25d8019cb74cf7c178369878ec3fd1246629b91"
     }
   ],
-  "notes_en": "Inspiria sample editor: with a loop the K marker was grabbed at the loop position – fixed; the loop always stays between Z and K; overlapping markers: Z/K at the top, L at the bottom. The playback cursor (Inspiria and Sampler) runs only while you hold the key."
+  "notes_en": "Sections: click a section to jump to its start, PageUp / PageDown = previous / next section, section list in the ruler menu. Note editor: Functions → Velocity → Enter a number. Shift+R (or right-click Record) saves what you just played, even without recording. Korgus Sampler: Glide and Mono (808 basses)."
 }

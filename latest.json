@@ -1,19 +1,19 @@
 {
-  "version": "1.0.204",
+  "version": "1.0.206",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Korgus Sampler: so slučkou prepínač „Od začiatku“ – vypnuté = tón hrá hneď v slučke, zapnuté = najprv od začiatku zvuku. Inspiria: to isté v editore samplu (ponuka ⋯) a stíšenie funguje aj so slučkou.",
+  "notes": "Inspiria: v editore samplu je namiesto Prehrať tlačidlo Od začiatku (so slučkou); nábeh funguje aj keď tón začína v slučke. Korgus Sampler: Hrať → Celý zvuk teraz funguje aj so slučkou – po pustení klávesy tón opustí slučku a dohrá zvuk do konca.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 14036992,
-      "sha256": "da3882572a7abedce0d2b436d63c04589d9429d48c3cd1c65b3a352471f9e8a3"
+      "sha256": "99d9d2a8f6f2af2cdbeccb55c96d9ae3f6523d7c22260feceabb40bb0ce663d4"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 46831104,
-      "sha256": "2d96014c51be2a34a29712c24a3cec5cf0f12a60e856fd41d7ff035002c21af4"
+      "sha256": "2c8aa0e5e9272b40b202788825aa42fda9a148052a2a21f83c4e355fd29e4747"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "8e5545c1c2468d192749e95f270c5b4074b5cdc6dd4acbd028f41e2ae92a2e22"
     }
   ],
-  "notes_en": "Korgus Sampler: with a loop, the \"From start\" switch – off = the note plays right in the loop, on = from the start of the sound first. Inspiria: the same in the sample editor (⋯ menu), and fade out now works with a loop too."
+  "notes_en": "Inspiria: the sample editor has a From start button instead of Play (with a loop); fade in works even when the note starts in the loop. Korgus Sampler: Play → Whole sound now works with a loop too – after releasing the key the note leaves the loop and plays the sound to the end."
 }

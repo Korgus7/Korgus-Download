@@ -1,26 +1,26 @@
 {
-  "version": "1.0.195",
+  "version": "1.0.200",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Pluginy sa pri štarte načítajú len pre stopy v piesni. Audio editor: pri veľkom zväčšení už nie je biela plocha. Inspiria: úpravy v editore samplu znejú hneď počas ťahania, krížik vo vyhľadávaní zvukov.",
+  "notes": "Audio editor: vertikálny zoom vlny (Vlna ↕, Ctrl+koliesko). Pomoc → Skontrolovať aktualizácie. MPC: nákres padov, ktoré sa pri údere rozsvietia. Inspiria: menší editor samplu, ukazovateľ prehrávania a Nájsť slučku (v ponuke ⋯).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14005760,
-      "sha256": "15265035e29b961915a64f870a9c89871678f0c1c3e58ebf37cc3eeca57bb77e"
+      "size": 14016000,
+      "sha256": "31ac3bb03057a2490a1a2575eb071f47bb00c3f10b32b1a1fafd31684618b8a4"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46821376,
-      "sha256": "4a035ff9aef73156b884e19525c354df64ea558663a6fcc0bb94a065e92ec027"
+      "size": 46829568,
+      "sha256": "281e133e14fa0cbb50ff78f72d422b0038259dc6ba49ab75bae74f2f9c2da5a0"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 727167,
-      "sha256": "232c5f0596fd736e07e5a9d6e39bc7ed8c2fdf16599e1f6885371ec3a661566a"
+      "size": 730524,
+      "sha256": "6ee64b238f96cc7f44c12a0fa2b74ee0718f111b0de85d0e35bb3128d40ee689"
     }
   ],
-  "notes_en": "Plugins load at startup only for tracks in the song. Audio editor: no more white area when zoomed in a lot. Inspiria: sample editor changes are heard immediately while dragging, clear button in sound search."
+  "notes_en": "Audio editor: vertical wave zoom (Wave ↕, Ctrl+wheel). Help → Check for updates. MPC: pad layout that lights up when hit. Inspiria: smaller sample editor, playback cursor and Find loop (in the ⋯ menu)."
 }

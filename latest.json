@@ -1,13 +1,19 @@
 {
-  "version": "1.0.201",
+  "version": "1.0.204",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "MPC: v okne MIDI ovládačov je nákres celého MPC Sample, pady ukazujú bubny a pri údere sa rozsvietia. Korgus Sampler: ukazovateľ prehrávania.",
+  "notes": "Korgus Sampler: so slučkou prepínač „Od začiatku“ – vypnuté = tón hrá hneď v slučke, zapnuté = najprv od začiatku zvuku. Inspiria: to isté v editore samplu (ponuka ⋯) a stíšenie funguje aj so slučkou.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14035456,
-      "sha256": "4720f21ce9c81809bfaff4f18002d977d95d7bba1f2af2a5e147eff2eb7f7940"
+      "size": 14036992,
+      "sha256": "da3882572a7abedce0d2b436d63c04589d9429d48c3cd1c65b3a352471f9e8a3"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 46831104,
+      "sha256": "2d96014c51be2a34a29712c24a3cec5cf0f12a60e856fd41d7ff035002c21af4"
     },
     {
       "name": "korgus-ui.html",
@@ -16,5 +22,5 @@
       "sha256": "8e5545c1c2468d192749e95f270c5b4074b5cdc6dd4acbd028f41e2ae92a2e22"
     }
   ],
-  "notes_en": "MPC: the MIDI controllers window shows the whole MPC Sample; pads show the drums and light up when hit. Korgus Sampler: playback cursor."
+  "notes_en": "Korgus Sampler: with a loop, the \"From start\" switch – off = the note plays right in the loop, on = from the start of the sound first. Inspiria: the same in the sample editor (⋯ menu), and fade out now works with a loop too."
 }

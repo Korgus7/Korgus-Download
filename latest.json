@@ -1,20 +1,20 @@
 {
-  "version": "1.0.213",
+  "version": "1.0.215",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Sekcie: klik na sekciu = skok na jej začiatok, PageUp / PageDown = predchádzajúca / ďalšia sekcia, zoznam sekcií v ponuke pravítka. Editor nôt: Funkcie → Sila úderu → Zadať číslom. Shift+R (alebo pravý klik na Nahrávanie) uloží, čo si práve zahral, aj bez nahrávania. Korgus Sampler: Glide a Mono (808 basy).",
+  "notes": "Notový zápis: pravý klik na hlavičku stopy alebo Funkcie v editore nôt → Notový zápis. Celá stopa, časť alebo úsek L – R, jedna alebo dve osnovy, tónina piesne a akordy, Uložiť PDF na tlač. Pomoc: hľadanie v návode a nové kapitoly ku všetkým funkciám.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14045696,
-      "sha256": "b02867e8547d7c6484786d3f151f25e340cb8364f74ffe6cece774f2caff4ce6"
+      "size": 14593536,
+      "sha256": "013b74465849af04b5e2ce240a97163fdb9106d1988db2fa4c6682005ca2cdb2"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 757121,
-      "sha256": "b2a3f909b6d1ad14838c5258e25d8019cb74cf7c178369878ec3fd1246629b91"
+      "size": 1304937,
+      "sha256": "323448f771d40cec854075b4c0387d49f1f137a5927b46848d5eaf4746b3da2e"
     }
   ],
-  "notes_en": "Sections: click a section to jump to its start, PageUp / PageDown = previous / next section, section list in the ruler menu. Note editor: Functions → Velocity → Enter a number. Shift+R (or right-click Record) saves what you just played, even without recording. Korgus Sampler: Glide and Mono (808 basses)."
+  "notes_en": "Notation: right-click a track header or Functions in the note editor → Notation. Whole track, part or L – R range, one or two staves, song key and chords, Save PDF to print. Help: search in the guide and new chapters for all features."
 }

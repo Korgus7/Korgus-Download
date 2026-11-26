@@ -1,19 +1,19 @@
 {
-  "version": "1.0.209",
+  "version": "1.0.211",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: Od začiatku funguje ako v Sampleri – po zapnutí slučky sa navrhne jej stred (30–70 %), predvolene hrá tón hneď v slučke. V zozname zvukov pribudol výber ↺ Naposledy. Audio editor: dvojklik na pravítko ukáže celý zvuk.",
+  "notes": "Inspiria, editor samplu: značka K sa pri slučke chytala na mieste slučky – opravené; slučka ostáva vždy medzi Z a K; prekryté značky: hore sa chytá Z/K, dole L. Ukazovateľ prehrávania (Inspiria aj Sampler) beží len kým držíš kláves.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 14037504,
-      "sha256": "c96628e1ce6b7e6b2428194c9ac4818fd5bd64662947955a03b162e1d82bb3fa"
+      "sha256": "b57f66de7414fbce1551e0ed0c4ed31cc30657e207522154f4a1c2fd771e3a07"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46840832,
-      "sha256": "e7cf1e71cf163d0f2668e29f45f9f32d39da2da2bc6274507bef8f8470e389d7"
+      "size": 46844416,
+      "sha256": "75dd4953a0da886aa3cb42be393a84d242ecb7ab9fd37d2e9f2379991c62eb02"
     },
     {
       "name": "korgus-ui.html",
@@ -22,5 +22,5 @@
       "sha256": "38e5d267b05ae7cd601a3f25155c23a9de201cabbde9125e09bddb53227d2deb"
     }
   ],
-  "notes_en": "Inspiria: From start works like in the Sampler – turning the loop on suggests its middle (30–70 %), by default the note plays right in the loop. The sound list has a new ↺ Recent filter. Audio editor: double-click the ruler to see the whole sound."
+  "notes_en": "Inspiria sample editor: with a loop the K marker was grabbed at the loop position – fixed; the loop always stays between Z and K; overlapping markers: Z/K at the top, L at the bottom. The playback cursor (Inspiria and Sampler) runs only while you hold the key."
 }

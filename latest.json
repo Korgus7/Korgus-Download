@@ -1,13 +1,19 @@
 {
-  "version": "1.0.215",
+  "version": "1.0.216",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Notový zápis: pravý klik na hlavičku stopy alebo Funkcie v editore nôt → Notový zápis. Celá stopa, časť alebo úsek L – R, jedna alebo dve osnovy, tónina piesne a akordy, Uložiť PDF na tlač. Pomoc: hľadanie v návode a nové kapitoly ku všetkým funkciám.",
+  "notes": "Inspiria: tlačidlo Import v zozname zvukov pridá aj nástroje zo súborov .knin – skopírujú sa samé a hneď sa objavia v zozname.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 14593536,
-      "sha256": "013b74465849af04b5e2ce240a97163fdb9106d1988db2fa4c6682005ca2cdb2"
+      "sha256": "17735512e32fc56bc6ece621099b4a004524ff2a37b3e3eea2e55a1f3310dcc2"
+    },
+    {
+      "name": "Korgus Inspiria.vst3",
+      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
+      "size": 46850048,
+      "sha256": "efe53a4835fed8e3df11d1500613372e35aa9d5eaa81ed744d812c03f14313df"
     },
     {
       "name": "korgus-ui.html",
@@ -16,5 +22,5 @@
       "sha256": "323448f771d40cec854075b4c0387d49f1f137a5927b46848d5eaf4746b3da2e"
     }
   ],
-  "notes_en": "Notation: right-click a track header or Functions in the note editor → Notation. Whole track, part or L – R range, one or two staves, song key and chords, Save PDF to print. Help: search in the guide and new chapters for all features."
+  "notes_en": "Inspiria: the Import button in the sound list now also adds instruments from .knin files – they are copied automatically and appear in the list right away."
 }

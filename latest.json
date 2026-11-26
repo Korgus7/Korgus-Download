@@ -1,26 +1,20 @@
 {
-  "version": "1.0.200",
+  "version": "1.0.201",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Audio editor: vertikálny zoom vlny (Vlna ↕, Ctrl+koliesko). Pomoc → Skontrolovať aktualizácie. MPC: nákres padov, ktoré sa pri údere rozsvietia. Inspiria: menší editor samplu, ukazovateľ prehrávania a Nájsť slučku (v ponuke ⋯).",
+  "notes": "MPC: v okne MIDI ovládačov je nákres celého MPC Sample, pady ukazujú bubny a pri údere sa rozsvietia. Korgus Sampler: ukazovateľ prehrávania.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14016000,
-      "sha256": "31ac3bb03057a2490a1a2575eb071f47bb00c3f10b32b1a1fafd31684618b8a4"
-    },
-    {
-      "name": "Korgus Inspiria.vst3",
-      "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
-      "size": 46829568,
-      "sha256": "281e133e14fa0cbb50ff78f72d422b0038259dc6ba49ab75bae74f2f9c2da5a0"
+      "size": 14035456,
+      "sha256": "4720f21ce9c81809bfaff4f18002d977d95d7bba1f2af2a5e147eff2eb7f7940"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 730524,
-      "sha256": "6ee64b238f96cc7f44c12a0fa2b74ee0718f111b0de85d0e35bb3128d40ee689"
+      "size": 750101,
+      "sha256": "8e5545c1c2468d192749e95f270c5b4074b5cdc6dd4acbd028f41e2ae92a2e22"
     }
   ],
-  "notes_en": "Audio editor: vertical wave zoom (Wave ↕, Ctrl+wheel). Help → Check for updates. MPC: pad layout that lights up when hit. Inspiria: smaller sample editor, playback cursor and Find loop (in the ⋯ menu)."
+  "notes_en": "MPC: the MIDI controllers window shows the whole MPC Sample; pads show the drums and light up when hit. Korgus Sampler: playback cursor."
 }

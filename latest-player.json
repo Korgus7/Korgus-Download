@@ -1,6 +1,6 @@
 {
-  "version": "1.0.92",
+  "version": "1.0.93",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Prepínač Player | Commander vľavo hore. Ponuka na pravé tlačidlo (v Playeri aj v Commanderi) ukazuje len to, čo k súboru patrí. Commander si pamätá priečinok aj vybraný súbor. Povolenie vo firewalle pre mobil platí len v súkromnej sieti. Meranie štartu do start-log.txt."
+  "notes": "Cesta k priečinku s ikonou na kopírovanie je úplne dole pod súbormi (ako v Total Commanderi), pole Hľadať je užšie a horná lišta voľnejšia."
 }

@@ -1,6 +1,6 @@
 {
-  "version": "1.0.90",
+  "version": "1.0.91",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Flash (SWF): prehráva sa priamo v Playeri cez pribalený Ruffle."
+  "notes": "Prevod videa: výber formátu (MP4, MKV, WebM, len zvuk MP3), veľkosti (pôvodná, 1080p, 720p, 480p) a kvality, priebeh so zostávajúcim časom a tlačidlom Zrušiť. Názvy pod náhľadmi sa zväčšujú spolu s náhľadom."
 }

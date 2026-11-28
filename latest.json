@@ -1,13 +1,13 @@
 {
-  "version": "1.0.218",
+  "version": "1.0.219",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "AKAI MPC: druhý zvukový vstup popri ASIO (Nastavenia → Zvuk), bubeník s 9 alebo 16 padmi, Poslať do MPC a Načítať kit z MPC, nasekanie audio klipu na 16 padov, stopa môže hrať na MPC (MIDI výstup), pady môžu spúšťať sekcie piesne. Inspiria reaguje na tlak na pad (aftertouch).",
+  "notes": "AKAI MPC Sample: pady hrajú správne hneď po zapojení, bez učenia, v hociktorej banke A – H (pad 1 = nota 36). Prevod padov platí len pre MPC, iné klávesy sa nemenia.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
       "size": 14656000,
-      "sha256": "7a44d989585c9fcc7447162894a43fafae2bb076351b98b8662f11dddf1917ca"
+      "sha256": "a4b0a8bd7fc5ae69ce6d4e3b38d05e1b27975990875dd2e1e54e729e23f97938"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 1315268,
-      "sha256": "cfb7bdfba04991375001e818d529f09dde9d911d19a083894abd1f03286f096c"
+      "size": 1314824,
+      "sha256": "be8c7cf63cfcd59e9ac368f2f8648bdfe8a5e9714343e7780fe8e090d91aa1a1"
     }
   ],
-  "notes_en": "AKAI MPC: second audio input next to ASIO (Settings → Audio), drummer with 9 or 16 pads, Send to MPC and Load kit from MPC, chop an audio clip to 16 pads, a track can play on the MPC (MIDI out), pads can launch song sections. Inspiria responds to pad pressure (aftertouch)."
+  "notes_en": "AKAI MPC Sample: pads play correctly right after connecting, no learning, in any bank A – H (pad 1 = note 36). Pad mapping applies only to the MPC, other keyboards are unchanged."
 }

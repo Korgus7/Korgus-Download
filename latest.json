@@ -1,26 +1,26 @@
 {
-  "version": "1.0.216",
+  "version": "1.0.218",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "Inspiria: tlačidlo Import v zozname zvukov pridá aj nástroje zo súborov .knin – skopírujú sa samé a hneď sa objavia v zozname.",
+  "notes": "AKAI MPC: druhý zvukový vstup popri ASIO (Nastavenia → Zvuk), bubeník s 9 alebo 16 padmi, Poslať do MPC a Načítať kit z MPC, nasekanie audio klipu na 16 padov, stopa môže hrať na MPC (MIDI výstup), pady môžu spúšťať sekcie piesne. Inspiria reaguje na tlak na pad (aftertouch).",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14593536,
-      "sha256": "17735512e32fc56bc6ece621099b4a004524ff2a37b3e3eea2e55a1f3310dcc2"
+      "size": 14656000,
+      "sha256": "7a44d989585c9fcc7447162894a43fafae2bb076351b98b8662f11dddf1917ca"
     },
     {
       "name": "Korgus Inspiria.vst3",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Inspiria.vst3",
       "size": 46850048,
-      "sha256": "efe53a4835fed8e3df11d1500613372e35aa9d5eaa81ed744d812c03f14313df"
+      "sha256": "b5abb1d48725652873162669b77b10631a076295de752c1cada371c94cf7ae1b"
     },
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 1304937,
-      "sha256": "323448f771d40cec854075b4c0387d49f1f137a5927b46848d5eaf4746b3da2e"
+      "size": 1315268,
+      "sha256": "cfb7bdfba04991375001e818d529f09dde9d911d19a083894abd1f03286f096c"
     }
   ],
-  "notes_en": "Inspiria: the Import button in the sound list now also adds instruments from .knin files – they are copied automatically and appear in the list right away."
+  "notes_en": "AKAI MPC: second audio input next to ASIO (Settings → Audio), drummer with 9 or 16 pads, Send to MPC and Load kit from MPC, chop an audio clip to 16 pads, a track can play on the MPC (MIDI out), pads can launch song sections. Inspiria responds to pad pressure (aftertouch)."
 }

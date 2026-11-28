@@ -1,13 +1,13 @@
 {
-  "version": "1.0.221",
+  "version": "1.0.223",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "AKAI MPC: pri stope „Hrať na MPC“ už úder z padu nezaznie dvakrát (sekvencia môže byť len v Korguse), posuvník Oneskorenie MPC, po zapojení sa MPC nastaví samo a v hornej lište svieti MPC. Druhý vstup je v Nastavenia → Zvuk hneď pod vstupmi.",
+  "notes": "Nová stopa MPC (+ MPC): pady a sekvencia MPC sa nahrávajú len do nej, Korgus pre ňu nehrá vlastné zvuky a zvuk MPC sa vracia cez druhý vstup do tej istej stopy (hlasitosť, efekty, mixpult). Tlačidlo Zmerať zistí oneskorenie MPC samo. Zmraziť MPC do audio stopy nahrá zvuk MPC pred exportom. Zásobník druhého vstupu sa dá nastaviť.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14660608,
-      "sha256": "631287e0a98f5c3db499a6e1a907198c7fbfe85fc93f9cffa53d69807b2bbe6b"
+      "size": 14685184,
+      "sha256": "5c5a1235a5302ccc0f3c916da19ef7d90e942cc518560172d2de73109d11152b"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 1316441,
-      "sha256": "c5a1d0fd14089f52ea8589e09ddc8aaf7700d43f4a93d0503728adcc135e94bc"
+      "size": 1320209,
+      "sha256": "64363bdd6a20fd40524ea74751ba4344596eb8502da7edbca40d77e73fcd82ea"
     }
   ],
-  "notes_en": "AKAI MPC: with \"Play on MPC\" a pad hit no longer sounds twice (the sequence can live only in Korgus), MPC latency slider, the MPC sets itself up when connected and an MPC indicator shows in the top bar. Second input sits right under the inputs in Settings → Audio."
+  "notes_en": "New MPC track (+ MPC): MPC pads and sequence record only into it, Korgus plays no own sounds for it and the MPC audio returns through the second input into the same track (volume, effects, mixer). The Measure button finds the MPC latency by itself. Freeze MPC to audio track records the MPC sound before export. Second input buffer size is adjustable."
 }

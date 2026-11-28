@@ -1,13 +1,13 @@
 {
-  "version": "1.0.219",
+  "version": "1.0.221",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/KorgusSequencer-Setup.exe",
-  "notes": "AKAI MPC Sample: pady hrajú správne hneď po zapojení, bez učenia, v hociktorej banke A – H (pad 1 = nota 36). Prevod padov platí len pre MPC, iné klávesy sa nemenia.",
+  "notes": "AKAI MPC: pri stope „Hrať na MPC“ už úder z padu nezaznie dvakrát (sekvencia môže byť len v Korguse), posuvník Oneskorenie MPC, po zapojení sa MPC nastaví samo a v hornej lište svieti MPC. Druhý vstup je v Nastavenia → Zvuk hneď pod vstupmi.",
   "files": [
     {
       "name": "Korgus Sequencer.exe",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/Korgus%20Sequencer.exe",
-      "size": 14656000,
-      "sha256": "a4b0a8bd7fc5ae69ce6d4e3b38d05e1b27975990875dd2e1e54e729e23f97938"
+      "size": 14660608,
+      "sha256": "631287e0a98f5c3db499a6e1a907198c7fbfe85fc93f9cffa53d69807b2bbe6b"
     },
     {
       "name": "Korgus Inspiria.vst3",
@@ -18,9 +18,9 @@
     {
       "name": "korgus-ui.html",
       "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/korgus-ui.html",
-      "size": 1314824,
-      "sha256": "be8c7cf63cfcd59e9ac368f2f8648bdfe8a5e9714343e7780fe8e090d91aa1a1"
+      "size": 1316441,
+      "sha256": "c5a1d0fd14089f52ea8589e09ddc8aaf7700d43f4a93d0503728adcc135e94bc"
     }
   ],
-  "notes_en": "AKAI MPC Sample: pads play correctly right after connecting, no learning, in any bank A – H (pad 1 = note 36). Pad mapping applies only to the MPC, other keyboards are unchanged."
+  "notes_en": "AKAI MPC: with \"Play on MPC\" a pad hit no longer sounds twice (the sequence can live only in Korgus), MPC latency slider, the MPC sets itself up when connected and an MPC indicator shows in the top bar. Second input sits right under the inputs in Settings → Audio."
 }

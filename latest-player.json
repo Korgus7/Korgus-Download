@@ -1,6 +1,6 @@
 {
-  "version": "1.0.91",
+  "version": "1.0.92",
   "url": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/Korgus%20Player.exe",
   "libmpv": "https://raw.githubusercontent.com/Korgus7/Korgus-Download/main/player/libmpv-2.zip",
-  "notes": "Prevod videa: výber formátu (MP4, MKV, WebM, len zvuk MP3), veľkosti (pôvodná, 1080p, 720p, 480p) a kvality, priebeh so zostávajúcim časom a tlačidlom Zrušiť. Názvy pod náhľadmi sa zväčšujú spolu s náhľadom."
+  "notes": "Prepínač Player | Commander vľavo hore. Ponuka na pravé tlačidlo (v Playeri aj v Commanderi) ukazuje len to, čo k súboru patrí. Commander si pamätá priečinok aj vybraný súbor. Povolenie vo firewalle pre mobil platí len v súkromnej sieti. Meranie štartu do start-log.txt."
 }
